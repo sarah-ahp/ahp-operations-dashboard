@@ -1,4 +1,4 @@
-// Static data refreshed from memory files - 2/11/2026, 12:02:00 PM
+// Static data refreshed from memory files - 2/11/2026, 1:12:00 PM
 
 export interface Workflow {
   id: string;
@@ -47,15 +47,15 @@ export const workflows: Workflow[] = [
     name: 'INSTALL: Concord Group',
     client: 'Concord Group',
     status: 'active',
-    progress: 60,
-    nextAction: 'Source planters from Pike Nursery',
+    progress: 75,
+    nextAction: 'Finalize Concord Invoice #24254',
     deadline: 'Feb 12',
     owner: 'Geoff',
     steps: [
       { name: 'Proposal sent', status: 'done' },
       { name: 'Deposit received', status: 'done' },
       { name: 'Order plants', status: 'done' },
-      { name: 'Source planters', status: 'in-progress' },
+      { name: 'Source planters', status: 'done' },
       { name: 'Execute install', status: 'pending' }
     ]
   },
@@ -64,8 +64,8 @@ export const workflows: Workflow[] = [
     name: 'ONBOARDING: Floyd Medical',
     client: 'Floyd Medical',
     status: 'active',
-    progress: 75,
-    nextAction: 'Walk action plan w/ Stacey',
+    progress: 80,
+    nextAction: 'Finalize Southland order (Hospital)',
     deadline: 'Feb 20',
     owner: 'Geoff',
     steps: [
@@ -81,7 +81,7 @@ export const workflows: Workflow[] = [
     name: 'ONBOARDING: Bri Finley',
     client: 'AHP',
     status: 'active',
-    progress: 45,
+    progress: 55,
     nextAction: 'Week 2 training',
     deadline: 'Mar 1',
     owner: 'Geoff',
@@ -97,8 +97,8 @@ export const workflows: Workflow[] = [
 
 export const hookItems: HookItem[] = [
   {
-    "id": "h2",
-    "title": "Pike Nursery trip — Black Phoenix planters",
+    "id": "h3",
+    "title": "Finalize Concord Invoice #24254",
     "priority": "high",
     "source": "the-hook",
     "added": "2026-02-11"
@@ -111,16 +111,16 @@ export const hookItems: HookItem[] = [
     "added": "2026-02-11"
   },
   {
-    "id": "h7",
-    "title": "RESUME: The Hive architecture project",
-    "priority": "high",
+    "id": "h5",
+    "title": "Concord — email Debbie install confirmation",
+    "priority": "medium",
     "source": "the-hook",
     "added": "2026-02-11"
   }
 ];
 
 export const activities: ActivityItem[] = [
-  { id: 'a0', timestamp: '12:02', action: 'Dashboard systematic update', actor: 'Hawk', result: 'Workflow sync complete' },
+  { id: 'a0', timestamp: '13:00', action: 'Plant Order Analysis', actor: 'Hawk', result: 'Sent Concord sourcing report to Geoff' },
   { id: 'a1', timestamp: '11:58', action: 'Concord coordination', actor: 'Geoff', result: 'Plants confirmed at Southland' },
   { id: 'a2', timestamp: '11:15', action: 'Dashboard systematic update', actor: 'Hawk', result: 'Data synced from memory' }
 ];
