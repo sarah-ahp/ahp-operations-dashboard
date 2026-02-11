@@ -2,16 +2,23 @@
 
 import { useState, useEffect } from 'react';
 import type { Workflow, HookItem, ActivityItem, CalendarEvent } from './data-live';
+import { fetchGHLData, GHLSummary } from './ghl-client';
+import { fetchSquareData, SquareSummary } from './api-square';
 
 interface DashboardData {
   workflows: Workflow[];
   hookItems: HookItem[];
   activities: ActivityItem[];
   calendarEvents: CalendarEvent[];
+  // Live API data
+  ghl?: GHLSummary;
+  square?: SquareSummary;
+  loading: boolean;
+  error: string | null;
   lastUpdated: string;
 }
 
-// Initial static data
+// Initial static data - will be enhanced with live data
 const initialData: DashboardData = {
   workflows: [
     {
@@ -26,7 +33,7 @@ const initialData: DashboardData = {
     },
     {
       id: 'advocate-health',
-      name: 'Floyd Medical Vendor Onboarding', 
+      name: 'Floyd Medical Vendor Onboarding',
       client: 'Advocate Health Rome',
       status: 'active',
       progress: 75,
@@ -50,32 +57,51 @@ const initialData: DashboardData = {
     { id: 'c2', title: 'Concord Install', date: 'Feb 12', time: 'TBD', type: 'install' },
     { id: 'c3', title: 'Hospital Service', date: 'Feb 13', time: '09:00', type: 'service' }
   ],
+  loading: false,
+  error: null,
   lastUpdated: new Date().toISOString()
 };
 
 export function useLiveData(refreshInterval = 3600000) { // Default 1 hour
   const [data, setData] = useState<DashboardData>(initialData);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState<string | null>(null);
 
   const refresh = async () => {
-    setLoading(true);
+    setData(prev => ({ ...prev, loading: true, error: null }));
+    
     try {
-      // Try to fetch from API if available
-      // For now, we'll update the timestamp to show it's "live"
+      // Fetch live data in parallel
+      const [ghlData, squareData] = await Promise.all([
+        fetchGHLData().catch(err => {
+          console.warn('GHL fetch failed:', err);
+          return undefined;
+        }),
+        fetchSquareData().catch(err => {
+          console.warn('Square fetch failed:', err);
+          return undefined;
+        })
+      ]);
+      
       setData(prev => ({
         ...prev,
+        ghl: ghlData,
+        square: squareData,
+        loading: false,
+        error: null,
         lastUpdated: new Date().toISOString()
       }));
-      setError(null);
     } catch (err) {
-      setError('Refresh failed');
-    } finally {
-      setLoading(false);
+      setData(prev => ({
+        ...prev,
+        loading: false,
+        error: 'Failed to refresh live data'
+      }));
     }
   };
 
   useEffect(() => {
+    // Initial fetch
+    refresh();
+    
     // Auto-refresh every interval
     const interval = setInterval(refresh, refreshInterval);
     
@@ -93,5 +119,5 @@ export function useLiveData(refreshInterval = 3600000) { // Default 1 hour
     };
   }, [refreshInterval]);
 
-  return { data, loading, error, refresh };
+  return { data, refresh };
 }
