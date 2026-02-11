@@ -1,4 +1,4 @@
-// Static data refreshed from memory files - 2/11/2026, 10:01:15 AM
+// Static data refreshed from memory files - 2/11/2026, 11:15:00 AM
 
 export interface Workflow {
   id: string;
@@ -41,7 +41,56 @@ export interface CalendarEvent {
   type: 'install' | 'service' | 'meeting' | 'deadline';
 }
 
-export const workflows: Workflow[] = [];
+export const workflows: Workflow[] = [
+  {
+    id: 'w1',
+    name: 'INSTALL: Concord Group',
+    client: 'Concord Group',
+    status: 'active',
+    progress: 50,
+    nextAction: 'Final confirmation (Debbie)',
+    deadline: 'Feb 12',
+    owner: 'Geoff',
+    steps: [
+      { name: 'Proposal sent', status: 'done' },
+      { name: 'Deposit received', status: 'done' },
+      { name: 'Planters sourced', status: 'in-progress' },
+      { name: 'Execute install', status: 'pending' }
+    ]
+  },
+  {
+    id: 'w2',
+    name: 'ONBOARDING: Floyd Medical',
+    client: 'Floyd Medical',
+    status: 'active',
+    progress: 70,
+    nextAction: 'Walk action plan w/ Stacey',
+    deadline: 'Feb 20',
+    owner: 'Geoff',
+    steps: [
+      { name: 'Contract signed', status: 'done' },
+      { name: 'Security paperwork', status: 'done' },
+      { name: 'Action plan emailed', status: 'done' },
+      { name: 'Vendor onboarding', status: 'in-progress' }
+    ]
+  },
+  {
+    id: 'w3',
+    name: 'ONBOARDING: Bri Finley',
+    client: 'AHP',
+    status: 'active',
+    progress: 40,
+    nextAction: 'Week 2 training',
+    deadline: 'Mar 1',
+    owner: 'Geoff',
+    steps: [
+      { name: 'Contract signed', status: 'done' },
+      { name: 'Insurance verified', status: 'done' },
+      { name: 'Training schedule', status: 'in-progress' },
+      { name: 'Solo launch', status: 'pending' }
+    ]
+  }
+];
 
 export const hookItems: HookItem[] = [
   {
@@ -50,13 +99,20 @@ export const hookItems: HookItem[] = [
     "priority": "high",
     "source": "the-hook",
     "added": "2026-02-11"
+  },
+  {
+    "id": "h8",
+    "title": "Call Debbie Heitzman - Concord confirm",
+    "priority": "high",
+    "source": "GHL",
+    "added": "2026-02-11"
   }
 ];
 
 export const activities: ActivityItem[] = [
+  { id: 'a0', timestamp: '11:15', action: 'Dashboard systematic update', actor: 'Hawk', result: 'Workflow sync complete' },
   { id: 'a1', timestamp: '10:01', action: 'Dashboard systematic update', actor: 'Hawk', result: 'Data synced from memory' },
-  { id: 'a2', timestamp: '10:00', action: 'Hourly refresh triggered', actor: 'Cron', result: 'Success' },
-  { id: 'a3', timestamp: '01:26', action: 'Mobile optimization', actor: 'Hawk', result: 'Verified' }
+  { id: 'a2', timestamp: '10:00', action: 'Hourly refresh triggered', actor: 'Cron', result: 'Success' }
 ];
 
 export const calendarEvents: CalendarEvent[] = [
