@@ -1,4 +1,4 @@
-// Static data refreshed from memory files - 2/11/2026, 4:03:00 PM
+// Static data refreshed from memory files - 2/11/2026, 5:00:00 PM
 
 export interface Workflow {
   id: string;
@@ -127,10 +127,10 @@ export const hookItems: HookItem[] = [
 ];
 
 export const activities: ActivityItem[] = [
-  { id: 'a0', timestamp: '16:03', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
-  { id: 'a1', timestamp: '15:03', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
-  { id: 'a2', timestamp: '14:03', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
-  { id: 'a3', timestamp: '11:58', action: 'Concord coordination', actor: 'Geoff', result: 'Plants confirmed at Southland' }
+  { id: 'a0', timestamp: '17:00', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
+  { id: 'a1', timestamp: '16:03', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
+  { id: 'a2', timestamp: '15:03', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
+  { id: 'a3', timestamp: '14:03', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' }
 ];
 
 export const calendarEvents: CalendarEvent[] = [
