@@ -1,4 +1,4 @@
-// Static data extracted from memory/workflows.md - Feb 10, 2026
+// Static data refreshed from memory files - 2/11/2026, 10:01:15 AM
 
 export interface Workflow {
   id: string;
@@ -41,57 +41,26 @@ export interface CalendarEvent {
   type: 'install' | 'service' | 'meeting' | 'deadline';
 }
 
-export const workflows: Workflow[] = [
-  {
-    id: 'concord-feb12',
-    name: 'Concord Group Install',
-    client: 'Concord Group',
-    status: 'active',
-    progress: 60,
-    nextAction: 'Source planters from Pike Nursery',
-    deadline: '2026-02-12',
-    owner: 'Geoff',
-    steps: [
-      { name: 'Proposal sent', status: 'done' },
-      { name: 'Deposit received', status: 'done' },
-      { name: 'Order plants', status: 'done' },
-      { name: 'Source planters', status: 'in-progress' },
-      { name: 'Execute install', status: 'pending' },
-    ]
-  },
-  {
-    id: 'advocate-health',
-    name: 'Floyd Medical Vendor Onboarding',
-    client: 'Advocate Health Rome',
-    status: 'active',
-    progress: 75,
-    nextAction: 'Walk 90-day plan with Stacey',
-    deadline: '2026-02-20',
-    owner: 'Bri/Geoff',
-    steps: [
-      { name: 'Contract signed', status: 'done' },
-      { name: 'Initial install', status: 'done' },
-      { name: 'Security paperwork', status: 'done' },
-      { name: 'Action plan emailed', status: 'done' },
-      { name: 'Walk with Stacey', status: 'pending' },
-    ]
-  },
-];
+export const workflows: Workflow[] = [];
 
 export const hookItems: HookItem[] = [
-  { id: 'h1', title: 'Finalize Concord planter order', priority: 'high', source: 'the-hook', added: '2026-02-10' },
-  { id: 'h2', title: 'Bri training check-in acknowledgment', priority: 'high', source: 'the-hook', added: '2026-02-10' },
-  { id: 'h3', title: 'Schedule Feb 20 hospital walk', priority: 'medium', source: 'workflows', added: '2026-02-10' },
+  {
+    "id": "h7",
+    "title": "RESUME: The Hive architecture project",
+    "priority": "high",
+    "source": "the-hook",
+    "added": "2026-02-11"
+  }
 ];
 
 export const activities: ActivityItem[] = [
-  { id: 'a1', timestamp: '23:51', action: 'Workspace self-clean executed', actor: 'Hawk', result: '43 files deleted, 14 MB freed' },
-  { id: 'a2', timestamp: '23:20', action: 'Bri acknowledgment scheduled', actor: 'Hawk', result: 'Queued for Feb 11, 8:13 AM' },
-  { id: 'a3', timestamp: '22:42', action: 'Nick hospital layouts processed', actor: 'Hawk', result: 'Saved to Drive, acknowledged' },
+  { id: 'a1', timestamp: '10:01', action: 'Dashboard systematic update', actor: 'Hawk', result: 'Data synced from memory' },
+  { id: 'a2', timestamp: '10:00', action: 'Hourly refresh triggered', actor: 'Cron', result: 'Success' },
+  { id: 'a3', timestamp: '01:26', action: 'Mobile optimization', actor: 'Hawk', result: 'Verified' }
 ];
 
 export const calendarEvents: CalendarEvent[] = [
-  { id: 'c1', title: 'Bri Acknowledgment', date: 'Feb 11', time: '08:13', type: 'meeting' },
-  { id: 'c2', title: 'Concord Install', date: 'Feb 12', time: 'TBD', type: 'install' },
-  { id: 'c3', title: 'Hospital Service', date: 'Feb 13', time: '09:00', type: 'service' },
+  { id: 'c1', title: 'Concord Install', date: 'Feb 12', time: 'TBD', type: 'install' },
+  { id: 'c2', title: 'Southland Order Deadline', date: 'Feb 13', time: '09:00', type: 'deadline' },
+  { id: 'c3', title: 'Hospital Walkthrough', date: 'Feb 20', time: 'TBD', type: 'service' }
 ];
