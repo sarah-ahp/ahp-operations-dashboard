@@ -1,4 +1,4 @@
-// Static data refreshed from memory files - 2/11/2026, 1:12:00 PM
+// Static data refreshed from memory files - 2/11/2026, 2:03:00 PM
 
 export interface Workflow {
   id: string;
@@ -47,7 +47,7 @@ export const workflows: Workflow[] = [
     name: 'INSTALL: Concord Group',
     client: 'Concord Group',
     status: 'active',
-    progress: 75,
+    progress: 80,
     nextAction: 'Finalize Concord Invoice #24254',
     deadline: 'Feb 12',
     owner: 'Geoff',
@@ -56,7 +56,7 @@ export const workflows: Workflow[] = [
       { name: 'Deposit received', status: 'done' },
       { name: 'Order plants', status: 'done' },
       { name: 'Source planters', status: 'done' },
-      { name: 'Execute install', status: 'pending' }
+      { name: 'Final confirmation', status: 'pending' }
     ]
   },
   {
@@ -81,7 +81,7 @@ export const workflows: Workflow[] = [
     name: 'ONBOARDING: Bri Finley',
     client: 'AHP',
     status: 'active',
-    progress: 55,
+    progress: 60,
     nextAction: 'Week 2 training',
     deadline: 'Mar 1',
     owner: 'Geoff',
@@ -120,9 +120,9 @@ export const hookItems: HookItem[] = [
 ];
 
 export const activities: ActivityItem[] = [
-  { id: 'a0', timestamp: '13:00', action: 'Plant Order Analysis', actor: 'Hawk', result: 'Sent Concord sourcing report to Geoff' },
-  { id: 'a1', timestamp: '11:58', action: 'Concord coordination', actor: 'Geoff', result: 'Plants confirmed at Southland' },
-  { id: 'a2', timestamp: '11:15', action: 'Dashboard systematic update', actor: 'Hawk', result: 'Data synced from memory' }
+  { id: 'a0', timestamp: '14:03', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
+  { id: 'a1', timestamp: '13:00', action: 'Plant Order Analysis', actor: 'Hawk', result: 'Sent Concord sourcing report to Geoff' },
+  { id: 'a2', timestamp: '11:58', action: 'Concord coordination', actor: 'Geoff', result: 'Plants confirmed at Southland' }
 ];
 
 export const calendarEvents: CalendarEvent[] = [
