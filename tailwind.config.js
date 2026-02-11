@@ -9,10 +9,16 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#16a34a',
-          dark: '#15803d',
+          DEFAULT: '#15803d',
+          dark: '#166534',
           light: '#22c55e',
         },
+        ahp: {
+          green: '#16a34a',
+          dark: '#14532d',
+          light: '#4ade80',
+          sage: '#86efac',
+        }
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
