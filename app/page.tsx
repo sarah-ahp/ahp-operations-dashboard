@@ -3,9 +3,12 @@
 import { RefreshCw, CheckCircle2, Clock, AlertCircle, Leaf } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { workflows, hookItems, activities, calendarEvents } from '@/lib/data';
+import { useLiveData } from '@/lib/use-live-data';
 
 export default function Dashboard() {
+  const { data, loading, refresh } = useLiveData(300000); // Refresh every 5 minutes
+  const { workflows, hookItems, activities, calendarEvents, lastUpdated } = data;
+  
   return (
     <div className="min-h-screen bg-green-50/50">
       {/* Header */}
@@ -18,9 +21,16 @@ export default function Dashboard() {
               <p className="hidden sm:block text-xs sm:text-sm text-green-600/70">Atlanta Houseplants Operations</p>
             </div>
           </div>
-          <div className="flex items-center gap-2 sm:gap-4">
-            <span className="text-xs sm:text-sm text-green-600/70">{new Date().toLocaleDateString(undefined, {month: 'short', day: 'numeric'})}</span>
-            <button className="p-1.5 sm:p-2 hover:bg-green-50 rounded-lg transition-colors">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4 text-right">
+            <span className="text-[10px] sm:text-xs text-green-600/50">
+              Updated: {new Date(lastUpdated).toLocaleTimeString(undefined, {hour: 'numeric', minute: '2-digit'})}
+            </span>
+            <span className="text-xs sm:text-sm text-green-600/70 hidden sm:inline">{new Date().toLocaleDateString(undefined, {month: 'short', day: 'numeric'})}</span>
+            <button 
+              onClick={refresh}
+              disabled={loading}
+              className={`p-1.5 sm:p-2 hover:bg-green-50 rounded-lg transition-colors ${loading ? 'animate-spin' : ''}`}
+            >
               <RefreshCw className="w-4 h-4 sm:w-5 sm:h-5 text-green-700" />
             </button>
           </div>
