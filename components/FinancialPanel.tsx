@@ -6,7 +6,7 @@ import { Badge } from './ui/badge';
 import type { SquareSummary } from '@/lib/api-square';
 
 interface FinancialPanelProps {
-  data: SquareSummary | null;
+  data: SquareSummary | null | undefined;
 }
 
 export function FinancialPanel({ data }: FinancialPanelProps) {

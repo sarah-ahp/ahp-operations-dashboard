@@ -6,7 +6,7 @@ import { Badge } from './ui/badge';
 import type { GHLTask, GHLSummary } from '@/lib/ghl-client';
 
 interface GHLTasksPanelProps {
-  data?: GHLSummary;
+  data: GHLSummary | null | undefined;
 }
 
 export function GHLTasksPanel({ data }: GHLTasksPanelProps) {
