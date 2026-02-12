@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Remove static export to enable API routes (Vercel serverless)
-  // output: 'export', 
-  distDir: 'dist',
+  // Serverless deployment - no static export
   images: {
     unoptimized: true,
   },
