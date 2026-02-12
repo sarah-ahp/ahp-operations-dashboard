@@ -1,16 +1,21 @@
 'use client';
 
-import { RefreshCw, CheckCircle2, Clock, AlertCircle, Leaf, DollarSign, BarChart3 } from 'lucide-react';
-import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
+import { RefreshCw, Leaf, Briefcase, ShoppingCart, AlertCircle, Clock } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
+import { Card, CardContent } from '@/components/ui/card';
 import { useLiveData } from '@/lib/use-live-data';
-import { GHLTasksPanel } from '@/components/GHLTasksPanel';
-import { FinancialPanel } from '@/components/FinancialPanel';
+import { HandoffBoard } from '@/components/HandoffBoard';
+import { RunningOrderList } from '@/components/RunningOrderList';
 
 export default function Dashboard() {
   const { data, refresh } = useLiveData(300000); // Refresh every 5 minutes
-  const { workflows, hookItems, activities, calendarEvents, lastUpdated, square, ghl, loading } = data;
+  const { hookItems, activities, calendarEvents, lastUpdated, loading } = data;
   
+  // Transform workflows/tasks into HandoffBoard format if needed, 
+  // but for Phase 1 we use the defaultTasks in the component or pass data if available.
+  // The HandoffBoard component currently has default data which matches the user's current context.
+  // In Phase 2 we will pass real prop data.
+
   return (
     <div className="min-h-screen bg-green-50/50">
       {/* Header */}
@@ -20,7 +25,7 @@ export default function Dashboard() {
             <Leaf className="w-5 h-5 sm:w-6 sm:h-6 text-green-600" />
             <div>
               <h1 className="text-base sm:text-xl font-bold text-green-900">AHP Dashboard</h1>
-              <p className="hidden sm:block text-xs sm:text-sm text-green-600/70">Atlanta Houseplants Operations</p>
+              <p className="hidden sm:block text-xs sm:text-sm text-green-600/70">Operations Command Center</p>
             </div>
           </div>
           <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4 text-right">
@@ -40,7 +45,7 @@ export default function Dashboard() {
       </header>
 
       <main className="max-w-7xl mx-auto p-3 sm:p-4">
-        {/* Calendar Strip - Mobile Optimized */}
+        {/* Calendar Strip */}
         <div className="mb-4 sm:mb-6">
           <h2 className="text-xs sm:text-sm font-semibold text-green-800 mb-2 sm:mb-3">Next 7 Days</h2>
           <div className="flex gap-2 sm:gap-3 overflow-x-auto pb-2 -mx-3 px-3 sm:mx-0 sm:px-0 calendar-strip">
@@ -64,67 +69,24 @@ export default function Dashboard() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 sm:gap-6">
-          {/* Active Workflows - 2 columns */}
+          {/* Main Column: Handoff Board (Replaces Active Workflows) */}
           <div className="lg:col-span-2 space-y-3 sm:space-y-4">
             <h2 className="text-base sm:text-lg font-semibold text-green-900 flex items-center gap-2">
-              <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-green-600" />
-              Active Workflows
+              <Briefcase className="w-4 h-4 sm:w-5 sm:h-5 text-green-600" />
+              The Handoff Board
             </h2>
-            {workflows.map((workflow) => (
-              <Card key={workflow.id} className="border-green-100">
-                <CardContent className="p-3 sm:p-4">
-                  <div className="flex items-start justify-between mb-2 sm:mb-3 gap-2">
-                    <div className="min-w-0 flex-1">
-                      <h3 className="font-semibold text-green-900 text-sm sm:text-base truncate">{workflow.name}</h3>
-                      <p className="text-xs sm:text-sm text-green-700/70 truncate">{workflow.client} · {workflow.owner}</p>
-                    </div>
-                    <Badge variant={workflow.status === 'active' ? 'green' : 'yellow'} className="text-[10px] sm:text-xs whitespace-nowrap">
-                      {workflow.status}
-                    </Badge>
-                  </div>
-                  
-                  {/* Progress bar */}
-                  <div className="mb-2 sm:mb-3">
-                    <div className="flex justify-between text-xs mb-1">
-                      <span className="text-green-800/70">{workflow.progress}% complete</span>
-                      <span className="text-green-700/60">Due: {workflow.deadline}</span>
-                    </div>
-                    <div className="h-1.5 sm:h-2 bg-green-100 rounded-full overflow-hidden">
-                      <div 
-                        className="h-full bg-green-600 rounded-full transition-all duration-500"
-                        style={{ width: `${workflow.progress}%` }}
-                      />
-                    </div>
-                  </div>
-                  
-                  {/* Next action */}
-                  <div className="bg-green-50/50 rounded-lg p-2 sm:p-3 border border-green-100">
-                    <p className="text-[10px] sm:text-xs text-green-700/60 mb-0.5">Next Action</p>
-                    <p className="text-xs sm:text-sm font-medium text-green-900">{workflow.nextAction}</p>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+            <HandoffBoard />
           </div>
 
-          {/* Sidebar - 1 column */}
+          {/* Sidebar Column */}
           <div className="space-y-4 sm:space-y-6">
-            {/* Financial Status (Live Square Data) */}
+            {/* Running Order List (Replaces Financials/CRM) */}
             <div>
               <h2 className="text-base sm:text-lg font-semibold text-green-900 flex items-center gap-2 mb-2 sm:mb-3">
-                <DollarSign className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-600" />
-                Financial Status
+                <ShoppingCart className="w-4 h-4 sm:w-5 sm:h-5 text-emerald-600" />
+                Running Order List
               </h2>
-              <FinancialPanel data={square} />
-            </div>
-
-            {/* GHL Tasks & Pipeline (Live GHL Data) */}
-            <div>
-              <h2 className="text-base sm:text-lg font-semibold text-green-900 flex items-center gap-2 mb-2 sm:mb-3">
-                <BarChart3 className="w-4 h-4 sm:w-5 sm:h-5 text-indigo-600" />
-                CRM & Sales
-              </h2>
-              <GHLTasksPanel data={ghl} />
+              <RunningOrderList />
             </div>
 
             {/* The Hook */}
