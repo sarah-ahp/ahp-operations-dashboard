@@ -61,7 +61,7 @@ function extractTaskFromForm(formData: any): TaskItem | null {
       actions.push(`Treatment: ${treatment}`);
       owner = 'Nick';
     }
-    if (urgity === 'high' || urgency === 'urgent') {
+    if (urgency === 'high' || urgency === 'urgent') {
       due = '24 hours';
     }
     
