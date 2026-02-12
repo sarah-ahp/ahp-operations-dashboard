@@ -1,6 +1,7 @@
 'use client';
 
-import { AlertCircle, CheckCircle2, Clock, User, ArrowRight, Ban } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { AlertCircle, CheckCircle2, Clock, User, ArrowRight, Ban, RefreshCw } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
 import { Badge } from './ui/badge';
 
@@ -11,61 +12,52 @@ interface TaskItem {
   status: 'active' | 'pending' | 'blocked' | 'scheduled';
   action: string;
   due: string;
-  blocker?: string;
-}
-
-interface HandoffBoardProps {
-  tasks?: TaskItem[];
+  source?: string;
+  createdAt?: string;
 }
 
 const defaultTasks: TaskItem[] = [
-  {
-    id: '1',
-    project: 'Concord Install',
-    owner: 'Geoff',
-    status: 'active',
-    action: 'Execute install + collect balance',
-    due: 'Thu 10:30 AM',
-  },
-  {
-    id: '2',
-    project: 'Floyd Med Order',
-    owner: 'Sarah',
-    status: 'pending',
-    action: 'Send PO to Chris by Friday',
-    due: 'Fri EOD',
-  },
-  {
-    id: '3',
-    project: 'Bri Training W2',
-    owner: 'Geoff + Bri',
-    status: 'active',
-    action: 'Shadow install → lunch debrief',
-    due: 'Thu PM',
-  },
-  {
-    id: '4',
-    project: 'Hospital Walk',
-    owner: 'Geoff + Bri',
-    status: 'scheduled',
-    action: 'Present 90-day plan to Stacey',
-    due: 'Feb 20',
-  },
+  { id: '1', project: 'Concord Install', owner: 'Geoff', status: 'active', action: 'Execute install + collect balance', due: 'Thu 10:30 AM' },
+  { id: '2', project: 'Floyd Med Order', owner: 'Sarah', status: 'pending', action: 'Send PO to Chris by Friday', due: 'Fri EOD' },
+  { id: '3', project: 'Bri Training W2', owner: 'Geoff + Bri', status: 'active', action: 'Shadow install → lunch debrief', due: 'Thu PM' },
+  { id: '4', project: 'Hospital Walk', owner: 'Geoff + Bri', status: 'scheduled', action: 'Present 90-day plan to Stacey', due: 'Feb 20' },
 ];
 
-export function HandoffBoard({ tasks = defaultTasks }: HandoffBoardProps) {
+export function HandoffBoard() {
+  const [tasks, setTasks] = useState<TaskItem[]>(defaultTasks);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  const fetchTasks = async () => {
+    try {
+      const response = await fetch('/api/tasks');
+      const data = await response.json();
+      if (data.status === 'success' && data.tasks.length > 0) {
+        setTasks(data.tasks);
+      }
+      setError(null);
+    } catch (err) {
+      setError('Failed to load tasks');
+      console.error('Failed to fetch tasks:', err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    fetchTasks();
+    // Poll every 30 seconds for new tasks
+    const interval = setInterval(fetchTasks, 30000);
+    return () => clearInterval(interval);
+  }, []);
+
   const getStatusIcon = (status: string) => {
     switch (status) {
-      case 'active':
-        return <Clock className="w-4 h-4 text-yellow-600" />;
-      case 'pending':
-        return <ArrowRight className="w-4 h-4 text-blue-600" />;
-      case 'blocked':
-        return <Ban className="w-4 h-4 text-red-600" />;
-      case 'scheduled':
-        return <CheckCircle2 className="w-4 h-4 text-green-600" />;
-      default:
-        return <Clock className="w-4 h-4 text-gray-600" />;
+      case 'active': return <Clock className="w-4 h-4 text-yellow-600" />;
+      case 'pending': return <ArrowRight className="w-4 h-4 text-blue-600" />;
+      case 'blocked': return <Ban className="w-4 h-4 text-red-600" />;
+      case 'scheduled': return <CheckCircle2 className="w-4 h-4 text-green-600" />;
+      default: return <Clock className="w-4 h-4 text-gray-600" />;
     }
   };
 
@@ -79,6 +71,15 @@ export function HandoffBoard({ tasks = defaultTasks }: HandoffBoardProps) {
     const config = variants[status] || { variant: 'yellow', label: status };
     return <Badge variant={config.variant}>{config.label}</Badge>;
   };
+
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center py-8">
+        <RefreshCw className="w-5 h-5 text-green-600 animate-spin" />
+        <span className="ml-2 text-sm text-green-600">Loading tasks...</span>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-2">
@@ -105,6 +106,9 @@ export function HandoffBoard({ tasks = defaultTasks }: HandoffBoardProps) {
                     {task.due}
                   </span>
                 </div>
+                {task.source && (
+                  <p className="text-[10px] text-green-500/50 mt-1">{task.source}</p>
+                )}
               </div>
             </div>
           </CardContent>
