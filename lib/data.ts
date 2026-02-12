@@ -1,4 +1,4 @@
-// Static data refreshed from memory files - 2/11/2026, 6:00:00 PM
+// Static data refreshed from memory files - 2/12/2026, 8:00:00 AM
 
 export interface Workflow {
   id: string;
@@ -47,8 +47,8 @@ export const workflows: Workflow[] = [
     name: 'INSTALL: Concord Group',
     client: 'Concord Group',
     status: 'active',
-    progress: 85,
-    nextAction: 'Finalize Concord Invoice #24254',
+    progress: 90,
+    nextAction: 'Execute install (Feb 12)',
     deadline: 'Feb 12',
     owner: 'Geoff',
     steps: [
@@ -56,7 +56,7 @@ export const workflows: Workflow[] = [
       { name: 'Deposit received', status: 'done' },
       { name: 'Order plants', status: 'done' },
       { name: 'Source planters', status: 'done' },
-      { name: 'Final confirmation', status: 'pending' }
+      { name: 'Final confirmation', status: 'done' }
     ]
   },
   {
@@ -64,7 +64,7 @@ export const workflows: Workflow[] = [
     name: 'ONBOARDING: Floyd Medical',
     client: 'Floyd Medical',
     status: 'active',
-    progress: 80,
+    progress: 85,
     nextAction: 'Finalize Southland order (Hospital)',
     deadline: 'Feb 20',
     owner: 'Geoff',
@@ -81,7 +81,7 @@ export const workflows: Workflow[] = [
     name: 'ONBOARDING: Bri Finley',
     client: 'AHP',
     status: 'active',
-    progress: 60,
+    progress: 75,
     nextAction: 'Week 2 training',
     deadline: 'Mar 1',
     owner: 'Geoff',
@@ -89,7 +89,7 @@ export const workflows: Workflow[] = [
       { name: 'Contract signed', status: 'done' },
       { name: 'Insurance verified', status: 'done' },
       { name: 'Time tracking setup', status: 'done' },
-      { name: 'Training schedule', status: 'in-progress' },
+      { name: 'Training schedule', status: 'done' },
       { name: 'Solo launch', status: 'pending' }
     ]
   }
@@ -127,10 +127,10 @@ export const hookItems: HookItem[] = [
 ];
 
 export const activities: ActivityItem[] = [
-  { id: 'a0', timestamp: '18:00', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
-  { id: 'a1', timestamp: '17:00', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
-  { id: 'a2', timestamp: '16:03', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
-  { id: 'a3', timestamp: '15:03', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' }
+  { id: 'a0', timestamp: '08:00', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
+  { id: 'a1', timestamp: '18:00', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
+  { id: 'a2', timestamp: '17:00', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
+  { id: 'a3', timestamp: '16:03', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' }
 ];
 
 export const calendarEvents: CalendarEvent[] = [
