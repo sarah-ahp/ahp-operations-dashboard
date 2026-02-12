@@ -1,4 +1,4 @@
-// Static data refreshed from memory files - 2/12/2026, 8:00:00 AM
+// Static data refreshed from memory files - 2/12/2026, 9:00:03 AM
 
 export interface Workflow {
   id: string;
@@ -41,96 +41,22 @@ export interface CalendarEvent {
   type: 'install' | 'service' | 'meeting' | 'deadline';
 }
 
-export const workflows: Workflow[] = [
-  {
-    id: 'w1',
-    name: 'INSTALL: Concord Group',
-    client: 'Concord Group',
-    status: 'active',
-    progress: 90,
-    nextAction: 'Execute install (Feb 12)',
-    deadline: 'Feb 12',
-    owner: 'Geoff',
-    steps: [
-      { name: 'Proposal sent', status: 'done' },
-      { name: 'Deposit received', status: 'done' },
-      { name: 'Order plants', status: 'done' },
-      { name: 'Source planters', status: 'done' },
-      { name: 'Final confirmation', status: 'done' }
-    ]
-  },
-  {
-    id: 'w2',
-    name: 'ONBOARDING: Floyd Medical',
-    client: 'Floyd Medical',
-    status: 'active',
-    progress: 85,
-    nextAction: 'Finalize Southland order (Hospital)',
-    deadline: 'Feb 20',
-    owner: 'Geoff',
-    steps: [
-      { name: 'Contract signed', status: 'done' },
-      { name: 'Security paperwork', status: 'done' },
-      { name: 'Action plan emailed', status: 'done' },
-      { name: 'Layouts submitted', status: 'done' },
-      { name: 'Vendor onboarding', status: 'in-progress' }
-    ]
-  },
-  {
-    id: 'w3',
-    name: 'ONBOARDING: Bri Finley',
-    client: 'AHP',
-    status: 'active',
-    progress: 75,
-    nextAction: 'Week 2 training',
-    deadline: 'Mar 1',
-    owner: 'Geoff',
-    steps: [
-      { name: 'Contract signed', status: 'done' },
-      { name: 'Insurance verified', status: 'done' },
-      { name: 'Time tracking setup', status: 'done' },
-      { name: 'Training schedule', status: 'done' },
-      { name: 'Solo launch', status: 'pending' }
-    ]
-  }
-];
+export const workflows: Workflow[] = [];
 
 export const hookItems: HookItem[] = [
   {
-    "id": "h3",
-    "title": "Finalize Concord Invoice #24254",
+    "id": "h1",
+    "title": "Concord Group Install",
     "priority": "high",
     "source": "the-hook",
-    "added": "2026-02-11"
-  },
-  {
-    "id": "h4",
-    "title": "Hospital — finalize Southland order (25 bromeliads)",
-    "priority": "high",
-    "source": "the-hook",
-    "added": "2026-02-11"
-  },
-  {
-    "id": "h5",
-    "title": "Concord — email Debbie install confirmation",
-    "priority": "medium",
-    "source": "the-hook",
-    "added": "2026-02-11"
-  },
-  {
-    "id": "h6",
-    "title": "Link Logistics thank you email",
-    "priority": "low",
-    "source": "the-hook",
-    "added": "2026-02-11"
+    "added": "2026-02-12"
   }
 ];
 
 export const activities: ActivityItem[] = [
-  { id: 'a0', timestamp: '08:00', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
-  { id: 'a1', timestamp: '18:00', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
-  { id: 'a2', timestamp: '17:00', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' },
-  { id: 'a3', timestamp: '16:03', action: 'Dashboard Hourly Refresh', actor: 'Hawk', result: 'Synced data, pushed to GitHub' }
+  { id: 'a1', timestamp: '9:00', action: 'Dashboard systematic update', actor: 'Hawk', result: 'Data synced from memory' },
+  { id: 'a2', timestamp: '10:00', action: 'Hourly refresh triggered', actor: 'Cron', result: 'Success' },
+  { id: 'a3', timestamp: '01:26', action: 'Mobile optimization', actor: 'Hawk', result: 'Verified' }
 ];
 
 export const calendarEvents: CalendarEvent[] = [
