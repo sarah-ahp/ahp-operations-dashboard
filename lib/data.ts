@@ -1,4 +1,4 @@
-// Static data refreshed from memory files - 2/16/2026, 12:00:01 PM
+// Static data refreshed from memory files - 2/16/2026, 1:00:01 PM
 
 export interface Workflow {
   id: string;
@@ -45,15 +45,43 @@ export const workflows: Workflow[] = [];
 
 export const hookItems: HookItem[] = [
   {
+    "id": "h1",
+    "title": "Pay Bri",
+    "priority": "high",
+    "source": "the-hook",
+    "added": "2026-02-16"
+  },
+  {
     "id": "h2",
-    "title": "Floyd Medical — Invoice Process",
+    "title": "Hospital — Send POS & Invoice",
     "priority": "high",
     "source": "the-hook",
     "added": "2026-02-16"
   },
   {
     "id": "h3",
-    "title": "Anderson Windows — Send Invoice",
+    "title": "Anderson — Send Invoice",
+    "priority": "high",
+    "source": "the-hook",
+    "added": "2026-02-16"
+  },
+  {
+    "id": "h4",
+    "title": "GHL Import — Bri's Route",
+    "priority": "high",
+    "source": "the-hook",
+    "added": "2026-02-16"
+  },
+  {
+    "id": "h5",
+    "title": "Bri Access — GHL & Square",
+    "priority": "high",
+    "source": "the-hook",
+    "added": "2026-02-16"
+  },
+  {
+    "id": "h6",
+    "title": "Design: Service Form & Workflows",
     "priority": "high",
     "source": "the-hook",
     "added": "2026-02-16"
@@ -61,7 +89,7 @@ export const hookItems: HookItem[] = [
 ];
 
 export const activities: ActivityItem[] = [
-  { id: 'a1', timestamp: '12:00', action: 'Dashboard systematic update', actor: 'Hawk', result: 'Data synced from memory' },
+  { id: 'a1', timestamp: '13:00', action: 'Dashboard systematic update', actor: 'Hawk', result: 'Data synced from memory' },
   { id: 'a2', timestamp: '10:00', action: 'Hourly refresh triggered', actor: 'Cron', result: 'Success' },
   { id: 'a3', timestamp: '01:26', action: 'Mobile optimization', actor: 'Hawk', result: 'Verified' }
 ];
