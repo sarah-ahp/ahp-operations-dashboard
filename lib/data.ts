@@ -1,4 +1,4 @@
-// Static data refreshed from memory files - 2/19/2026, 01:38 AM
+// Static data refreshed from memory files - 2/19/2026, 08:00 AM
 
 export interface Workflow {
   id: string;
@@ -221,7 +221,7 @@ export const hookItems: HookItem[] = [
 ];
 
 export const activities: ActivityItem[] = [
-  { id: 'a1', timestamp: '1:38', action: 'Dashboard refresh complete', actor: 'Hawk', result: '3 workflows, 11 hook items' },
+  { id: 'a1', timestamp: '8:00', action: 'Dashboard refresh complete', actor: 'Hawk', result: '3 workflows, 11 hook items' },
   { id: 'a2', timestamp: '10:00', action: 'Hourly refresh triggered', actor: 'Cron', result: 'Success' },
   { id: 'a3', timestamp: '01:26', action: 'Mobile optimization', actor: 'Hawk', result: 'Verified' }
 ];
