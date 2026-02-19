@@ -1,10 +1,10 @@
-// Static data refreshed from memory files - 2/18/2026, 6:00:01 PM
+// Static data refreshed from memory files - 2/19/2026, 01:12 AM
 
 export interface Workflow {
   id: string;
   name: string;
   client: string;
-  status: 'active' | 'waiting' | 'not-started';
+  status: 'active' | 'waiting' | 'not-started' | 'completed';
   progress: number;
   nextAction: string;
   deadline: string;
@@ -41,33 +41,127 @@ export interface CalendarEvent {
   type: 'install' | 'service' | 'meeting' | 'deadline';
 }
 
-export const workflows: Workflow[] = [];
+export const workflows: Workflow[] = [
+  {
+    "id": "concord-group-feb-12",
+    "name": "Install: Concord Group (Feb 12)",
+    "client": "Concord Group (Feb 12)",
+    "status": "active",
+    "progress": 73,
+    "nextAction": "Balance due",
+    "deadline": "2026-02-12",
+    "owner": "Geoff",
+    "steps": [
+      {
+        "name": "Proposal sent",
+        "status": "done"
+      },
+      {
+        "name": "Deposit received",
+        "status": "done"
+      },
+      {
+        "name": "Balance due",
+        "status": "in-progress"
+      },
+      {
+        "name": "Order plants",
+        "status": "done"
+      },
+      {
+        "name": "Source planters",
+        "status": "done"
+      }
+    ]
+  },
+  {
+    "id": "floyd-medical-advocate-health-rome",
+    "name": "Onboarding: Floyd Medical (Advocate Health Rome)",
+    "client": "Floyd Medical (Advocate Health Rome)",
+    "status": "active",
+    "progress": 73,
+    "nextAction": "Complete layout (all floors)",
+    "deadline": "TBD",
+    "owner": "Geoff",
+    "steps": [
+      {
+        "name": "Contract signed",
+        "status": "done"
+      },
+      {
+        "name": "Initial install",
+        "status": "done"
+      },
+      {
+        "name": "Security paperwork",
+        "status": "done"
+      },
+      {
+        "name": "Service visit",
+        "status": "done"
+      },
+      {
+        "name": "Bromeliad count",
+        "status": "done"
+      }
+    ]
+  },
+  {
+    "id": "bri-finley-contractor",
+    "name": "Onboarding: Bri Finley (Contractor)",
+    "client": "Bri Finley (Contractor)",
+    "status": "active",
+    "progress": 45,
+    "nextAction": "License verified",
+    "deadline": "2026-03-01",
+    "owner": "Geoff",
+    "steps": [
+      {
+        "name": "Contractor agreement",
+        "status": "done"
+      },
+      {
+        "name": "W-9 received",
+        "status": "done"
+      },
+      {
+        "name": "License verified",
+        "status": "in-progress"
+      },
+      {
+        "name": "Insurance verified",
+        "status": "done"
+      },
+      {
+        "name": "Week 1 training",
+        "status": "done"
+      }
+    ]
+  }
+];
 
 export const hookItems: HookItem[] = [
-  {
-    "id": "h2",
-    "title": "Amazon Order — Hospital Planters",
-    "priority": "high",
-    "source": "the-hook",
-    "added": "2026-02-18"
-  },
   {
     "id": "h6",
     "title": "Design: Service Form & Workflows",
     "priority": "high",
     "source": "the-hook",
-    "added": "2026-02-18"
+    "added": "2026-02-19"
   }
 ];
 
 export const activities: ActivityItem[] = [
-  { id: 'a1', timestamp: '18:00', action: 'Dashboard systematic update', actor: 'Hawk', result: 'Data synced from memory' },
+  { id: 'a1', timestamp: '1:12', action: 'Dashboard refresh complete', actor: 'Hawk', result: '3 workflows, 1 hook items' },
   { id: 'a2', timestamp: '10:00', action: 'Hourly refresh triggered', actor: 'Cron', result: 'Success' },
   { id: 'a3', timestamp: '01:26', action: 'Mobile optimization', actor: 'Hawk', result: 'Verified' }
 ];
 
 export const calendarEvents: CalendarEvent[] = [
-  { id: 'c1', title: 'Concord Install', date: 'Feb 12', time: 'TBD', type: 'install' },
-  { id: 'c2', title: 'Southland Order Deadline', date: 'Feb 13', time: '09:00', type: 'deadline' },
-  { id: 'c3', title: 'Hospital Walkthrough', date: 'Feb 20', time: 'TBD', type: 'service' }
+  {
+    "id": "c1",
+    "title": "Hospital Walkthrough",
+    "date": "Feb 20",
+    "time": "TBD",
+    "type": "service"
+  }
 ];
