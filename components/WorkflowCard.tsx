@@ -15,12 +15,14 @@ export default function WorkflowCard({ workflow }: WorkflowCardProps) {
     active: 'bg-green-100 text-green-800 border-green-200',
     waiting: 'bg-yellow-100 text-yellow-800 border-yellow-200',
     'not-started': 'bg-gray-100 text-gray-800 border-gray-200',
+    completed: 'bg-blue-100 text-blue-800 border-blue-200',
   };
 
   const statusLabels = {
     active: 'In Progress',
     waiting: 'Waiting',
     'not-started': 'Not Started',
+    completed: 'Completed',
   };
 
   const stepIcons = {
