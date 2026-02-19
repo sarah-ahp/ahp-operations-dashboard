@@ -1,4 +1,4 @@
-// Static data refreshed from memory files - 2/19/2026, 01:31 AM
+// Static data refreshed from memory files - 2/19/2026, 01:38 AM
 
 export interface Workflow {
   id: string;
@@ -147,11 +147,81 @@ export const hookItems: HookItem[] = [
     "priority": "high",
     "source": "the-hook",
     "added": "2026-02-19"
+  },
+  {
+    "id": "h2",
+    "title": "Finalize Service Route",
+    "priority": "medium",
+    "source": "strategic",
+    "added": "2026-02-19"
+  },
+  {
+    "id": "h3",
+    "title": "Service Form Audit",
+    "priority": "medium",
+    "source": "strategic",
+    "added": "2026-02-19"
+  },
+  {
+    "id": "h4",
+    "title": "Operational Outputs",
+    "priority": "medium",
+    "source": "strategic",
+    "added": "2026-02-19"
+  },
+  {
+    "id": "h5",
+    "title": "Outdoor Color Planters",
+    "priority": "medium",
+    "source": "strategic",
+    "added": "2026-02-19"
+  },
+  {
+    "id": "h6",
+    "title": "Marriott Action Plan",
+    "priority": "medium",
+    "source": "strategic",
+    "added": "2026-02-19"
+  },
+  {
+    "id": "h7",
+    "title": "Square → GHL Data Migration",
+    "priority": "medium",
+    "source": "strategic",
+    "added": "2026-02-19"
+  },
+  {
+    "id": "h8",
+    "title": "Schedule First Service",
+    "priority": "medium",
+    "source": "strategic",
+    "added": "2026-02-19"
+  },
+  {
+    "id": "h9",
+    "title": "Plan New Plants",
+    "priority": "medium",
+    "source": "strategic",
+    "added": "2026-02-19"
+  },
+  {
+    "id": "h10",
+    "title": "Prep for Feb 20 Walk",
+    "priority": "medium",
+    "source": "strategic",
+    "added": "2026-02-19"
+  },
+  {
+    "id": "h11",
+    "title": "Southland Pickup Friday",
+    "priority": "medium",
+    "source": "strategic",
+    "added": "2026-02-19"
   }
 ];
 
 export const activities: ActivityItem[] = [
-  { id: 'a1', timestamp: '1:31', action: 'Dashboard refresh complete', actor: 'Hawk', result: '3 workflows, 1 hook items' },
+  { id: 'a1', timestamp: '1:38', action: 'Dashboard refresh complete', actor: 'Hawk', result: '3 workflows, 11 hook items' },
   { id: 'a2', timestamp: '10:00', action: 'Hourly refresh triggered', actor: 'Cron', result: 'Success' },
   { id: 'a3', timestamp: '01:26', action: 'Mobile optimization', actor: 'Hawk', result: 'Verified' }
 ];
