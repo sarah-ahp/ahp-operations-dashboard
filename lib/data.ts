@@ -1,4 +1,4 @@
-// Static data refreshed from memory files - 2/19/2026, 01:12 AM
+// Static data refreshed from memory files - 2/19/2026, 01:31 AM
 
 export interface Workflow {
   id: string;
@@ -47,8 +47,8 @@ export const workflows: Workflow[] = [
     "name": "Install: Concord Group (Feb 12)",
     "client": "Concord Group (Feb 12)",
     "status": "active",
-    "progress": 73,
-    "nextAction": "Balance due",
+    "progress": 80,
+    "nextAction": "Add to service schedule",
     "deadline": "2026-02-12",
     "owner": "Geoff",
     "steps": [
@@ -62,7 +62,7 @@ export const workflows: Workflow[] = [
       },
       {
         "name": "Balance due",
-        "status": "in-progress"
+        "status": "done"
       },
       {
         "name": "Order plants",
@@ -142,7 +142,7 @@ export const workflows: Workflow[] = [
 
 export const hookItems: HookItem[] = [
   {
-    "id": "h6",
+    "id": "h1",
     "title": "Design: Service Form & Workflows",
     "priority": "high",
     "source": "the-hook",
@@ -151,7 +151,7 @@ export const hookItems: HookItem[] = [
 ];
 
 export const activities: ActivityItem[] = [
-  { id: 'a1', timestamp: '1:12', action: 'Dashboard refresh complete', actor: 'Hawk', result: '3 workflows, 1 hook items' },
+  { id: 'a1', timestamp: '1:31', action: 'Dashboard refresh complete', actor: 'Hawk', result: '3 workflows, 1 hook items' },
   { id: 'a2', timestamp: '10:00', action: 'Hourly refresh triggered', actor: 'Cron', result: 'Success' },
   { id: 'a3', timestamp: '01:26', action: 'Mobile optimization', actor: 'Hawk', result: 'Verified' }
 ];
@@ -159,7 +159,28 @@ export const activities: ActivityItem[] = [
 export const calendarEvents: CalendarEvent[] = [
   {
     "id": "c1",
-    "title": "Hospital Walkthrough",
+    "title": "Geoff emails final action plan to Stacey",
+    "date": "Feb 9",
+    "time": "TBD",
+    "type": "service"
+  },
+  {
+    "id": "c2",
+    "title": "✅ **Southland order SENT** (12:07 PM) — ",
+    "date": "Feb 13",
+    "time": "TBD",
+    "type": "service"
+  },
+  {
+    "id": "c3",
+    "title": "Walk the action plan with Stacey + plant",
+    "date": "Feb 20",
+    "time": "TBD",
+    "type": "service"
+  },
+  {
+    "id": "c4",
+    "title": "Hospital Visit + Walkthrough + Bromeliad",
     "date": "Feb 20",
     "time": "TBD",
     "type": "service"
