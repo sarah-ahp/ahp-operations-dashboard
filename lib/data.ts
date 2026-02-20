@@ -1,4 +1,4 @@
-// Static data refreshed from memory files - 2/19/2026, 06:00 PM
+// Static data refreshed from memory files - 2/20/2026, 08:00 AM
 
 export interface Workflow {
   id: string;
@@ -47,7 +47,7 @@ export const workflows: Workflow[] = [
     "name": "Install: Concord Group (Feb 12)",
     "client": "Concord Group (Feb 12)",
     "status": "active",
-    "progress": 80,
+    "progress": 75,
     "nextAction": "Add to service schedule",
     "deadline": "2026-02-12",
     "owner": "Geoff",
@@ -111,7 +111,7 @@ export const workflows: Workflow[] = [
     "name": "Onboarding: Bri Finley (Contractor)",
     "client": "Bri Finley (Contractor)",
     "status": "active",
-    "progress": 45,
+    "progress": 64,
     "nextAction": "License verified",
     "deadline": "2026-03-01",
     "owner": "Geoff",
@@ -143,85 +143,57 @@ export const workflows: Workflow[] = [
 export const hookItems: HookItem[] = [
   {
     "id": "h1",
-    "title": "Design: Service Form & Workflows",
-    "priority": "high",
-    "source": "the-hook",
-    "added": "2026-02-19"
+    "title": "Additional Plants",
+    "priority": "medium",
+    "source": "strategic",
+    "added": "2026-02-20"
   },
   {
     "id": "h2",
-    "title": "Finalize Service Route",
+    "title": "First Service Invoice",
     "priority": "medium",
     "source": "strategic",
-    "added": "2026-02-19"
+    "added": "2026-02-20"
   },
   {
     "id": "h3",
-    "title": "Service Form Audit",
+    "title": "Upsell Follow-up",
     "priority": "medium",
     "source": "strategic",
-    "added": "2026-02-19"
+    "added": "2026-02-20"
   },
   {
     "id": "h4",
-    "title": "Operational Outputs",
+    "title": "Nick's Files",
     "priority": "medium",
     "source": "strategic",
-    "added": "2026-02-19"
+    "added": "2026-02-20"
   },
   {
     "id": "h5",
-    "title": "Outdoor Color Planters",
+    "title": "Route Review",
     "priority": "medium",
     "source": "strategic",
-    "added": "2026-02-19"
+    "added": "2026-02-20"
   },
   {
     "id": "h6",
-    "title": "Marriott Action Plan",
+    "title": "Calendar Check",
     "priority": "medium",
     "source": "strategic",
-    "added": "2026-02-19"
+    "added": "2026-02-20"
   },
   {
     "id": "h7",
-    "title": "Square → GHL Data Migration",
+    "title": "Final Prep",
     "priority": "medium",
     "source": "strategic",
-    "added": "2026-02-19"
-  },
-  {
-    "id": "h8",
-    "title": "Schedule First Service",
-    "priority": "medium",
-    "source": "strategic",
-    "added": "2026-02-19"
-  },
-  {
-    "id": "h9",
-    "title": "Plan New Plants",
-    "priority": "medium",
-    "source": "strategic",
-    "added": "2026-02-19"
-  },
-  {
-    "id": "h10",
-    "title": "Prep for Feb 20 Walk",
-    "priority": "medium",
-    "source": "strategic",
-    "added": "2026-02-19"
-  },
-  {
-    "id": "h11",
-    "title": "Southland Pickup Friday",
-    "priority": "medium",
-    "source": "strategic",
-    "added": "2026-02-19"
+    "added": "2026-02-20"
   }
 ];
 
 export const activities: ActivityItem[] = [
-  { id: 'a1', timestamp: '18:00', action: 'Dashboard refresh complete', actor: 'Hawk', result: '3 workflows, 11 hook items' },
+  { id: 'a1', timestamp: '8:00', action: 'Dashboard refresh complete', actor: 'Hawk', result: '3 workflows, 7 hook items' },
   { id: 'a2', timestamp: '10:00', action: 'Hourly refresh triggered', actor: 'Cron', result: 'Success' },
   { id: 'a3', timestamp: '01:26', action: 'Mobile optimization', actor: 'Hawk', result: 'Verified' }
 ];
@@ -244,13 +216,6 @@ export const calendarEvents: CalendarEvent[] = [
   {
     "id": "c3",
     "title": "Walk the action plan with Stacey + plant",
-    "date": "Feb 20",
-    "time": "TBD",
-    "type": "service"
-  },
-  {
-    "id": "c4",
-    "title": "Hospital Visit + Walkthrough + Bromeliad",
     "date": "Feb 20",
     "time": "TBD",
     "type": "service"
