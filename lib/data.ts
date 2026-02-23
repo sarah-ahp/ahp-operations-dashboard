@@ -1,4 +1,4 @@
-// Static data refreshed from memory files - 2/20/2026, 06:00 PM
+// Static data refreshed from memory files - 2/23/2026, 08:00 AM
 
 export interface Workflow {
   id: string;
@@ -146,54 +146,54 @@ export const hookItems: HookItem[] = [
     "title": "Additional Plants",
     "priority": "medium",
     "source": "strategic",
-    "added": "2026-02-20"
+    "added": "2026-02-23"
   },
   {
     "id": "h2",
     "title": "First Service Invoice",
     "priority": "medium",
     "source": "strategic",
-    "added": "2026-02-20"
+    "added": "2026-02-23"
   },
   {
     "id": "h3",
     "title": "Upsell Follow-up",
     "priority": "medium",
     "source": "strategic",
-    "added": "2026-02-20"
+    "added": "2026-02-23"
   },
   {
     "id": "h4",
     "title": "Nick's Files",
     "priority": "medium",
     "source": "strategic",
-    "added": "2026-02-20"
+    "added": "2026-02-23"
   },
   {
     "id": "h5",
     "title": "Route Review",
     "priority": "medium",
     "source": "strategic",
-    "added": "2026-02-20"
+    "added": "2026-02-23"
   },
   {
     "id": "h6",
     "title": "Calendar Check",
     "priority": "medium",
     "source": "strategic",
-    "added": "2026-02-20"
+    "added": "2026-02-23"
   },
   {
     "id": "h7",
     "title": "Final Prep",
     "priority": "medium",
     "source": "strategic",
-    "added": "2026-02-20"
+    "added": "2026-02-23"
   }
 ];
 
 export const activities: ActivityItem[] = [
-  { id: 'a1', timestamp: '18:00', action: 'Dashboard refresh complete', actor: 'Hawk', result: '3 workflows, 7 hook items' },
+  { id: 'a1', timestamp: '8:00', action: 'Dashboard refresh complete', actor: 'Hawk', result: '3 workflows, 7 hook items' },
   { id: 'a2', timestamp: '10:00', action: 'Hourly refresh triggered', actor: 'Cron', result: 'Success' },
   { id: 'a3', timestamp: '01:26', action: 'Mobile optimization', actor: 'Hawk', result: 'Verified' }
 ];
