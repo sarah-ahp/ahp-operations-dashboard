@@ -1,4 +1,4 @@
-// Static data refreshed from memory files - 2/27/2026, 06:00 PM
+// Static data refreshed from memory files - 3/2/2026, 08:00 AM
 
 export interface Workflow {
   id: string;
@@ -47,8 +47,8 @@ export const workflows: Workflow[] = [
     "name": "Install: Concord Group (Feb 12)",
     "client": "Concord Group (Feb 12)",
     "status": "active",
-    "progress": 75,
-    "nextAction": "Add to service schedule",
+    "progress": 88,
+    "nextAction": "Additional plants scope",
     "deadline": "2026-02-12",
     "owner": "Geoff",
     "steps": [
@@ -111,7 +111,7 @@ export const workflows: Workflow[] = [
     "name": "Onboarding: Bri Finley (Contractor)",
     "client": "Bri Finley (Contractor)",
     "status": "active",
-    "progress": 73,
+    "progress": 91,
     "nextAction": "License verified",
     "deadline": "2026-03-01",
     "owner": "Geoff",
@@ -140,53 +140,10 @@ export const workflows: Workflow[] = [
   }
 ];
 
-export const hookItems: HookItem[] = [
-  {
-    "id": "h1",
-    "title": "Additional Plants",
-    "priority": "medium",
-    "source": "strategic",
-    "added": "2026-02-27"
-  },
-  {
-    "id": "h2",
-    "title": "First Service Invoice",
-    "priority": "medium",
-    "source": "strategic",
-    "added": "2026-02-27"
-  },
-  {
-    "id": "h3",
-    "title": "Upsell Follow-up",
-    "priority": "medium",
-    "source": "strategic",
-    "added": "2026-02-27"
-  },
-  {
-    "id": "h4",
-    "title": "Nick's Files",
-    "priority": "medium",
-    "source": "strategic",
-    "added": "2026-02-27"
-  },
-  {
-    "id": "h5",
-    "title": "Calendar Check",
-    "priority": "medium",
-    "source": "strategic",
-    "added": "2026-02-27"
-  },
-  {
-    "id": "h6",
-    "title": "Final Prep",
-    "priority": "medium",
-    "source": "strategic",
-    "added": "2026-02-27"
-  }
-];
+export const hookItems: HookItem[] = [];
 
 export const activities: ActivityItem[] = [
-  { id: 'a1', timestamp: '18:00', action: 'Dashboard refresh complete', actor: 'Hawk', result: '3 workflows, 6 hook items' },
+  { id: 'a1', timestamp: '8:00', action: 'Dashboard refresh complete', actor: 'Hawk', result: '3 workflows, 0 hook items' },
   { id: 'a2', timestamp: '10:00', action: 'Hourly refresh triggered', actor: 'Cron', result: 'Success' },
   { id: 'a3', timestamp: '01:26', action: 'Mobile optimization', actor: 'Hawk', result: 'Verified' }
 ];
