@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-03T02:39:26.597322-05:00
+// AHP Dashboard data — auto-generated 2026-03-03T02:46:50.822513-05:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -6,7 +6,7 @@ export interface ServiceStop {
 }
 
 export interface GHLTask {
-  id: string; title: string; contact: string; assignedTo: string;
+  id: string; title: string; contact: string; contactId: string; assignedTo: string;
   due: string; overdue: boolean;
 }
 
@@ -42,8 +42,19 @@ export interface DashboardMeta {
   procurementSummary: { total: number; overdueCount: number };
 }
 
+// Deep-link URL builders
+export const GHL_BASE = 'https://app.gohighlevel.com/location/wTvEeXunnbLa5kBRFbc4';
+export const ghlContactUrl = (contactId: string) =>
+  `https://app.gohighlevel.com/location/wTvEeXunnbLa5kBRFbc4/contacts/detail/${contactId}`;
+export const ghlCalendarUrl =
+  'https://app.gohighlevel.com/location/wTvEeXunnbLa5kBRFbc4/calendar';
+export const squareInvoiceUrl = (invoiceId: string) =>
+  `https://squareup.com/dashboard/invoices/${invoiceId}`;
+export const procurementSheetUrl =
+  'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
+
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-03T02:39:26.597322-05:00",
+  "lastRefreshed": "2026-03-03T02:46:50.822513-05:00",
   "todayLabel": "Tuesday, March 3",
   "serviceDay": {
     "done": 0,
@@ -111,6 +122,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "dKbUgAT9yvRn7axI6DM3",
     "title": ":",
     "contact": "None None",
+    "contactId": "FW51V5AYRqFOUoUuPdhl",
     "assignedTo": "Geoff",
     "due": "2026-02-24",
     "overdue": true
@@ -119,6 +131,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "bDsUSOTiYv2CbTUiUoeh",
     "title": ":",
     "contact": "None None",
+    "contactId": "Xfq5JZJr8JIFR1urcyhP",
     "assignedTo": "Geoff",
     "due": "2026-02-24",
     "overdue": true
@@ -127,6 +140,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "rvW3GhnHB2eqYlfub1Pt",
     "title": ":",
     "contact": "None None",
+    "contactId": "SsR5KxiQUbCnGTLoMOb7",
     "assignedTo": "Geoff",
     "due": "2026-02-24",
     "overdue": true
@@ -135,6 +149,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "gwO7pY1hjeleynLJlHpn",
     "title": ":",
     "contact": "None None",
+    "contactId": "0oPZG2AZdkSPeDrvFoh3",
     "assignedTo": "Geoff",
     "due": "2026-02-24",
     "overdue": true
@@ -143,6 +158,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "9dRVkNDbNYllqY38RM7L",
     "title": ":",
     "contact": "None None",
+    "contactId": "9ICgKQYnhiupjQbuF1y0",
     "assignedTo": "Geoff",
     "due": "2026-02-26",
     "overdue": true
@@ -151,6 +167,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "MYD3JLIUy3mfsRq96ifN",
     "title": "Review service log: Test Client (delete) (2026-02-27)",
     "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-02-28",
     "overdue": true
@@ -159,6 +176,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "n2qY3M2GYGSXASfL8ra9",
     "title": "Verify Nick accounts - confirm paid, close out, notify Nick",
     "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-02",
     "overdue": true
@@ -167,6 +185,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "sIItLKZPId0JhJQsjthw",
     "title": "Georgia Tech - add-on plants + send 2026 invoice",
     "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-02",
     "overdue": true
@@ -175,6 +194,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "aBVl1tn87qwQaNOauUCf",
     "title": "Set up Concord Group recurring invoice",
     "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-02",
     "overdue": true
@@ -183,6 +203,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "wECUQl9wafbr50WsYilW",
     "title": "Send Concord Group first service invoice to Allie",
     "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-02",
     "overdue": true
@@ -191,6 +212,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "mSn5HBp6MDyoiDc1v4Yd",
     "title": "Send Stacy 90-day action plan - Floyd Medical",
     "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-02",
     "overdue": true
@@ -199,6 +221,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "BEgm42UPmX7uHBlGmMCL",
     "title": "Send Rick (Marriott) deposit invoice - outdoor planters",
     "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-02",
     "overdue": true
@@ -207,6 +230,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "YnxLHzTGZLiS4FftPcoF",
     "title": ":",
     "contact": "None None",
+    "contactId": "rS8Oa8Nnpo4kZmsQl033",
     "assignedTo": "Geoff",
     "due": "2026-03-03",
     "overdue": false
@@ -215,6 +239,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "ZEyLmFIjTbL0aaqDUVbr",
     "title": ":",
     "contact": "None None",
+    "contactId": "aStxefelt15SI3RkLyFf",
     "assignedTo": "Geoff",
     "due": "2026-03-03",
     "overdue": false
@@ -223,6 +248,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "Kskc5jksGqyO0ifyEhwo",
     "title": ":",
     "contact": "None None",
+    "contactId": "6J5c86gM95qGVJ9SuU1U",
     "assignedTo": "Geoff",
     "due": "2026-03-03",
     "overdue": false
@@ -231,6 +257,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "EZmPLMzsOKZmfmhIehYQ",
     "title": "Bank of America estimate - respond to fee reduction request",
     "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-03",
     "overdue": false
@@ -239,6 +266,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "i8blTJNclHQ44b500exY",
     "title": "Scope Concord Group add-on plants",
     "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-03",
     "overdue": false
@@ -247,6 +275,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "zxgV36ZKAvz8a8mKVMpO",
     "title": "Hire part-time backup for Bri - start recruiting",
     "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-07",
     "overdue": false
@@ -255,6 +284,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "vII1nwslZGC6kW2q6F9B",
     "title": "[CNu3USP1J0KKYBQFnRPp] Inner office plants (unspecified): Stephen to follow up with more info; coordinate with client to",
     "contact": "None None",
+    "contactId": "CNu3USP1J0KKYBQFnRPp",
     "assignedTo": "Geoff",
     "due": "2026-03-16",
     "overdue": false
@@ -263,6 +293,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "1wFgzJlaMyRqBtMP3Oxd",
     "title": "[rS8Oa8Nnpo4kZmsQl033] Snake plants - CreateX offices, Biltmore building: Contact Essie (POC) to discuss potential repla",
     "contact": "None None",
+    "contactId": "rS8Oa8Nnpo4kZmsQl033",
     "assignedTo": "Geoff",
     "due": "2026-03-16",
     "overdue": false
@@ -271,6 +302,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "e2ANqx8cNCMeQkFEKXCd",
     "title": "Anderson Windows — Order new kitchen plants for July install",
     "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-06-10",
     "overdue": false
@@ -279,6 +311,7 @@ export const geoffTasks: GHLTask[] = [
     "id": "PXMn3y7WrudFiH5aKwGt",
     "title": "Anderson Windows — Install new kitchen plants (6-month contract rotation)",
     "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-07-01",
     "overdue": false
@@ -290,6 +323,7 @@ export const briTasks: GHLTask[] = [
     "id": "DoCeLF18KmvIksNXw2Oz",
     "title": "[rS8Oa8Nnpo4kZmsQl033] Ags - Commercialization building: Continue mealybug treatment with insecticidal soap at next serv",
     "contact": "None None",
+    "contactId": "rS8Oa8Nnpo4kZmsQl033",
     "assignedTo": "Bri",
     "due": "2026-03-05",
     "overdue": false
@@ -298,6 +332,7 @@ export const briTasks: GHLTask[] = [
     "id": "5b2WG1vtD7WhCrg3FhOj",
     "title": "[aStxefelt15SI3RkLyFf] Outdoor planters with violas: Continue monitoring and treating with neem oil; replace damaged or",
     "contact": "None None",
+    "contactId": "aStxefelt15SI3RkLyFf",
     "assignedTo": "Bri",
     "due": "2026-03-05",
     "overdue": false
@@ -306,6 +341,7 @@ export const briTasks: GHLTask[] = [
     "id": "z0ochSrtPL3g2DF5CFAd",
     "title": "[aStxefelt15SI3RkLyFf] Lemon lime dracaena, 28th floor: Continue monitoring and treating with insecticidal soap; replace",
     "contact": "None None",
+    "contactId": "aStxefelt15SI3RkLyFf",
     "assignedTo": "Bri",
     "due": "2026-03-05",
     "overdue": false
@@ -314,6 +350,7 @@ export const briTasks: GHLTask[] = [
     "id": "fFKl3P75gb0rU9OUETaR",
     "title": "[rS8Oa8Nnpo4kZmsQl033] Hawaiian pothos - Commercialization building: Continue monitoring and providing care to support o",
     "contact": "None None",
+    "contactId": "rS8Oa8Nnpo4kZmsQl033",
     "assignedTo": "Bri",
     "due": "2026-03-16",
     "overdue": false
@@ -322,6 +359,7 @@ export const briTasks: GHLTask[] = [
     "id": "nxIRhbduDVdEAWGewtwA",
     "title": "[6J5c86gM95qGVJ9SuU1U] Ficus trees, all floors: Continue rotating ficus trees on all floors at each service visit",
     "contact": "None None",
+    "contactId": "6J5c86gM95qGVJ9SuU1U",
     "assignedTo": "Bri",
     "due": "2026-03-16",
     "overdue": false
@@ -330,6 +368,7 @@ export const briTasks: GHLTask[] = [
     "id": "YZ6CYb8jrh0tjgoZFnxO",
     "title": "[CNu3USP1J0KKYBQFnRPp] Money tree: Monitor growth progress following rotation; continue rotating at future visits to enc",
     "contact": "None None",
+    "contactId": "CNu3USP1J0KKYBQFnRPp",
     "assignedTo": "Bri",
     "due": "2026-03-23",
     "overdue": false
@@ -338,6 +377,7 @@ export const briTasks: GHLTask[] = [
     "id": "VbMRax4KQgNUpp2D7bpy",
     "title": "[6J5c86gM95qGVJ9SuU1U] ZZ plants, 5th floor: Monitor ZZ plants on 5th floor at next visit for continued overgrowth; prun",
     "contact": "None None",
+    "contactId": "6J5c86gM95qGVJ9SuU1U",
     "assignedTo": "Bri",
     "due": "2026-03-23",
     "overdue": false

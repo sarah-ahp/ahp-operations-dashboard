@@ -8,6 +8,9 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { useLiveData } from '@/lib/use-live-data';
 import type { GHLTask, Invoice, ProcurementItem, HookItem } from '@/lib/use-live-data';
+import {
+  ghlContactUrl, ghlCalendarUrl, squareInvoiceUrl, procurementSheetUrl,
+} from '@/lib/data';
 
 // ── HELPERS ───────────────────────────────────────────────────────
 
@@ -38,9 +41,12 @@ function ServiceStrip({ stops, done, total }: {
   return (
     <div className="flex gap-2 overflow-x-auto pb-2 -mx-3 px-3 sm:mx-0 sm:px-0">
       {stops.map(stop => (
-        <div
+        <a
           key={stop.id}
-          className={`flex-shrink-0 rounded-lg border px-3 py-2 min-w-[130px] sm:min-w-[160px] shadow-sm transition-colors ${
+          href={ghlCalendarUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          className={`flex-shrink-0 rounded-lg border px-3 py-2 min-w-[130px] sm:min-w-[160px] shadow-sm transition-colors hover:border-green-300 ${
             stop.done
               ? 'bg-green-50 border-green-200'
               : 'bg-white border-green-100'
@@ -56,7 +62,7 @@ function ServiceStrip({ stops, done, total }: {
           <p className={`text-xs font-medium leading-tight ${stop.done ? 'text-green-600/70 line-through' : 'text-green-900'}`}>
             {stop.title}
           </p>
-        </div>
+        </a>
       ))}
     </div>
   );
@@ -65,8 +71,14 @@ function ServiceStrip({ stops, done, total }: {
 // ── TASK ROW ───────────────────────────────────────────────────────
 
 function TaskRow({ task }: { task: GHLTask }) {
+  const href = task.contactId ? ghlContactUrl(task.contactId) : undefined;
   return (
-    <div className="flex items-start gap-2 py-2 border-b border-green-50 last:border-0">
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`flex items-start gap-2 py-2 border-b border-green-50 last:border-0 ${href ? 'hover:bg-green-50/60 -mx-1 px-1 rounded cursor-pointer' : ''}`}
+    >
       {task.overdue
         ? <AlertTriangle className="w-3.5 h-3.5 text-red-400 mt-0.5 flex-shrink-0" />
         : <Clock className="w-3.5 h-3.5 text-amber-400 mt-0.5 flex-shrink-0" />
@@ -82,7 +94,7 @@ function TaskRow({ task }: { task: GHLTask }) {
           {task.overdue ? '⚠ ' : ''}{fmtDue(task.due)}
         </span>
       )}
-    </div>
+    </a>
   );
 }
 
@@ -196,13 +208,19 @@ function InvoicePanel({ invoices, summary }: {
               Overdue — collect ({overdue.length})
             </p>
             {overdue.slice(0, 7).map(inv => (
-              <div key={inv.id} className="flex items-center justify-between py-1 border-b border-red-50 last:border-0">
+              <a
+                key={inv.id}
+                href={squareInvoiceUrl(inv.id)}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-between py-1 border-b border-red-50 last:border-0 hover:bg-red-50/50 -mx-1 px-1 rounded"
+              >
                 <span className="text-xs text-red-700 truncate mr-2">{inv.recipient}</span>
                 <div className="flex items-center gap-2 flex-shrink-0">
                   <span className="text-xs font-medium text-red-600">{fmtDollars(inv.amount)}</span>
                   <span className="text-[10px] text-red-400">{fmtDue(inv.due)}</span>
                 </div>
-              </div>
+              </a>
             ))}
             {overdue.length > 7 && (
               <p className="text-[10px] text-red-400 pt-1">+{overdue.length - 7} more overdue</p>
@@ -211,9 +229,14 @@ function InvoicePanel({ invoices, summary }: {
         )}
 
         {current.length > 0 && (
-          <div className="bg-green-50/60 rounded-lg p-2 text-xs text-green-700">
-            {current.length} current — {fmtDollars(summary.currentTotal)} on schedule
-          </div>
+          <a
+            href="https://squareup.com/dashboard/invoices"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block bg-green-50/60 hover:bg-green-100/60 rounded-lg p-2 text-xs text-green-700"
+          >
+            {current.length} current — {fmtDollars(summary.currentTotal)} on schedule ↗
+          </a>
         )}
 
         {invoices.length === 0 && (
@@ -238,7 +261,14 @@ function ProcurementPanel({ items, summary }: {
       <CardContent className="p-3 sm:p-4">
         <div className="flex items-center gap-2 mb-3">
           <ShoppingCart className="w-4 h-4 text-green-600" />
-          <span className="font-semibold text-green-900 text-sm">Procurement</span>
+          <a
+            href={procurementSheetUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-green-900 text-sm hover:text-green-600"
+          >
+            Procurement ↗
+          </a>
           <div className="flex gap-1 ml-auto">
             <Badge variant="yellow" className="text-[10px]">{summary.total} needed</Badge>
             {summary.overdueCount > 0 && (
