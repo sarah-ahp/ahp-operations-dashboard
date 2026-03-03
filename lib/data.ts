@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-03T14:00:50.378879-05:00
+// AHP Dashboard data — auto-generated 2026-03-03T15:00:57.060550-05:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,18 +54,18 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-03T14:00:50.378879-05:00",
+  "lastRefreshed": "2026-03-03T15:00:57.060550-05:00",
   "todayLabel": "Tuesday, March 3",
   "serviceDay": {
     "done": 0,
     "total": 4
   },
   "invoiceSummary": {
-    "totalOutstanding": 13481.5,
+    "totalOutstanding": 13795.0,
     "overdueCount": 7,
     "overdueTotal": 1337.17,
-    "currentCount": 46,
-    "currentTotal": 12144.33
+    "currentCount": 48,
+    "currentTotal": 12457.83
   },
   "taskSummary": {
     "geoffTotal": 23,
@@ -528,6 +528,20 @@ export const invoices: Invoice[] = [
     "overdue": false
   },
   {
+    "id": "inv:0-ChAnC7nPtPpsbbdsV605_mRaEI0N",
+    "recipient": "Lexi Meihofer",
+    "amount": 214.5,
+    "due": "2026-05-03",
+    "overdue": false
+  },
+  {
+    "id": "inv:0-ChD9VP0BoeVP_VZrkOoXfRfPEI0N",
+    "recipient": "Stephen Clausen",
+    "amount": 214.5,
+    "due": "2026-04-03",
+    "overdue": false
+  },
+  {
     "id": "inv:0-ChCp2ZHVTHFRP5rOKIBW665bEI0N",
     "recipient": "Ali Gould",
     "amount": 214.5,
@@ -577,24 +591,10 @@ export const invoices: Invoice[] = [
     "overdue": false
   },
   {
-    "id": "inv:0-ChANpyEny7zauBQd_5fI170HEI0N",
-    "recipient": "Lexi Meihofer",
-    "amount": 214.5,
-    "due": "2026-04-03",
-    "overdue": false
-  },
-  {
     "id": "inv:0-ChBiIdRjeK4CakUFPjQEyEwmEI0N",
     "recipient": "Rick Dunlap",
     "amount": 214.5,
     "due": "2026-04-30",
-    "overdue": false
-  },
-  {
-    "id": "inv:0-ChBYJQdTIxxVlDkIICgLbIITEI0N",
-    "recipient": "CDI, Glenridge LLC",
-    "amount": 214.5,
-    "due": "2026-04-14",
     "overdue": false
   }
 ];
