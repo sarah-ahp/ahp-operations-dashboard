@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-03T12:00:51.039757-05:00
+// AHP Dashboard data — auto-generated 2026-03-03T14:00:50.378879-05:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,11 +54,11 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-03T12:00:51.039757-05:00",
+  "lastRefreshed": "2026-03-03T14:00:50.378879-05:00",
   "todayLabel": "Tuesday, March 3",
   "serviceDay": {
     "done": 0,
-    "total": 5
+    "total": 4
   },
   "invoiceSummary": {
     "totalOutstanding": 13481.5,
@@ -90,13 +90,6 @@ export const serviceStops: ServiceStop[] = [
   {
     "id": "OGpVZWnDrBT8p2ldYNDk",
     "title": "Service: Bouloux Residence",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "TDo7r7GtJNK4Dklp1Chj",
-    "title": "Service: Monet Spell",
     "time": "",
     "done": false,
     "status": "pending"
