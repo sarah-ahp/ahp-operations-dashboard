@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-03T09:01:00.609489-05:00
+// AHP Dashboard data — auto-generated 2026-03-03T10:00:47.043858-05:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,18 +54,18 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-03T09:01:00.609489-05:00",
+  "lastRefreshed": "2026-03-03T10:00:47.043858-05:00",
   "todayLabel": "Tuesday, March 3",
   "serviceDay": {
     "done": 0,
     "total": 5
   },
   "invoiceSummary": {
-    "totalOutstanding": 14073.0,
+    "totalOutstanding": 13696.0,
     "overdueCount": 7,
     "overdueTotal": 1337.17,
-    "currentCount": 49,
-    "currentTotal": 12735.83
+    "currentCount": 47,
+    "currentTotal": 12358.83
   },
   "taskSummary": {
     "geoffTotal": 22,
