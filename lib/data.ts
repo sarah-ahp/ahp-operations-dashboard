@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-03T15:00:57.060550-05:00
+// AHP Dashboard data — auto-generated 2026-03-03T16:01:02.579600-05:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,7 +54,7 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-03T15:00:57.060550-05:00",
+  "lastRefreshed": "2026-03-03T16:01:02.579600-05:00",
   "todayLabel": "Tuesday, March 3",
   "serviceDay": {
     "done": 0,
@@ -528,10 +528,10 @@ export const invoices: Invoice[] = [
     "overdue": false
   },
   {
-    "id": "inv:0-ChAnC7nPtPpsbbdsV605_mRaEI0N",
-    "recipient": "Lexi Meihofer",
+    "id": "inv:0-ChBkNQ7U0_bC13n09Y8Y2LJNEI0N",
+    "recipient": "Debbie Heitzman",
     "amount": 214.5,
-    "due": "2026-05-03",
+    "due": "2026-04-30",
     "overdue": false
   },
   {
