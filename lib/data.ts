@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-03T16:01:02.579600-05:00
+// AHP Dashboard data — auto-generated 2026-03-03T17:00:52.188364-05:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,7 +54,7 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-03T16:01:02.579600-05:00",
+  "lastRefreshed": "2026-03-03T17:00:52.188364-05:00",
   "todayLabel": "Tuesday, March 3",
   "serviceDay": {
     "done": 0,
@@ -905,15 +905,6 @@ export const procurement: ProcurementItem[] = [
 export const hookItems: HookItem[] = [
   {
     "id": "h1",
-    "title": "TEXT NICK — Monet Spells",
-    "priority": "high",
-    "firstThing": true,
-    "upsell": false,
-    "source": "the-hook",
-    "added": "2026-03-03"
-  },
-  {
-    "id": "h2",
     "title": "Finish appointments in Square",
     "priority": "medium",
     "firstThing": false,
@@ -922,8 +913,17 @@ export const hookItems: HookItem[] = [
     "added": "2026-03-03"
   },
   {
-    "id": "h3",
+    "id": "h2",
     "title": "Send Rick (Marriott) deposit invoice",
+    "priority": "high",
+    "firstThing": true,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-03"
+  },
+  {
+    "id": "h3",
+    "title": "Concord Group first service invoice → Allie",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
@@ -932,24 +932,6 @@ export const hookItems: HookItem[] = [
   },
   {
     "id": "h4",
-    "title": "Send Stacy 90-day action plan",
-    "priority": "medium",
-    "firstThing": false,
-    "upsell": false,
-    "source": "the-hook",
-    "added": "2026-03-03"
-  },
-  {
-    "id": "h5",
-    "title": "Send Concord Group first service invoice → Allie",
-    "priority": "medium",
-    "firstThing": false,
-    "upsell": false,
-    "source": "the-hook",
-    "added": "2026-03-03"
-  },
-  {
-    "id": "h6",
     "title": "Create recurring invoice for Concord Group",
     "priority": "medium",
     "firstThing": false,
@@ -958,7 +940,7 @@ export const hookItems: HookItem[] = [
     "added": "2026-03-03"
   },
   {
-    "id": "h7",
+    "id": "h5",
     "title": "Scope Concord Group add-on plants",
     "priority": "medium",
     "firstThing": false,
@@ -967,7 +949,7 @@ export const hookItems: HookItem[] = [
     "added": "2026-03-03"
   },
   {
-    "id": "h8",
+    "id": "h6",
     "title": "Month-end invoice audit",
     "priority": "medium",
     "firstThing": false,
@@ -976,7 +958,7 @@ export const hookItems: HookItem[] = [
     "added": "2026-03-03"
   },
   {
-    "id": "h9",
+    "id": "h7",
     "title": "Verify Nick's accounts — close out if paid",
     "priority": "medium",
     "firstThing": false,
@@ -985,7 +967,7 @@ export const hookItems: HookItem[] = [
     "added": "2026-03-03"
   },
   {
-    "id": "h10",
+    "id": "h8",
     "title": "Cancel Hitchcock insurance",
     "priority": "medium",
     "firstThing": false,
@@ -994,7 +976,7 @@ export const hookItems: HookItem[] = [
     "added": "2026-03-03"
   },
   {
-    "id": "h11",
+    "id": "h9",
     "title": "Georgia Tech — reach out re: add-on plants",
     "priority": "medium",
     "firstThing": false,
@@ -1003,7 +985,7 @@ export const hookItems: HookItem[] = [
     "added": "2026-03-03"
   },
   {
-    "id": "h12",
+    "id": "h10",
     "title": "Send Georgia Tech 2026 invoice",
     "priority": "medium",
     "firstThing": false,
@@ -1012,7 +994,7 @@ export const hookItems: HookItem[] = [
     "added": "2026-03-03"
   },
   {
-    "id": "h13",
+    "id": "h11",
     "title": "Bank of America estimate — Carol's lead",
     "priority": "medium",
     "firstThing": false,
@@ -1021,7 +1003,7 @@ export const hookItems: HookItem[] = [
     "added": "2026-03-03"
   },
   {
-    "id": "h14",
+    "id": "h12",
     "title": "Physician Building Entrance",
     "priority": "medium",
     "firstThing": false,
@@ -1030,7 +1012,7 @@ export const hookItems: HookItem[] = [
     "added": "2026-03-03"
   },
   {
-    "id": "h15",
+    "id": "h13",
     "title": "Rome Hospital — bromeliad rotation planning",
     "priority": "medium",
     "firstThing": false,
@@ -1039,7 +1021,7 @@ export const hookItems: HookItem[] = [
     "added": "2026-03-03"
   },
   {
-    "id": "h16",
+    "id": "h14",
     "title": "Rome Hospital — 90-day action plan budget",
     "priority": "medium",
     "firstThing": false,
@@ -1048,7 +1030,7 @@ export const hookItems: HookItem[] = [
     "added": "2026-03-03"
   },
   {
-    "id": "h17",
+    "id": "h15",
     "title": "Update AHP website",
     "priority": "medium",
     "firstThing": false,
@@ -1057,7 +1039,7 @@ export const hookItems: HookItem[] = [
     "added": "2026-03-03"
   },
   {
-    "id": "h18",
+    "id": "h16",
     "title": "Nick's Plant Doctor accounts — 2FA transfer",
     "priority": "medium",
     "firstThing": false,
@@ -1066,7 +1048,7 @@ export const hookItems: HookItem[] = [
     "added": "2026-03-03"
   },
   {
-    "id": "h19",
+    "id": "h17",
     "title": "Bri operations setup",
     "priority": "medium",
     "firstThing": false,
@@ -1075,7 +1057,7 @@ export const hookItems: HookItem[] = [
     "added": "2026-03-03"
   },
   {
-    "id": "h20",
+    "id": "h18",
     "title": "Hire 1 part-time person to back up Bri",
     "priority": "medium",
     "firstThing": false,
