@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-03T10:00:47.043858-05:00
+// AHP Dashboard data — auto-generated 2026-03-03T12:00:51.039757-05:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,27 +54,27 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-03T10:00:47.043858-05:00",
+  "lastRefreshed": "2026-03-03T12:00:51.039757-05:00",
   "todayLabel": "Tuesday, March 3",
   "serviceDay": {
     "done": 0,
     "total": 5
   },
   "invoiceSummary": {
-    "totalOutstanding": 13696.0,
+    "totalOutstanding": 13481.5,
     "overdueCount": 7,
     "overdueTotal": 1337.17,
-    "currentCount": 47,
-    "currentTotal": 12358.83
+    "currentCount": 46,
+    "currentTotal": 12144.33
   },
   "taskSummary": {
-    "geoffTotal": 22,
+    "geoffTotal": 23,
     "geoffOverdue": 12,
     "briTotal": 7,
     "briOverdue": 0
   },
   "procurementSummary": {
-    "total": 42,
+    "total": 44,
     "overdueCount": 26
   }
 };
@@ -269,6 +269,15 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-03",
+    "overdue": false
+  },
+  {
+    "id": "tiigwkRHDLKoi79eHBNA",
+    "title": ":",
+    "contact": "None None",
+    "contactId": "QOmCg3mvOLmnJEJCFzX0",
+    "assignedTo": "Geoff",
+    "due": "2026-03-04",
     "overdue": false
   },
   {
