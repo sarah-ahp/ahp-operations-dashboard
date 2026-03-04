@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-04T10:00:48.097496-05:00
+// AHP Dashboard data — auto-generated 2026-03-04T11:00:56.061368-05:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,16 +54,16 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-04T10:00:48.097496-05:00",
+  "lastRefreshed": "2026-03-04T11:00:56.061368-05:00",
   "todayLabel": "Wednesday, March 4",
   "serviceDay": {
     "done": 0,
     "total": 5
   },
   "invoiceSummary": {
-    "totalOutstanding": 13795.0,
-    "overdueCount": 7,
-    "overdueTotal": 1337.17,
+    "totalOutstanding": 13632.5,
+    "overdueCount": 6,
+    "overdueTotal": 1174.67,
     "currentCount": 48,
     "currentTotal": 12457.83
   },
@@ -466,13 +466,6 @@ export const invoices: Invoice[] = [
     "overdue": true
   },
   {
-    "id": "inv:0-ChD7F3FbhsGeIwCh4jgVO2xpEI0N",
-    "recipient": "Jamie Sims",
-    "amount": 162.5,
-    "due": "2026-03-02",
-    "overdue": true
-  },
-  {
     "id": "inv:0-ChAXMmSZ7tYSvNILy3D9tDNXEI0N",
     "recipient": "Machae Davis",
     "amount": 100.0,
@@ -638,6 +631,13 @@ export const invoices: Invoice[] = [
     "recipient": "Rick Dunlap",
     "amount": 214.5,
     "due": "2026-04-30",
+    "overdue": false
+  },
+  {
+    "id": "inv:0-ChBYJQdTIxxVlDkIICgLbIITEI0N",
+    "recipient": "CDI, Glenridge LLC",
+    "amount": 214.5,
+    "due": "2026-04-14",
     "overdue": false
   }
 ];
