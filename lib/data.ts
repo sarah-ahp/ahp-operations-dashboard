@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-04T17:00:57.005725-05:00
+// AHP Dashboard data — auto-generated 2026-03-04T18:00:54.041977-05:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,21 +54,21 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-04T17:00:57.005725-05:00",
+  "lastRefreshed": "2026-03-04T18:00:54.041977-05:00",
   "todayLabel": "Wednesday, March 4",
   "serviceDay": {
     "done": 0,
     "total": 5
   },
   "invoiceSummary": {
-    "totalOutstanding": 15370.83,
-    "overdueCount": 5,
-    "overdueTotal": 990.5,
-    "currentCount": 49,
-    "currentTotal": 14380.33
+    "totalOutstanding": 14976.5,
+    "overdueCount": 7,
+    "overdueTotal": 1337.17,
+    "currentCount": 46,
+    "currentTotal": 13639.33
   },
   "taskSummary": {
-    "geoffTotal": 13,
+    "geoffTotal": 15,
     "geoffOverdue": 4,
     "briTotal": 9,
     "briOverdue": 0
@@ -153,6 +153,24 @@ export const geoffTasks: GHLTask[] = [
     "assignedTo": "Geoff",
     "due": "2026-03-03",
     "overdue": true
+  },
+  {
+    "id": "wx1RmxcU9ZFLUoGgYB9X",
+    "title": ":",
+    "contact": "None None",
+    "contactId": "jyGWRgsucfPTH2cGwb2W",
+    "assignedTo": "Geoff",
+    "due": "2026-03-05",
+    "overdue": false
+  },
+  {
+    "id": "DTJJ5Ohh2mbdz4EgmOyQ",
+    "title": ":",
+    "contact": "None None",
+    "contactId": "tZAK3p6WnjFZBEn2a1Wn",
+    "assignedTo": "Geoff",
+    "due": "2026-03-05",
+    "overdue": false
   },
   {
     "id": "zxgV36ZKAvz8a8mKVMpO",
@@ -344,8 +362,22 @@ export const invoices: Invoice[] = [
     "overdue": true
   },
   {
+    "id": "inv:0-ChDXiTuAHIEZzYjn7Pi89aDlEI0N",
+    "recipient": "Equity Residential AP",
+    "amount": 184.17,
+    "due": "2026-03-02",
+    "overdue": true
+  },
+  {
     "id": "inv:0-ChBkzxSNBsUdDoG0xl8EA-Z5EI0N",
     "recipient": "Dionne Thomas",
+    "amount": 162.5,
+    "due": "2026-03-02",
+    "overdue": true
+  },
+  {
+    "id": "inv:0-ChD7F3FbhsGeIwCh4jgVO2xpEI0N",
+    "recipient": "Jamie Sims",
     "amount": 162.5,
     "due": "2026-03-02",
     "overdue": true
@@ -369,13 +401,6 @@ export const invoices: Invoice[] = [
     "recipient": "Rick Dunlap",
     "amount": 1922.5,
     "due": "2026-04-03",
-    "overdue": false
-  },
-  {
-    "id": "inv:0-ChBzpk9PFk7J6zdnof9NWrzMEI0N",
-    "recipient": "Dianne Orr",
-    "amount": 429.0,
-    "due": "2026-04-14",
     "overdue": false
   },
   {
@@ -523,13 +548,6 @@ export const invoices: Invoice[] = [
     "recipient": "Rick Dunlap",
     "amount": 214.5,
     "due": "2026-04-30",
-    "overdue": false
-  },
-  {
-    "id": "inv:0-ChBYJQdTIxxVlDkIICgLbIITEI0N",
-    "recipient": "CDI, Glenridge LLC",
-    "amount": 214.5,
-    "due": "2026-04-14",
     "overdue": false
   }
 ];
