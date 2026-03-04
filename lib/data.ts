@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-04T16:00:48.714838-05:00
+// AHP Dashboard data — auto-generated 2026-03-04T17:00:57.005725-05:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,28 +54,28 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-04T16:00:48.714838-05:00",
+  "lastRefreshed": "2026-03-04T17:00:57.005725-05:00",
   "todayLabel": "Wednesday, March 4",
   "serviceDay": {
     "done": 0,
     "total": 5
   },
   "invoiceSummary": {
-    "totalOutstanding": 13632.5,
-    "overdueCount": 6,
-    "overdueTotal": 1174.67,
-    "currentCount": 48,
-    "currentTotal": 12457.83
+    "totalOutstanding": 15370.83,
+    "overdueCount": 5,
+    "overdueTotal": 990.5,
+    "currentCount": 49,
+    "currentTotal": 14380.33
   },
   "taskSummary": {
-    "geoffTotal": 27,
-    "geoffOverdue": 17,
+    "geoffTotal": 13,
+    "geoffOverdue": 4,
     "briTotal": 9,
     "briOverdue": 0
   },
   "procurementSummary": {
-    "total": 45,
-    "overdueCount": 26
+    "total": 0,
+    "overdueCount": 0
   }
 };
 
@@ -119,60 +119,6 @@ export const serviceStops: ServiceStop[] = [
 
 export const geoffTasks: GHLTask[] = [
   {
-    "id": "dKbUgAT9yvRn7axI6DM3",
-    "title": ":",
-    "contact": "None None",
-    "contactId": "FW51V5AYRqFOUoUuPdhl",
-    "assignedTo": "Geoff",
-    "due": "2026-02-24",
-    "overdue": true
-  },
-  {
-    "id": "bDsUSOTiYv2CbTUiUoeh",
-    "title": ":",
-    "contact": "None None",
-    "contactId": "Xfq5JZJr8JIFR1urcyhP",
-    "assignedTo": "Geoff",
-    "due": "2026-02-24",
-    "overdue": true
-  },
-  {
-    "id": "rvW3GhnHB2eqYlfub1Pt",
-    "title": ":",
-    "contact": "None None",
-    "contactId": "SsR5KxiQUbCnGTLoMOb7",
-    "assignedTo": "Geoff",
-    "due": "2026-02-24",
-    "overdue": true
-  },
-  {
-    "id": "gwO7pY1hjeleynLJlHpn",
-    "title": ":",
-    "contact": "None None",
-    "contactId": "0oPZG2AZdkSPeDrvFoh3",
-    "assignedTo": "Geoff",
-    "due": "2026-02-24",
-    "overdue": true
-  },
-  {
-    "id": "9dRVkNDbNYllqY38RM7L",
-    "title": ":",
-    "contact": "None None",
-    "contactId": "9ICgKQYnhiupjQbuF1y0",
-    "assignedTo": "Geoff",
-    "due": "2026-02-26",
-    "overdue": true
-  },
-  {
-    "id": "MYD3JLIUy3mfsRq96ifN",
-    "title": "Review service log: Test Client (delete) (2026-02-27)",
-    "contact": "None None",
-    "contactId": "oUjlVbarGtNSZbOnNtXp",
-    "assignedTo": "Geoff",
-    "due": "2026-02-28",
-    "overdue": true
-  },
-  {
     "id": "n2qY3M2GYGSXASfL8ra9",
     "title": "Verify Nick accounts - confirm paid, close out, notify Nick",
     "contact": "None None",
@@ -200,69 +146,6 @@ export const geoffTasks: GHLTask[] = [
     "overdue": true
   },
   {
-    "id": "wECUQl9wafbr50WsYilW",
-    "title": "Send Concord Group first service invoice to Allie",
-    "contact": "None None",
-    "contactId": "oUjlVbarGtNSZbOnNtXp",
-    "assignedTo": "Geoff",
-    "due": "2026-03-02",
-    "overdue": true
-  },
-  {
-    "id": "mSn5HBp6MDyoiDc1v4Yd",
-    "title": "Send Stacy 90-day action plan - Floyd Medical",
-    "contact": "None None",
-    "contactId": "oUjlVbarGtNSZbOnNtXp",
-    "assignedTo": "Geoff",
-    "due": "2026-03-02",
-    "overdue": true
-  },
-  {
-    "id": "BEgm42UPmX7uHBlGmMCL",
-    "title": "Send Rick (Marriott) deposit invoice - outdoor planters",
-    "contact": "None None",
-    "contactId": "oUjlVbarGtNSZbOnNtXp",
-    "assignedTo": "Geoff",
-    "due": "2026-03-02",
-    "overdue": true
-  },
-  {
-    "id": "YnxLHzTGZLiS4FftPcoF",
-    "title": ":",
-    "contact": "None None",
-    "contactId": "rS8Oa8Nnpo4kZmsQl033",
-    "assignedTo": "Geoff",
-    "due": "2026-03-03",
-    "overdue": true
-  },
-  {
-    "id": "ZEyLmFIjTbL0aaqDUVbr",
-    "title": ":",
-    "contact": "None None",
-    "contactId": "aStxefelt15SI3RkLyFf",
-    "assignedTo": "Geoff",
-    "due": "2026-03-03",
-    "overdue": true
-  },
-  {
-    "id": "Kskc5jksGqyO0ifyEhwo",
-    "title": ":",
-    "contact": "None None",
-    "contactId": "6J5c86gM95qGVJ9SuU1U",
-    "assignedTo": "Geoff",
-    "due": "2026-03-03",
-    "overdue": true
-  },
-  {
-    "id": "EZmPLMzsOKZmfmhIehYQ",
-    "title": "Bank of America estimate - respond to fee reduction request",
-    "contact": "None None",
-    "contactId": "oUjlVbarGtNSZbOnNtXp",
-    "assignedTo": "Geoff",
-    "due": "2026-03-03",
-    "overdue": true
-  },
-  {
     "id": "i8blTJNclHQ44b500exY",
     "title": "Scope Concord Group add-on plants",
     "contact": "None None",
@@ -270,15 +153,6 @@ export const geoffTasks: GHLTask[] = [
     "assignedTo": "Geoff",
     "due": "2026-03-03",
     "overdue": true
-  },
-  {
-    "id": "tiigwkRHDLKoi79eHBNA",
-    "title": ":",
-    "contact": "None None",
-    "contactId": "QOmCg3mvOLmnJEJCFzX0",
-    "assignedTo": "Geoff",
-    "due": "2026-03-04",
-    "overdue": false
   },
   {
     "id": "zxgV36ZKAvz8a8mKVMpO",
@@ -341,6 +215,24 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "FU2BBWA0LJI7QLU8NVer",
     "assignedTo": "Geoff",
     "due": "2026-03-24",
+    "overdue": false
+  },
+  {
+    "id": "e2ANqx8cNCMeQkFEKXCd",
+    "title": "Anderson Windows — Order new kitchen plants for July install",
+    "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
+    "assignedTo": "Geoff",
+    "due": "2026-06-10",
+    "overdue": false
+  },
+  {
+    "id": "PXMn3y7WrudFiH5aKwGt",
+    "title": "Anderson Windows — Install new kitchen plants (6-month contract rotation)",
+    "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
+    "assignedTo": "Geoff",
+    "due": "2026-07-01",
     "overdue": false
   }
 ];
@@ -452,13 +344,6 @@ export const invoices: Invoice[] = [
     "overdue": true
   },
   {
-    "id": "inv:0-ChDXiTuAHIEZzYjn7Pi89aDlEI0N",
-    "recipient": "Equity Residential AP",
-    "amount": 184.17,
-    "due": "2026-03-02",
-    "overdue": true
-  },
-  {
     "id": "inv:0-ChBkzxSNBsUdDoG0xl8EA-Z5EI0N",
     "recipient": "Dionne Thomas",
     "amount": 162.5,
@@ -477,6 +362,13 @@ export const invoices: Invoice[] = [
     "recipient": "Atrium Health Floyd",
     "amount": 2400.0,
     "due": "2026-04-02",
+    "overdue": false
+  },
+  {
+    "id": "inv:0-ChCLLszmpheM8tDKp_CmR0QnEI0N",
+    "recipient": "Rick Dunlap",
+    "amount": 1922.5,
+    "due": "2026-04-03",
     "overdue": false
   },
   {
@@ -642,313 +534,12 @@ export const invoices: Invoice[] = [
   }
 ];
 
-export const procurement: ProcurementItem[] = [
-  {
-    "id": "1001",
-    "client": "Marriott Perimeter",
-    "plant": "ZZ Plant",
-    "size": "10\"",
-    "quantity": "2",
-    "needBy": "2024-01-15",
-    "overdue": true,
-    "supplier": ""
-  },
-  {
-    "id": "1002",
-    "client": "Code Ninjas",
-    "plant": "Pothos",
-    "size": "6\"",
-    "quantity": "3",
-    "needBy": "2024-01-16",
-    "overdue": true,
-    "supplier": ""
-  },
-  {
-    "id": "c3678652-6174-47bb-b8ab-e52fa9dfc37d",
-    "client": "Acciona Construction USA",
-    "plant": "ZZ plant",
-    "size": "10 inch",
-    "quantity": "2",
-    "needBy": "2025-12-05",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "62f46272-2721-4056-81dc-3134571aa500",
-    "client": "Acciona Construction USA",
-    "plant": "Philodendron",
-    "size": "6 inch",
-    "quantity": "4",
-    "needBy": "2025-12-05",
-    "overdue": true,
-    "supplier": "Local / Flexible"
-  },
-  {
-    "id": "fc6e0162-22f5-494e-9e1d-425839ea0568",
-    "client": "Acciona Construction USA",
-    "plant": "ZZ plant",
-    "size": "10 inch",
-    "quantity": "3",
-    "needBy": "2025-12-06",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "54f2f81c-8dc3-42c6-8199-10b85379acf1",
-    "client": "Acciona Construction USA",
-    "plant": "Pothos",
-    "size": "8 inch",
-    "quantity": "2",
-    "needBy": "2025-12-06",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "6fbb5861-7573-448c-a331-6438671d4f5b",
-    "client": "Acciona Construction USA",
-    "plant": "Fiddle Leaf Fig",
-    "size": "14 inch",
-    "quantity": "3",
-    "needBy": "2025-12-06",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "178cfde3-c4de-48c9-a5a5-3efc7c0dbd89",
-    "client": "Aim Point Digital",
-    "plant": "ZZ plant",
-    "size": "10 inch",
-    "quantity": "3",
-    "needBy": "2025-12-07",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "95e65457-f849-4463-aa65-315c6b9b499a",
-    "client": "Marriott Perimeter Center",
-    "plant": "Orchids bowl",
-    "size": "",
-    "quantity": "1",
-    "needBy": "2026-01-22",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "61e2ccc3-6c76-4291-a540-6f917bbc1002",
-    "client": "Loria Ansley",
-    "plant": "Creeping Jenny",
-    "size": "4 inch",
-    "quantity": "3",
-    "needBy": "2026-02-02",
-    "overdue": true,
-    "supplier": "Local / Flexible"
-  },
-  {
-    "id": "a90b8725-cfa3-4f82-be9c-d4d48b2a8f6f",
-    "client": "Loria Ansley",
-    "plant": "Viola",
-    "size": "4 inch",
-    "quantity": "4",
-    "needBy": "2026-02-02",
-    "overdue": true,
-    "supplier": "Local / Flexible"
-  },
-  {
-    "id": "164b560b-3bf2-4432-81da-faa0694ee2cb",
-    "client": "Best Foot Forward",
-    "plant": "Money Tree",
-    "size": "10 inch",
-    "quantity": "2",
-    "needBy": "2026-02-17",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "91119e38-0aed-4fac-a879-f622be5969c5",
-    "client": "Marriott Perimeter Center",
-    "plant": "Orchid",
-    "size": "",
-    "quantity": "3",
-    "needBy": "2026-02-19",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "441ce70c-034f-4c1d-8eba-3f580abcc764",
-    "client": "Marriott Perimeter Center",
-    "plant": "Anthurium",
-    "size": "6 inch",
-    "quantity": "1",
-    "needBy": "2026-02-19",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "f27aa62b-7994-47c7-88e5-7eae8eabc1db",
-    "client": "Marriott Perimeter Center",
-    "plant": "Croton",
-    "size": "4 inch",
-    "quantity": "3",
-    "needBy": "2026-02-19",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "0de5e29f-c4bd-472c-a2ec-6b66be504cc7",
-    "client": "Geoff Test",
-    "plant": "Orchid",
-    "size": "",
-    "quantity": "1",
-    "needBy": "2026-02-25",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "98b4451a-9675-435d-8b0f-9569c5f104e0",
-    "client": "Geoff Test",
-    "plant": "Orchid",
-    "size": "",
-    "quantity": "1",
-    "needBy": "2026-02-25",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "e599df89-9640-437a-a752-0a89f20d39f4",
-    "client": "Geoff Test",
-    "plant": "Lucky bamboo",
-    "size": "",
-    "quantity": "1",
-    "needBy": "2026-02-25",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "a4505b0f-2820-48a1-97e3-675d9dddc604",
-    "client": "Geoff Test",
-    "plant": "Succulent",
-    "size": "",
-    "quantity": "1",
-    "needBy": "2026-02-25",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "6d48a37d-6ad7-4dc5-b8f0-f79474e2bb20",
-    "client": "Geoff Test",
-    "plant": "Snake Plant",
-    "size": "",
-    "quantity": "1",
-    "needBy": "2026-02-26",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "48359fcd-7a89-4881-8a04-a8765e609b20",
-    "client": "Geoff Test",
-    "plant": "Snake Plant",
-    "size": "",
-    "quantity": "1",
-    "needBy": "2026-02-26",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "760ccf62-6245-4a64-8125-17c379fe993b",
-    "client": "Geoff Test",
-    "plant": "Bird's Nest Fern",
-    "size": "",
-    "quantity": "4",
-    "needBy": "2026-02-27",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "886e0cbc-17c1-4cb2-b938-cac977952462",
-    "client": "Geoff Test",
-    "plant": "Saucers for Large Figs",
-    "size": "",
-    "quantity": "3",
-    "needBy": "2026-02-27",
-    "overdue": true,
-    "supplier": "Pottery Warehouse"
-  },
-  {
-    "id": "7de97e62-98fe-428a-89d1-fe69a0e10923",
-    "client": "Geoff Test",
-    "plant": "Orchid",
-    "size": "",
-    "quantity": "1",
-    "needBy": "2026-02-28",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "259dcf01-873e-4870-8814-7550939814b5",
-    "client": "Geoff Test",
-    "plant": "Orchid",
-    "size": "",
-    "quantity": "3",
-    "needBy": "2026-02-28",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "f9c3f16d-8fe9-451a-ac21-35b92620e631",
-    "client": "Geoff Test",
-    "plant": "Fiddle Leaf Fig",
-    "size": "",
-    "quantity": "1",
-    "needBy": "2026-02-28",
-    "overdue": true,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "d85bc01d-7e85-4330-866e-46f11b461360",
-    "client": "Marriott Perimeter Center",
-    "plant": "Mahonia ‘Indigo Flair’",
-    "size": "3G",
-    "quantity": "1",
-    "needBy": "2026-03-05",
-    "overdue": false,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "cb8033e9-c6f3-44d2-9d80-2739f1672482",
-    "client": "Marriott Perimeter Center",
-    "plant": "Mahonia ‘Indigo Flair’",
-    "size": "3 gallon",
-    "quantity": "1",
-    "needBy": "2026-03-05",
-    "overdue": false,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "e9fd64d1-c929-4365-a1b7-e3c3ecf9afb1",
-    "client": "Perkins & Will",
-    "plant": "Snake plant",
-    "size": "10 inch",
-    "quantity": "4",
-    "needBy": "2026-03-09",
-    "overdue": false,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "0e29014b-9678-4542-8766-761653c0d08b",
-    "client": "Concord Group",
-    "plant": "Aglaonema",
-    "size": "8 inch",
-    "quantity": "3",
-    "needBy": "2026-03-09",
-    "overdue": false,
-    "supplier": "Southland Greenhouse"
-  }
-];
+export const procurement: ProcurementItem[] = [];
 
 export const hookItems: HookItem[] = [
   {
     "id": "h1",
-    "title": "Send Rick (Marriott) deposit invoice",
+    "title": "Procure materials — Rick (Marriott) outdoor planters",
     "priority": "high",
     "firstThing": true,
     "upsell": false,
