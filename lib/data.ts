@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-03T18:00:45.348905-05:00
+// AHP Dashboard data — auto-generated 2026-03-04T08:00:45.929854-05:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,11 +54,11 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-03T18:00:45.348905-05:00",
-  "todayLabel": "Tuesday, March 3",
+  "lastRefreshed": "2026-03-04T08:00:45.929854-05:00",
+  "todayLabel": "Wednesday, March 4",
   "serviceDay": {
     "done": 0,
-    "total": 4
+    "total": 5
   },
   "invoiceSummary": {
     "totalOutstanding": 13795.0,
@@ -68,42 +68,49 @@ export const meta: DashboardMeta = {
     "currentTotal": 12457.83
   },
   "taskSummary": {
-    "geoffTotal": 23,
-    "geoffOverdue": 12,
-    "briTotal": 7,
+    "geoffTotal": 27,
+    "geoffOverdue": 17,
+    "briTotal": 9,
     "briOverdue": 0
   },
   "procurementSummary": {
-    "total": 44,
+    "total": 45,
     "overdueCount": 26
   }
 };
 
 export const serviceStops: ServiceStop[] = [
   {
-    "id": "emYz6vHF5UmAstKk5U9L",
-    "title": "Service: Iris O4W",
+    "id": "XgLaQyQcrTLTOZdiDZYN",
+    "title": "Service: WITH Agency",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "OGpVZWnDrBT8p2ldYNDk",
-    "title": "Service: Bouloux Residence",
+    "id": "uKlCRjyPPLrZO4ayFABt",
+    "title": "Service: Shoob Residence",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "XO3UOntRArIMnLQU2cTk",
-    "title": "Service: Sweet Auburn BBQ",
+    "id": "y7mxEmrkyVkg0Y2TS5D0",
+    "title": "Service: Link Logistics",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "0rwM8Vw35mg5Le6dvzc7",
-    "title": "Service: Tio Luchos",
+    "id": "YNleTMz2elBktzvrhePi",
+    "title": "Service: Thadani Residence",
+    "time": "",
+    "done": false,
+    "status": "pending"
+  },
+  {
+    "id": "vzW7MhPgeYjqWStKrSAW",
+    "title": "Service: Gallery Residence",
     "time": "",
     "done": false,
     "status": "pending"
@@ -226,7 +233,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "rS8Oa8Nnpo4kZmsQl033",
     "assignedTo": "Geoff",
     "due": "2026-03-03",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "ZEyLmFIjTbL0aaqDUVbr",
@@ -235,7 +242,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "aStxefelt15SI3RkLyFf",
     "assignedTo": "Geoff",
     "due": "2026-03-03",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "Kskc5jksGqyO0ifyEhwo",
@@ -244,7 +251,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "6J5c86gM95qGVJ9SuU1U",
     "assignedTo": "Geoff",
     "due": "2026-03-03",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "EZmPLMzsOKZmfmhIehYQ",
@@ -253,7 +260,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-03",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "i8blTJNclHQ44b500exY",
@@ -262,7 +269,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-03",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "tiigwkRHDLKoi79eHBNA",
@@ -280,6 +287,24 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-07",
+    "overdue": false
+  },
+  {
+    "id": "Afv7H12iMMpE4fyE4j5x",
+    "title": "[UPSELL HIGH] e6OhX2i3s9qwdX4xxz54: Sell and install a replacement plant for the upstairs bathroom — client has already",
+    "contact": "None None",
+    "contactId": "e6OhX2i3s9qwdX4xxz54",
+    "assignedTo": "Geoff",
+    "due": "2026-03-10",
+    "overdue": false
+  },
+  {
+    "id": "lDqKDTO04Q8zq0W1odie",
+    "title": "[UPSELL HIGH] QOmCg3mvOLmnJEJCFzX0: Seasonal spring planting refresh for Iris O4W — opportunity to propose and sell new",
+    "contact": "None None",
+    "contactId": "QOmCg3mvOLmnJEJCFzX0",
+    "assignedTo": "Geoff",
+    "due": "2026-03-10",
     "overdue": false
   },
   {
@@ -301,21 +326,21 @@ export const geoffTasks: GHLTask[] = [
     "overdue": false
   },
   {
-    "id": "e2ANqx8cNCMeQkFEKXCd",
-    "title": "Anderson Windows — Order new kitchen plants for July install",
+    "id": "zk9OsTOowyYsXlqU3NFa",
+    "title": "[QOmCg3mvOLmnJEJCFzX0] Spring planting locations (outdoor/general): Visit Pike's Nursery to get price estimates for spri",
     "contact": "None None",
-    "contactId": "oUjlVbarGtNSZbOnNtXp",
+    "contactId": "QOmCg3mvOLmnJEJCFzX0",
     "assignedTo": "Geoff",
-    "due": "2026-06-10",
+    "due": "2026-03-17",
     "overdue": false
   },
   {
-    "id": "PXMn3y7WrudFiH5aKwGt",
-    "title": "Anderson Windows — Install new kitchen plants (6-month contract rotation)",
+    "id": "oXx2DmbHtL4bzmf3f493",
+    "title": "[FU2BBWA0LJI7QLU8NVer] N/A — client contact update: Update account contact information with Peyton Wade's details and en",
     "contact": "None None",
-    "contactId": "oUjlVbarGtNSZbOnNtXp",
+    "contactId": "FU2BBWA0LJI7QLU8NVer",
     "assignedTo": "Geoff",
-    "due": "2026-07-01",
+    "due": "2026-03-24",
     "overdue": false
   }
 ];
@@ -349,6 +374,15 @@ export const briTasks: GHLTask[] = [
     "overdue": false
   },
   {
+    "id": "UcoGREGed1fEfiEZBUzP",
+    "title": "[QOmCg3mvOLmnJEJCFzX0] Outdoor planters: Monitor outdoor planters at next visit to confirm neem oil treatment is control",
+    "contact": "None None",
+    "contactId": "QOmCg3mvOLmnJEJCFzX0",
+    "assignedTo": "Bri",
+    "due": "2026-03-06",
+    "overdue": false
+  },
+  {
     "id": "fFKl3P75gb0rU9OUETaR",
     "title": "[rS8Oa8Nnpo4kZmsQl033] Hawaiian pothos - Commercialization building: Continue monitoring and providing care to support o",
     "contact": "None None",
@@ -364,6 +398,15 @@ export const briTasks: GHLTask[] = [
     "contactId": "6J5c86gM95qGVJ9SuU1U",
     "assignedTo": "Bri",
     "due": "2026-03-16",
+    "overdue": false
+  },
+  {
+    "id": "XQbuPWxODaJfqgkBgD1H",
+    "title": "[FU2BBWA0LJI7QLU8NVer] Howard's yucca cane (relocated from Tio Lucho's to Sweet Auburn BBQ): Verify yucca cane is settli",
+    "contact": "None None",
+    "contactId": "FU2BBWA0LJI7QLU8NVer",
+    "assignedTo": "Bri",
+    "due": "2026-03-17",
     "overdue": false
   },
   {
@@ -905,21 +948,21 @@ export const procurement: ProcurementItem[] = [
 export const hookItems: HookItem[] = [
   {
     "id": "h1",
-    "title": "Finish appointments in Square",
-    "priority": "medium",
-    "firstThing": false,
-    "upsell": false,
-    "source": "the-hook",
-    "added": "2026-03-03"
-  },
-  {
-    "id": "h2",
     "title": "Send Rick (Marriott) deposit invoice",
     "priority": "high",
     "firstThing": true,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
+  },
+  {
+    "id": "h2",
+    "title": "Finish appointments in Square",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-04"
   },
   {
     "id": "h3",
@@ -928,7 +971,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   },
   {
     "id": "h4",
@@ -937,172 +980,146 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   },
   {
     "id": "h5",
+    "title": "UPSELL — QOmCg3mvOLmnJEJCFzX0: Spring refresh (Iris O4W)",
+    "priority": "high",
+    "firstThing": false,
+    "upsell": true,
+    "source": "the-hook",
+    "added": "2026-03-04"
+  },
+  {
+    "id": "h6",
     "title": "Scope Concord Group add-on plants",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   },
   {
-    "id": "h6",
+    "id": "h7",
     "title": "Month-end invoice audit",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   },
   {
-    "id": "h7",
+    "id": "h8",
     "title": "Verify Nick's accounts — close out if paid",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   },
   {
-    "id": "h8",
+    "id": "h9",
     "title": "Cancel Hitchcock insurance",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   },
   {
-    "id": "h9",
+    "id": "h10",
     "title": "Georgia Tech — reach out re: add-on plants",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   },
   {
-    "id": "h10",
+    "id": "h11",
     "title": "Send Georgia Tech 2026 invoice",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   },
   {
-    "id": "h11",
+    "id": "h12",
     "title": "Bank of America estimate — Carol's lead",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   },
   {
-    "id": "h12",
+    "id": "h13",
     "title": "Physician Building Entrance",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   },
   {
-    "id": "h13",
+    "id": "h14",
     "title": "Rome Hospital — bromeliad rotation planning",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   },
   {
-    "id": "h14",
+    "id": "h15",
     "title": "Rome Hospital — 90-day action plan budget",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   },
   {
-    "id": "h15",
+    "id": "h16",
     "title": "Update AHP website",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   },
   {
-    "id": "h16",
+    "id": "h17",
     "title": "Nick's Plant Doctor accounts — 2FA transfer",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   },
   {
-    "id": "h17",
+    "id": "h18",
     "title": "Bri operations setup",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   },
   {
-    "id": "h18",
+    "id": "h19",
     "title": "Hire 1 part-time person to back up Bri",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-03"
+    "added": "2026-03-04"
   }
 ];
 
 export const upcomingStops: UpcomingStop[] = [
-  {
-    "id": "XgLaQyQcrTLTOZdiDZYN",
-    "title": "Service: WITH Agency",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "uKlCRjyPPLrZO4ayFABt",
-    "title": "Service: Shoob Residence",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "y7mxEmrkyVkg0Y2TS5D0",
-    "title": "Service: Link Logistics",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "YNleTMz2elBktzvrhePi",
-    "title": "Service: Thadani Residence",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "vzW7MhPgeYjqWStKrSAW",
-    "title": "Service: Gallery Residence",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
   {
     "id": "KECakhZ9czBP7GWhZYrM",
     "title": "Service: Marriott Hotel",
@@ -1162,6 +1179,41 @@ export const upcomingStops: UpcomingStop[] = [
   {
     "id": "vLahE80jaUX9EU7cJ2MQ",
     "title": "Service: Best Foot Forward",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "KEnncAlxegJ7vW12fiSO",
+    "title": "Service: Iris O4W",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "C6ZtBPF2RV4KqfzWtKeT",
+    "title": "Service: Communities In Schools",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "Rmc19MbeFRX9Stwguenn",
+    "title": "Service: Archer Western",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "K4XKlsT21SdI3axdi5jn",
+    "title": "Service: Concord Group",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "HnfCbi8WuWvWdx9VtOTL",
+    "title": "Service: One Street Residential",
     "date": "",
     "dateLabel": "",
     "time": ""
