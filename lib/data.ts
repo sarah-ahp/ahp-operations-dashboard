@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-04T18:00:54.041977-05:00
+// AHP Dashboard data — auto-generated 2026-03-05T08:00:45.108585-05:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,11 +54,11 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-04T18:00:54.041977-05:00",
-  "todayLabel": "Wednesday, March 4",
+  "lastRefreshed": "2026-03-05T08:00:45.108585-05:00",
+  "todayLabel": "Thursday, March 5",
   "serviceDay": {
     "done": 0,
-    "total": 5
+    "total": 6
   },
   "invoiceSummary": {
     "totalOutstanding": 14976.5,
@@ -68,49 +68,56 @@ export const meta: DashboardMeta = {
     "currentTotal": 13639.33
   },
   "taskSummary": {
-    "geoffTotal": 15,
+    "geoffTotal": 22,
     "geoffOverdue": 4,
-    "briTotal": 9,
+    "briTotal": 14,
     "briOverdue": 0
   },
   "procurementSummary": {
-    "total": 0,
+    "total": 3,
     "overdueCount": 0
   }
 };
 
 export const serviceStops: ServiceStop[] = [
   {
-    "id": "XgLaQyQcrTLTOZdiDZYN",
-    "title": "Service: WITH Agency",
+    "id": "KECakhZ9czBP7GWhZYrM",
+    "title": "Service: Marriott Hotel",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "uKlCRjyPPLrZO4ayFABt",
-    "title": "Service: Shoob Residence",
+    "id": "x8tMJYkW0ZFbPRuTE5tY",
+    "title": "Service: Michelin Connected Fleet",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "y7mxEmrkyVkg0Y2TS5D0",
-    "title": "Service: Link Logistics",
+    "id": "hut7rp6ENDdRZ13S2BU7",
+    "title": "Service: Onco Health",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "YNleTMz2elBktzvrhePi",
-    "title": "Service: Thadani Residence",
+    "id": "HWNwf8i9KEIfFhHNZVUV",
+    "title": "Service: Aimpoint Digital",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "vzW7MhPgeYjqWStKrSAW",
-    "title": "Service: Gallery Residence",
+    "id": "5biPPZDERo0V4bfv52wN",
+    "title": "Service: Zalik Family Home",
+    "time": "",
+    "done": false,
+    "status": "pending"
+  },
+  {
+    "id": "d9YuvnbBJr6gRFrp506s",
+    "title": "Service: Peach State Pizza",
     "time": "",
     "done": false,
     "status": "pending"
@@ -173,6 +180,15 @@ export const geoffTasks: GHLTask[] = [
     "overdue": false
   },
   {
+    "id": "vaBTH7c2mn9grTJiePqI",
+    "title": "[65jP3WE1gqhGzJsc1unA] N/A: Follow up with Terra and Vikram to acknowledge the floor damage issue, discuss liability and",
+    "contact": "None None",
+    "contactId": "65jP3WE1gqhGzJsc1unA",
+    "assignedTo": "Geoff",
+    "due": "2026-03-07",
+    "overdue": false
+  },
+  {
     "id": "zxgV36ZKAvz8a8mKVMpO",
     "title": "Hire part-time backup for Bri - start recruiting",
     "contact": "None None",
@@ -200,6 +216,42 @@ export const geoffTasks: GHLTask[] = [
     "overdue": false
   },
   {
+    "id": "qKAGGrtvIDGekexgadMd",
+    "title": "[UPSELL MEDIUM] 65jP3WE1gqhGzJsc1unA: Offer a formal propagation and grow-out service, or upsell rooted propagations as",
+    "contact": "None None",
+    "contactId": "65jP3WE1gqhGzJsc1unA",
+    "assignedTo": "Geoff",
+    "due": "2026-03-11",
+    "overdue": false
+  },
+  {
+    "id": "gDeaZA9snzljaCws8x4T",
+    "title": "[UPSELL HIGH] 65jP3WE1gqhGzJsc1unA: Propose a summer garden design and installation package for the Thadani estate — cou",
+    "contact": "None None",
+    "contactId": "65jP3WE1gqhGzJsc1unA",
+    "assignedTo": "Geoff",
+    "due": "2026-03-11",
+    "overdue": false
+  },
+  {
+    "id": "KuIa3ioNxxIHuE2BHdJ5",
+    "title": "[UPSELL MEDIUM] tZAK3p6WnjFZBEn2a1Wn: Sell and install a new plant in the second conference room as a direct swap for th",
+    "contact": "None None",
+    "contactId": "tZAK3p6WnjFZBEn2a1Wn",
+    "assignedTo": "Geoff",
+    "due": "2026-03-11",
+    "overdue": false
+  },
+  {
+    "id": "K59ONuLXBPrIK9KTN84i",
+    "title": "[UPSELL HIGH] TSSI7sfCGsrQMEArJoOt: Spring outdoor container refresh or replanting service — scope and pricing to be det",
+    "contact": "None None",
+    "contactId": "TSSI7sfCGsrQMEArJoOt",
+    "assignedTo": "Geoff",
+    "due": "2026-03-11",
+    "overdue": false
+  },
+  {
     "id": "vII1nwslZGC6kW2q6F9B",
     "title": "[CNu3USP1J0KKYBQFnRPp] Inner office plants (unspecified): Stephen to follow up with more info; coordinate with client to",
     "contact": "None None",
@@ -224,6 +276,24 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "QOmCg3mvOLmnJEJCFzX0",
     "assignedTo": "Geoff",
     "due": "2026-03-17",
+    "overdue": false
+  },
+  {
+    "id": "psEM8kAGpvYQIFBqRvjg",
+    "title": "[tZAK3p6WnjFZBEn2a1Wn] Bird's nest fern - second conference room (next to Hoya): Source pricing and select an appropriat",
+    "contact": "None None",
+    "contactId": "tZAK3p6WnjFZBEn2a1Wn",
+    "assignedTo": "Geoff",
+    "due": "2026-03-18",
+    "overdue": false
+  },
+  {
+    "id": "O5raId6wOaguq09R3Lrh",
+    "title": "[TSSI7sfCGsrQMEArJoOt] Outdoor containers: Gather all measurements of outdoor containers on next visit and prepare a pri",
+    "contact": "None None",
+    "contactId": "TSSI7sfCGsrQMEArJoOt",
+    "assignedTo": "Geoff",
+    "due": "2026-03-18",
     "overdue": false
   },
   {
@@ -293,6 +363,24 @@ export const briTasks: GHLTask[] = [
     "overdue": false
   },
   {
+    "id": "zCQGAannE3QmlgLUIr4Z",
+    "title": "[65jP3WE1gqhGzJsc1unA] Large planters (specific plants unspecified): Inspect all large planters for drainage adequacy; a",
+    "contact": "None None",
+    "contactId": "65jP3WE1gqhGzJsc1unA",
+    "assignedTo": "Bri",
+    "due": "2026-03-07",
+    "overdue": false
+  },
+  {
+    "id": "7IOGsccodoBIAXdcN7Ma",
+    "title": "[tZAK3p6WnjFZBEn2a1Wn] Ficus - main conference room: Monitor treatment response; re-apply insecticidal soap if needed an",
+    "contact": "None None",
+    "contactId": "tZAK3p6WnjFZBEn2a1Wn",
+    "assignedTo": "Bri",
+    "due": "2026-03-07",
+    "overdue": false
+  },
+  {
     "id": "fFKl3P75gb0rU9OUETaR",
     "title": "[rS8Oa8Nnpo4kZmsQl033] Hawaiian pothos - Commercialization building: Continue monitoring and providing care to support o",
     "contact": "None None",
@@ -320,6 +408,24 @@ export const briTasks: GHLTask[] = [
     "overdue": false
   },
   {
+    "id": "FRENPCzyyIsKmXjk4R2d",
+    "title": "[jyGWRgsucfPTH2cGwb2W] Ficus – bedroom: Relocate ficus away from the vent; develop and implement the plan discussed with",
+    "contact": "None None",
+    "contactId": "jyGWRgsucfPTH2cGwb2W",
+    "assignedTo": "Bri",
+    "due": "2026-03-18",
+    "overdue": false
+  },
+  {
+    "id": "nDwPYr9HFZtp5C3Wrw0k",
+    "title": "[65jP3WE1gqhGzJsc1unA] Vikram's plants (specific plants unspecified): Identify which plants are suitable for propagation",
+    "contact": "None None",
+    "contactId": "65jP3WE1gqhGzJsc1unA",
+    "assignedTo": "Bri",
+    "due": "2026-03-18",
+    "overdue": false
+  },
+  {
     "id": "YZ6CYb8jrh0tjgoZFnxO",
     "title": "[CNu3USP1J0KKYBQFnRPp] Money tree: Monitor growth progress following rotation; continue rotating at future visits to enc",
     "contact": "None None",
@@ -335,6 +441,15 @@ export const briTasks: GHLTask[] = [
     "contactId": "6J5c86gM95qGVJ9SuU1U",
     "assignedTo": "Bri",
     "due": "2026-03-23",
+    "overdue": false
+  },
+  {
+    "id": "ttuMDX9ADeUSEs013yWa",
+    "title": "[AejoIdkJBeFAaO5bUQhl] All plants - account-wide: Schedule fertilizer application in spring to compensate for dark offic",
+    "contact": "None None",
+    "contactId": "AejoIdkJBeFAaO5bUQhl",
+    "assignedTo": "Bri",
+    "due": "2026-03-25",
     "overdue": false
   }
 ];
@@ -552,7 +667,38 @@ export const invoices: Invoice[] = [
   }
 ];
 
-export const procurement: ProcurementItem[] = [];
+export const procurement: ProcurementItem[] = [
+  {
+    "id": "1001",
+    "client": "tZAK3p6WnjFZBEn2a1Wn",
+    "plant": "Ficus (replacement TBD if treatment fails)",
+    "size": "TBD",
+    "quantity": "1",
+    "needBy": "2026-03-07",
+    "overdue": false,
+    "supplier": ""
+  },
+  {
+    "id": "1002",
+    "client": "tZAK3p6WnjFZBEn2a1Wn",
+    "plant": "Replacement plant TBD (to replace bird's nest fern)",
+    "size": "TBD",
+    "quantity": "1",
+    "needBy": "2026-03-18",
+    "overdue": false,
+    "supplier": ""
+  },
+  {
+    "id": "1003",
+    "client": "dMFg921y4yw5gYWTwFp5",
+    "plant": "Saucers or pikes (container accessories)",
+    "size": "Unknown - to match existing containers",
+    "quantity": "1",
+    "needBy": "2026-03-18",
+    "overdue": false,
+    "supplier": ""
+  }
+];
 
 export const hookItems: HookItem[] = [
   {
@@ -562,7 +708,7 @@ export const hookItems: HookItem[] = [
     "firstThing": true,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h2",
@@ -571,7 +717,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h3",
@@ -580,7 +726,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h4",
@@ -589,16 +735,16 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h5",
-    "title": "UPSELL — QOmCg3mvOLmnJEJCFzX0: Spring refresh (Iris O4W)",
+    "title": "UPSELL — Iris O4W: Spring refresh",
     "priority": "high",
     "firstThing": false,
     "upsell": true,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h6",
@@ -607,7 +753,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h7",
@@ -616,7 +762,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h8",
@@ -625,7 +771,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h9",
@@ -634,7 +780,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h10",
@@ -643,7 +789,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h11",
@@ -652,7 +798,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h12",
@@ -661,7 +807,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h13",
@@ -670,7 +816,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h14",
@@ -679,7 +825,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h15",
@@ -688,7 +834,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h16",
@@ -697,7 +843,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h17",
@@ -706,7 +852,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h18",
@@ -715,7 +861,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
   },
   {
     "id": "h19",
@@ -724,53 +870,29 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-04"
+    "added": "2026-03-05"
+  },
+  {
+    "id": "h20",
+    "title": "UPSELL — Thadani Residence: Propose summer garden design/install package",
+    "priority": "high",
+    "firstThing": false,
+    "upsell": true,
+    "source": "the-hook",
+    "added": "2026-03-05"
+  },
+  {
+    "id": "h21",
+    "title": "UPSELL — [⚠️ Account unknown — GHL ID: TSSI7sfCGsrQMEArJoOt]: Spring outdoor container refresh",
+    "priority": "high",
+    "firstThing": false,
+    "upsell": true,
+    "source": "the-hook",
+    "added": "2026-03-05"
   }
 ];
 
 export const upcomingStops: UpcomingStop[] = [
-  {
-    "id": "KECakhZ9czBP7GWhZYrM",
-    "title": "Service: Marriott Hotel",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "x8tMJYkW0ZFbPRuTE5tY",
-    "title": "Service: Michelin Connected Fleet",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "hut7rp6ENDdRZ13S2BU7",
-    "title": "Service: Onco Health",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "HWNwf8i9KEIfFhHNZVUV",
-    "title": "Service: Aimpoint Digital",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "5biPPZDERo0V4bfv52wN",
-    "title": "Service: Zalik Family Home",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "d9YuvnbBJr6gRFrp506s",
-    "title": "Service: Peach State Pizza",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
   {
     "id": "NaA17pUY5Y81MRR8Poy8",
     "title": "Service: Advocate Health Rome Hospital",
@@ -823,6 +945,48 @@ export const upcomingStops: UpcomingStop[] = [
   {
     "id": "HnfCbi8WuWvWdx9VtOTL",
     "title": "Service: One Street Residential",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "1kS0FgU3TdHM8WVFdSEy",
+    "title": "Service: Luna Upper Westside",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "uW5KI6edLKe6JFNs291K",
+    "title": "Service: Link Logistics",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "zh7xrs7lrIKVtcl0bcr5",
+    "title": "Service: Heritage Distribution",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "K5mR7HdWkjmORzlON4Kn",
+    "title": "Service: Thadani Residence",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "PZgkyiLG9LiBMtQ5rVtC",
+    "title": "Service: Ventura Residence",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "a09NOj3hg2BXBo2BRcgr",
+    "title": "Service: Edward Jones",
     "date": "",
     "dateLabel": "",
     "time": ""
