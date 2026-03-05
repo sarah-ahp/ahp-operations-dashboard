@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-05T10:00:45.777777-05:00
+// AHP Dashboard data — auto-generated 2026-03-05T11:01:21.565475-05:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,18 +54,18 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-05T10:00:45.777777-05:00",
+  "lastRefreshed": "2026-03-05T11:01:21.565475-05:00",
   "todayLabel": "Thursday, March 5",
   "serviceDay": {
     "done": 0,
     "total": 6
   },
   "invoiceSummary": {
-    "totalOutstanding": 14976.5,
+    "totalOutstanding": 14751.17,
     "overdueCount": 7,
     "overdueTotal": 1337.17,
-    "currentCount": 46,
-    "currentTotal": 13639.33
+    "currentCount": 45,
+    "currentTotal": 13414.0
   },
   "taskSummary": {
     "geoffTotal": 22,
@@ -582,13 +582,6 @@ export const invoices: Invoice[] = [
     "overdue": false
   },
   {
-    "id": "inv:0-ChDXEuaWiYIBX7VTP1s8vwgOEI0N",
-    "recipient": "Chris Bentley",
-    "amount": 225.33,
-    "due": "2026-03-30",
-    "overdue": false
-  },
-  {
     "id": "inv:0-ChBC2WoO5qVXn5zZQXUAgFyuEI0N",
     "recipient": "Acciona Construction USA",
     "amount": 214.5,
@@ -663,6 +656,13 @@ export const invoices: Invoice[] = [
     "recipient": "Rick Dunlap",
     "amount": 214.5,
     "due": "2026-04-30",
+    "overdue": false
+  },
+  {
+    "id": "inv:0-ChBYJQdTIxxVlDkIICgLbIITEI0N",
+    "recipient": "CDI, Glenridge LLC",
+    "amount": 214.5,
+    "due": "2026-04-14",
     "overdue": false
   }
 ];
