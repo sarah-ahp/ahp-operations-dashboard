@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-05T18:00:46.865616-05:00
+// AHP Dashboard data — auto-generated 2026-03-06T08:00:43.875690-05:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,11 +54,11 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-05T18:00:46.865616-05:00",
-  "todayLabel": "Thursday, March 5",
+  "lastRefreshed": "2026-03-06T08:00:43.875690-05:00",
+  "todayLabel": "Friday, March 6",
   "serviceDay": {
     "done": 0,
-    "total": 6
+    "total": 1
   },
   "invoiceSummary": {
     "totalOutstanding": 14751.17,
@@ -68,56 +68,21 @@ export const meta: DashboardMeta = {
     "currentTotal": 13414.0
   },
   "taskSummary": {
-    "geoffTotal": 22,
+    "geoffTotal": 17,
     "geoffOverdue": 4,
     "briTotal": 14,
-    "briOverdue": 0
+    "briOverdue": 3
   },
   "procurementSummary": {
-    "total": 3,
+    "total": 4,
     "overdueCount": 0
   }
 };
 
 export const serviceStops: ServiceStop[] = [
   {
-    "id": "KECakhZ9czBP7GWhZYrM",
-    "title": "Service: Marriott Hotel",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "x8tMJYkW0ZFbPRuTE5tY",
-    "title": "Service: Michelin Connected Fleet",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "hut7rp6ENDdRZ13S2BU7",
-    "title": "Service: Onco Health",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "HWNwf8i9KEIfFhHNZVUV",
-    "title": "Service: Aimpoint Digital",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "5biPPZDERo0V4bfv52wN",
-    "title": "Service: Zalik Family Home",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "d9YuvnbBJr6gRFrp506s",
-    "title": "Service: Peach State Pizza",
+    "id": "NaA17pUY5Y81MRR8Poy8",
+    "title": "Service: Advocate Health Rome Hospital",
     "time": "",
     "done": false,
     "status": "pending"
@@ -160,51 +125,6 @@ export const geoffTasks: GHLTask[] = [
     "assignedTo": "Geoff",
     "due": "2026-03-03",
     "overdue": true
-  },
-  {
-    "id": "wx1RmxcU9ZFLUoGgYB9X",
-    "title": ":",
-    "contact": "None None",
-    "contactId": "jyGWRgsucfPTH2cGwb2W",
-    "assignedTo": "Geoff",
-    "due": "2026-03-05",
-    "overdue": false
-  },
-  {
-    "id": "DTJJ5Ohh2mbdz4EgmOyQ",
-    "title": ":",
-    "contact": "None None",
-    "contactId": "tZAK3p6WnjFZBEn2a1Wn",
-    "assignedTo": "Geoff",
-    "due": "2026-03-05",
-    "overdue": false
-  },
-  {
-    "id": "vaBTH7c2mn9grTJiePqI",
-    "title": "[65jP3WE1gqhGzJsc1unA] N/A: Follow up with Terra and Vikram to acknowledge the floor damage issue, discuss liability and",
-    "contact": "None None",
-    "contactId": "65jP3WE1gqhGzJsc1unA",
-    "assignedTo": "Geoff",
-    "due": "2026-03-07",
-    "overdue": false
-  },
-  {
-    "id": "zxgV36ZKAvz8a8mKVMpO",
-    "title": "Hire part-time backup for Bri - start recruiting",
-    "contact": "None None",
-    "contactId": "oUjlVbarGtNSZbOnNtXp",
-    "assignedTo": "Geoff",
-    "due": "2026-03-07",
-    "overdue": false
-  },
-  {
-    "id": "Afv7H12iMMpE4fyE4j5x",
-    "title": "[UPSELL HIGH] e6OhX2i3s9qwdX4xxz54: Sell and install a replacement plant for the upstairs bathroom — client has already",
-    "contact": "None None",
-    "contactId": "e6OhX2i3s9qwdX4xxz54",
-    "assignedTo": "Geoff",
-    "due": "2026-03-10",
-    "overdue": false
   },
   {
     "id": "lDqKDTO04Q8zq0W1odie",
@@ -333,7 +253,7 @@ export const briTasks: GHLTask[] = [
     "contactId": "rS8Oa8Nnpo4kZmsQl033",
     "assignedTo": "Bri",
     "due": "2026-03-05",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "5b2WG1vtD7WhCrg3FhOj",
@@ -342,7 +262,7 @@ export const briTasks: GHLTask[] = [
     "contactId": "aStxefelt15SI3RkLyFf",
     "assignedTo": "Bri",
     "due": "2026-03-05",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "z0ochSrtPL3g2DF5CFAd",
@@ -351,7 +271,7 @@ export const briTasks: GHLTask[] = [
     "contactId": "aStxefelt15SI3RkLyFf",
     "assignedTo": "Bri",
     "due": "2026-03-05",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "UcoGREGed1fEfiEZBUzP",
@@ -697,6 +617,16 @@ export const procurement: ProcurementItem[] = [
     "needBy": "2026-03-18",
     "overdue": false,
     "supplier": ""
+  },
+  {
+    "id": "19f43f6a-5de8-4c9a-b7b5-2048012fbdae",
+    "client": "Marriott Perimeter Center",
+    "plant": "Tropical floor plant (palm alternative, humidity/salt tolerant)",
+    "size": "10 inch",
+    "quantity": "4",
+    "needBy": "2026-04-02",
+    "overdue": false,
+    "supplier": "Southland Greenhouse"
   }
 ];
 
@@ -708,7 +638,7 @@ export const hookItems: HookItem[] = [
     "firstThing": true,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h2",
@@ -717,7 +647,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h3",
@@ -726,7 +656,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h4",
@@ -735,7 +665,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h5",
@@ -744,7 +674,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": true,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h6",
@@ -753,7 +683,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h7",
@@ -762,7 +692,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h8",
@@ -771,7 +701,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h9",
@@ -780,7 +710,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h10",
@@ -789,7 +719,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h11",
@@ -798,7 +728,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h12",
@@ -807,7 +737,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h13",
@@ -816,7 +746,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h14",
@@ -825,7 +755,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h15",
@@ -834,7 +764,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h16",
@@ -843,7 +773,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h17",
@@ -852,7 +782,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h18",
@@ -861,7 +791,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h19",
@@ -870,7 +800,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h20",
@@ -879,7 +809,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": true,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   },
   {
     "id": "h21",
@@ -888,18 +818,11 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": true,
     "source": "the-hook",
-    "added": "2026-03-05"
+    "added": "2026-03-06"
   }
 ];
 
 export const upcomingStops: UpcomingStop[] = [
-  {
-    "id": "NaA17pUY5Y81MRR8Poy8",
-    "title": "Service: Advocate Health Rome Hospital",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
   {
     "id": "UG7CmWUOVW6IU60QBSTH",
     "title": "Service: ACCIONA Construction",
@@ -987,6 +910,13 @@ export const upcomingStops: UpcomingStop[] = [
   {
     "id": "a09NOj3hg2BXBo2BRcgr",
     "title": "Service: Edward Jones",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "g3rwWMdAmahY7QCt3rLd",
+    "title": "Service: Andersen Windows & Doors",
     "date": "",
     "dateLabel": "",
     "time": ""
