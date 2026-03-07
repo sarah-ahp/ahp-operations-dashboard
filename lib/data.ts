@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-06T16:00:47.767647-05:00
+// AHP Dashboard data — auto-generated 2026-03-06T22:39:18.341542-05:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,7 +54,7 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-06T16:00:47.767647-05:00",
+  "lastRefreshed": "2026-03-06T22:39:18.341542-05:00",
   "todayLabel": "Friday, March 6",
   "serviceDay": {
     "done": 0,
@@ -68,13 +68,13 @@ export const meta: DashboardMeta = {
     "currentTotal": 13414.0
   },
   "taskSummary": {
-    "geoffTotal": 17,
+    "geoffTotal": 18,
     "geoffOverdue": 4,
     "briTotal": 14,
     "briOverdue": 3
   },
   "procurementSummary": {
-    "total": 4,
+    "total": 6,
     "overdueCount": 0
   }
 };
@@ -125,6 +125,15 @@ export const geoffTasks: GHLTask[] = [
     "assignedTo": "Geoff",
     "due": "2026-03-03",
     "overdue": true
+  },
+  {
+    "id": "6votc4BDCi4Pwet4n2rI",
+    "title": ":",
+    "contact": "None None",
+    "contactId": "scYgB7xiQESLpvqmhyQq",
+    "assignedTo": "Geoff",
+    "due": "2026-03-07",
+    "overdue": false
   },
   {
     "id": "lDqKDTO04Q8zq0W1odie",
@@ -625,6 +634,26 @@ export const procurement: ProcurementItem[] = [
     "size": "10 inch",
     "quantity": "4",
     "needBy": "2026-04-02",
+    "overdue": false,
+    "supplier": "Southland Greenhouse"
+  },
+  {
+    "id": "27db29ed-bf76-4f19-af8f-7132139dcee3",
+    "client": "Advocate Health Rome Hospital",
+    "plant": "ZZ plant (low light option; alternatives: Cast Iron plant or 'Janet Craig' Dracaena)",
+    "size": "14 inch",
+    "quantity": "1",
+    "needBy": "2026-04-03",
+    "overdue": false,
+    "supplier": "Southland Greenhouse"
+  },
+  {
+    "id": "19840a8d-6197-4fe6-a97d-97caf627f2d4",
+    "client": "Advocate Health Rome Hospital",
+    "plant": "Schefflera (leggy; replacement needed)",
+    "size": "",
+    "quantity": "1",
+    "needBy": "2026-04-03",
     "overdue": false,
     "supplier": "Southland Greenhouse"
   }
