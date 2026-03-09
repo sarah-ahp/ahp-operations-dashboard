@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-09T09:01:39.266842-04:00
+// AHP Dashboard data — auto-generated 2026-03-09T10:01:20.808832-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,16 +54,16 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-09T09:01:39.266842-04:00",
+  "lastRefreshed": "2026-03-09T10:01:20.808832-04:00",
   "todayLabel": "Monday, March 9",
   "serviceDay": {
     "done": 0,
     "total": 4
   },
   "invoiceSummary": {
-    "totalOutstanding": 14751.17,
-    "overdueCount": 7,
-    "overdueTotal": 1337.17,
+    "totalOutstanding": 14651.17,
+    "overdueCount": 6,
+    "overdueTotal": 1237.17,
     "currentCount": 45,
     "currentTotal": 13414.0
   },
@@ -583,13 +583,6 @@ export const invoices: Invoice[] = [
     "overdue": true
   },
   {
-    "id": "inv:0-ChAXMmSZ7tYSvNILy3D9tDNXEI0N",
-    "recipient": "Machae Davis",
-    "amount": 100.0,
-    "due": "2026-03-02",
-    "overdue": true
-  },
-  {
     "id": "inv:0-ChBspI9ez_-fCknXIi9elohpEI0N",
     "recipient": "Atrium Health Floyd",
     "amount": 2400.0,
@@ -748,6 +741,13 @@ export const invoices: Invoice[] = [
     "recipient": "CDI, Glenridge LLC",
     "amount": 214.5,
     "due": "2026-04-14",
+    "overdue": false
+  },
+  {
+    "id": "inv:0-ChBVIoctAEOvVUqvdFK7eTITEI0N",
+    "recipient": "Tim Harris",
+    "amount": 214.5,
+    "due": "2026-03-30",
     "overdue": false
   }
 ];
