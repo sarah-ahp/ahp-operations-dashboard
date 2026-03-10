@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-10T10:01:06.862722-04:00
+// AHP Dashboard data — auto-generated 2026-03-10T11:01:41.039673-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,7 +54,7 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-10T10:01:06.862722-04:00",
+  "lastRefreshed": "2026-03-10T11:01:41.039673-04:00",
   "todayLabel": "Tuesday, March 10",
   "serviceDay": {
     "done": 0,
@@ -81,28 +81,28 @@ export const meta: DashboardMeta = {
 
 export const serviceStops: ServiceStop[] = [
   {
-    "id": "Rmc19MbeFRX9Stwguenn",
+    "id": "Rmc19MbeFRX9Stwguenn_1773144000000_7200",
     "title": "Service: Archer Western",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "K4XKlsT21SdI3axdi5jn",
+    "id": "K4XKlsT21SdI3axdi5jn_1773151200000_3600",
     "title": "Service: Concord Group",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "HnfCbi8WuWvWdx9VtOTL",
+    "id": "HnfCbi8WuWvWdx9VtOTL_1773158400000_3600",
     "title": "Service: One Street Residential",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "1kS0FgU3TdHM8WVFdSEy",
+    "id": "1kS0FgU3TdHM8WVFdSEy_1773165600000_3600",
     "title": "Service: Luna Upper Westside",
     "time": "",
     "done": false,
@@ -876,64 +876,92 @@ export const hookItems: HookItem[] = [];
 
 export const upcomingStops: UpcomingStop[] = [
   {
-    "id": "uW5KI6edLKe6JFNs291K",
+    "id": "uW5KI6edLKe6JFNs291K_1773230400000_3600",
     "title": "Service: Link Logistics",
     "date": "",
     "dateLabel": "",
     "time": ""
   },
   {
-    "id": "zh7xrs7lrIKVtcl0bcr5",
+    "id": "zh7xrs7lrIKVtcl0bcr5_1773237600000_3600",
     "title": "Service: Heritage Distribution",
     "date": "",
     "dateLabel": "",
     "time": ""
   },
   {
-    "id": "K5mR7HdWkjmORzlON4Kn",
+    "id": "K5mR7HdWkjmORzlON4Kn_1773244800000_3600",
     "title": "Service: Thadani Residence",
     "date": "",
     "dateLabel": "",
     "time": ""
   },
   {
-    "id": "PZgkyiLG9LiBMtQ5rVtC",
+    "id": "PZgkyiLG9LiBMtQ5rVtC_1773252000000_3600",
     "title": "Service: Ventura Residence",
     "date": "",
     "dateLabel": "",
     "time": ""
   },
   {
-    "id": "a09NOj3hg2BXBo2BRcgr",
+    "id": "a09NOj3hg2BXBo2BRcgr_1773324000000_3600",
     "title": "Service: Edward Jones",
     "date": "",
     "dateLabel": "",
     "time": ""
   },
   {
-    "id": "g3rwWMdAmahY7QCt3rLd",
+    "id": "g3rwWMdAmahY7QCt3rLd_1773403200000_21600",
     "title": "Service: Andersen Windows & Doors",
     "date": "",
     "dateLabel": "",
     "time": ""
   },
   {
-    "id": "wAaJzKEU96PuThXyYkKt",
+    "id": "wAaJzKEU96PuThXyYkKt_1773662400000_3600",
     "title": "Service: Perkins and Will",
     "date": "",
     "dateLabel": "",
     "time": ""
   },
   {
-    "id": "aWEhD1y56UHVoAMTNWv8",
+    "id": "aWEhD1y56UHVoAMTNWv8_1773669600000_3600",
     "title": "Service: Loria Ansley",
     "date": "",
     "dateLabel": "",
     "time": ""
   },
   {
-    "id": "jFRtWj6Utr38ZKxrkzTc",
+    "id": "jFRtWj6Utr38ZKxrkzTc_1773676800000_3600",
     "title": "Service: GA Tech - Office of Commercialization",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "QAS0lE6o5lq8koZiGUuU_1773752400000_3600",
+    "title": "Service: Iris O4W",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "aKVjS9ebG6lmx9ixSjkS_1773759600000_3600",
+    "title": "Service: Bouloux Residence",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "2Zx4bJqgF8UjnYAY3qSr_1773770400000_3600",
+    "title": "Service: Sweet Auburn BBQ",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "N7XMXdA8qqeCcN3NExO0_1773774000000_3600",
+    "title": "Service: Tio Luchos",
     "date": "",
     "dateLabel": "",
     "time": ""
@@ -941,34 +969,6 @@ export const upcomingStops: UpcomingStop[] = [
   {
     "id": "QcGmTvp2jYhPzB2rpXVy",
     "title": "Service: Matsuda Eyewear",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "QAS0lE6o5lq8koZiGUuU",
-    "title": "Service: Iris O4W",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "aKVjS9ebG6lmx9ixSjkS",
-    "title": "Service: Bouloux Residence",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "2Zx4bJqgF8UjnYAY3qSr",
-    "title": "Service: Sweet Auburn BBQ",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "N7XMXdA8qqeCcN3NExO0",
-    "title": "Service: Tio Luchos",
     "date": "",
     "dateLabel": "",
     "time": ""
