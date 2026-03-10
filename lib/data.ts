@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-10T15:01:22.922270-04:00
+// AHP Dashboard data — auto-generated 2026-03-10T17:01:32.142372-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,7 +54,7 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-10T15:01:22.922270-04:00",
+  "lastRefreshed": "2026-03-10T17:01:32.142372-04:00",
   "todayLabel": "Tuesday, March 10",
   "serviceDay": {
     "done": 0,
