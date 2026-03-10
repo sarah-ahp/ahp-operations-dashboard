@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-10T17:01:32.142372-04:00
+// AHP Dashboard data — auto-generated 2026-03-10T18:00:53.104599-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,7 +54,7 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-10T17:01:32.142372-04:00",
+  "lastRefreshed": "2026-03-10T18:00:53.104599-04:00",
   "todayLabel": "Tuesday, March 10",
   "serviceDay": {
     "done": 0,
@@ -68,7 +68,7 @@ export const meta: DashboardMeta = {
     "currentTotal": 13199.5
   },
   "taskSummary": {
-    "geoffTotal": 28,
+    "geoffTotal": 29,
     "geoffOverdue": 6,
     "briTotal": 26,
     "briOverdue": 8
@@ -172,6 +172,15 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "QOmCg3mvOLmnJEJCFzX0",
     "assignedTo": "Geoff",
     "due": "2026-03-10",
+    "overdue": false
+  },
+  {
+    "id": "8WYoQvZ2jOQgeAkGnBiq",
+    "title": ":",
+    "contact": "None None",
+    "contactId": "casd0VMuTqGUrhXiPuH4",
+    "assignedTo": "Geoff",
+    "due": "2026-03-11",
     "overdue": false
   },
   {
@@ -323,15 +332,6 @@ export const geoffTasks: GHLTask[] = [
     "title": "[tZAK3p6WnjFZBEn2a1Wn] Bird's nest fern - second conference room (next to Hoya): Source pricing and select an appropriat",
     "contact": "None None",
     "contactId": "tZAK3p6WnjFZBEn2a1Wn",
-    "assignedTo": "Geoff",
-    "due": "2026-03-18",
-    "overdue": false
-  },
-  {
-    "id": "O5raId6wOaguq09R3Lrh",
-    "title": "[TSSI7sfCGsrQMEArJoOt] Outdoor containers: Gather all measurements of outdoor containers on next visit and prepare a pri",
-    "contact": "None None",
-    "contactId": "TSSI7sfCGsrQMEArJoOt",
     "assignedTo": "Geoff",
     "due": "2026-03-18",
     "overdue": false
