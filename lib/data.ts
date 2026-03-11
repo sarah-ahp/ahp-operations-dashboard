@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-10T18:00:53.104599-04:00
+// AHP Dashboard data — auto-generated 2026-03-11T15:38:45.134858-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,23 +54,23 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-10T18:00:53.104599-04:00",
-  "todayLabel": "Tuesday, March 10",
+  "lastRefreshed": "2026-03-11T15:38:45.134858-04:00",
+  "todayLabel": "Wednesday, March 11",
   "serviceDay": {
     "done": 0,
     "total": 4
   },
   "invoiceSummary": {
-    "totalOutstanding": 14090.0,
+    "totalOutstanding": 13875.5,
     "overdueCount": 4,
     "overdueTotal": 890.5,
-    "currentCount": 44,
-    "currentTotal": 13199.5
+    "currentCount": 43,
+    "currentTotal": 12985.0
   },
   "taskSummary": {
-    "geoffTotal": 29,
-    "geoffOverdue": 6,
-    "briTotal": 26,
+    "geoffTotal": 31,
+    "geoffOverdue": 7,
+    "briTotal": 27,
     "briOverdue": 8
   },
   "procurementSummary": {
@@ -81,29 +81,29 @@ export const meta: DashboardMeta = {
 
 export const serviceStops: ServiceStop[] = [
   {
-    "id": "Rmc19MbeFRX9Stwguenn_1773144000000_7200",
-    "title": "Service: Archer Western",
+    "id": "uW5KI6edLKe6JFNs291K_1773230400000_3600",
+    "title": "Service: Link Logistics",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "K4XKlsT21SdI3axdi5jn_1773151200000_3600",
-    "title": "Service: Concord Group",
+    "id": "zh7xrs7lrIKVtcl0bcr5_1773237600000_3600",
+    "title": "Service: Heritage Distribution",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "HnfCbi8WuWvWdx9VtOTL_1773158400000_3600",
-    "title": "Service: One Street Residential",
+    "id": "K5mR7HdWkjmORzlON4Kn_1773244800000_3600",
+    "title": "Service: Thadani Residence",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "1kS0FgU3TdHM8WVFdSEy_1773165600000_3600",
-    "title": "Service: Luna Upper Westside",
+    "id": "PZgkyiLG9LiBMtQ5rVtC_1773252000000_3600",
+    "title": "Service: Ventura Residence",
     "time": "",
     "done": false,
     "status": "pending"
@@ -172,7 +172,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "QOmCg3mvOLmnJEJCFzX0",
     "assignedTo": "Geoff",
     "due": "2026-03-10",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "8WYoQvZ2jOQgeAkGnBiq",
@@ -319,21 +319,21 @@ export const geoffTasks: GHLTask[] = [
     "overdue": false
   },
   {
+    "id": "9oEdYAhZy5C7DmOMJKgU",
+    "title": "[UPSELL MEDIUM] 1hgIZJBoLujtw3CqZArM: Outdoor containers have been measured, suggesting potential to propose outdoor pla",
+    "contact": "None None",
+    "contactId": "1hgIZJBoLujtw3CqZArM",
+    "assignedTo": "Geoff",
+    "due": "2026-03-17",
+    "overdue": false
+  },
+  {
     "id": "zk9OsTOowyYsXlqU3NFa",
     "title": "[QOmCg3mvOLmnJEJCFzX0] Spring planting locations (outdoor/general): Visit Pike's Nursery to get price estimates for spri",
     "contact": "None None",
     "contactId": "QOmCg3mvOLmnJEJCFzX0",
     "assignedTo": "Geoff",
     "due": "2026-03-17",
-    "overdue": false
-  },
-  {
-    "id": "psEM8kAGpvYQIFBqRvjg",
-    "title": "[tZAK3p6WnjFZBEn2a1Wn] Bird's nest fern - second conference room (next to Hoya): Source pricing and select an appropriat",
-    "contact": "None None",
-    "contactId": "tZAK3p6WnjFZBEn2a1Wn",
-    "assignedTo": "Geoff",
-    "due": "2026-03-18",
     "overdue": false
   }
 ];
@@ -427,6 +427,15 @@ export const briTasks: GHLTask[] = [
     "contactId": "QEBQUDX00CESSP2Vb0ry",
     "assignedTo": "Bri",
     "due": "2026-03-12",
+    "overdue": false
+  },
+  {
+    "id": "eX2jGjkROb5bH621gtWq",
+    "title": "[casd0VMuTqGUrhXiPuH4] Dracaenas (location unspecified): Monitor dracaenas at next visit for signs of continued or worse",
+    "contact": "None None",
+    "contactId": "casd0VMuTqGUrhXiPuH4",
+    "assignedTo": "Bri",
+    "due": "2026-03-13",
     "overdue": false
   },
   {
@@ -553,15 +562,6 @@ export const briTasks: GHLTask[] = [
     "contactId": "AejoIdkJBeFAaO5bUQhl",
     "assignedTo": "Bri",
     "due": "2026-03-25",
-    "overdue": false
-  },
-  {
-    "id": "Fq4nWNEdqiJzoe67SwMg",
-    "title": "[scYgB7xiQESLpvqmhyQq] Mother's garden - outdoor area: Schedule garden cleaning and planting visit with Stacy for end of",
-    "contact": "None None",
-    "contactId": "scYgB7xiQESLpvqmhyQq",
-    "assignedTo": "Bri",
-    "due": "2026-03-27",
     "overdue": false
   }
 ];
@@ -876,34 +876,6 @@ export const hookItems: HookItem[] = [];
 
 export const upcomingStops: UpcomingStop[] = [
   {
-    "id": "uW5KI6edLKe6JFNs291K_1773230400000_3600",
-    "title": "Service: Link Logistics",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "zh7xrs7lrIKVtcl0bcr5_1773237600000_3600",
-    "title": "Service: Heritage Distribution",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "K5mR7HdWkjmORzlON4Kn_1773244800000_3600",
-    "title": "Service: Thadani Residence",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "PZgkyiLG9LiBMtQ5rVtC_1773252000000_3600",
-    "title": "Service: Ventura Residence",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
     "id": "a09NOj3hg2BXBo2BRcgr_1773324000000_3600",
     "title": "Service: Edward Jones",
     "date": "",
@@ -967,8 +939,36 @@ export const upcomingStops: UpcomingStop[] = [
     "time": ""
   },
   {
-    "id": "QcGmTvp2jYhPzB2rpXVy",
-    "title": "Service: Matsuda Eyewear",
+    "id": "hakDWcwAk0rHVJlIGoiq_1773838800000_3600",
+    "title": "Service: WITH/Agency",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "sBackdXtayYajQhbAvgt_1773842400000_3600",
+    "title": "Service: Shoob Residence",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "0uzv6oEMniAVzSwZNh0M_1773849600000_3600",
+    "title": "Service: Link Logistics",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "V6hrF2OpnMC3zNPcTl1b_1773856800000_3600",
+    "title": "Service: Thadani Residence",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "7ZQ1Z0uWoH6s1x4u6MCP_1773864000000_3600",
+    "title": "Service: Gallery Residence",
     "date": "",
     "dateLabel": "",
     "time": ""
