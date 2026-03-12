@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-11T18:01:00.231295-04:00
+// AHP Dashboard data — auto-generated 2026-03-12T08:00:58.442389-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,11 +54,11 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-11T18:01:00.231295-04:00",
-  "todayLabel": "Wednesday, March 11",
+  "lastRefreshed": "2026-03-12T08:00:58.442389-04:00",
+  "todayLabel": "Thursday, March 12",
   "serviceDay": {
     "done": 0,
-    "total": 4
+    "total": 3
   },
   "invoiceSummary": {
     "totalOutstanding": 13875.5,
@@ -68,9 +68,9 @@ export const meta: DashboardMeta = {
     "currentTotal": 12985.0
   },
   "taskSummary": {
-    "geoffTotal": 31,
-    "geoffOverdue": 7,
-    "briTotal": 27,
+    "geoffTotal": 32,
+    "geoffOverdue": 12,
+    "briTotal": 31,
     "briOverdue": 8
   },
   "procurementSummary": {
@@ -81,29 +81,22 @@ export const meta: DashboardMeta = {
 
 export const serviceStops: ServiceStop[] = [
   {
-    "id": "uW5KI6edLKe6JFNs291K_1773230400000_3600",
-    "title": "Service: Link Logistics",
+    "id": "a09NOj3hg2BXBo2BRcgr_1773324000000_3600",
+    "title": "Service: Edward Jones",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "zh7xrs7lrIKVtcl0bcr5_1773237600000_3600",
-    "title": "Service: Heritage Distribution",
+    "id": "7uAmJHzXRADYixIvTTku",
+    "title": "Plant Doctor - Kenneth Wardlaw",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "K5mR7HdWkjmORzlON4Kn_1773244800000_3600",
-    "title": "Service: Thadani Residence",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "PZgkyiLG9LiBMtQ5rVtC_1773252000000_3600",
-    "title": "Service: Ventura Residence",
+    "id": "FWEMoNgSaTxFgMyrVFmi",
+    "title": "Plant Doctor — Dara Thomas-Rose",
     "time": "",
     "done": false,
     "status": "pending"
@@ -181,7 +174,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "casd0VMuTqGUrhXiPuH4",
     "assignedTo": "Geoff",
     "due": "2026-03-11",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "qKAGGrtvIDGekexgadMd",
@@ -190,7 +183,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "65jP3WE1gqhGzJsc1unA",
     "assignedTo": "Geoff",
     "due": "2026-03-11",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "gDeaZA9snzljaCws8x4T",
@@ -199,7 +192,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "65jP3WE1gqhGzJsc1unA",
     "assignedTo": "Geoff",
     "due": "2026-03-11",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "KuIa3ioNxxIHuE2BHdJ5",
@@ -208,7 +201,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "tZAK3p6WnjFZBEn2a1Wn",
     "assignedTo": "Geoff",
     "due": "2026-03-11",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "K59ONuLXBPrIK9KTN84i",
@@ -217,6 +210,15 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "TSSI7sfCGsrQMEArJoOt",
     "assignedTo": "Geoff",
     "due": "2026-03-11",
+    "overdue": true
+  },
+  {
+    "id": "d5l77TvOwbfL3uAV0nH2",
+    "title": ":",
+    "contact": "None None",
+    "contactId": "gmpnXl7xCkDobAcBAsrK",
+    "assignedTo": "Geoff",
+    "due": "2026-03-12",
     "overdue": false
   },
   {
@@ -326,15 +328,6 @@ export const geoffTasks: GHLTask[] = [
     "assignedTo": "Geoff",
     "due": "2026-03-17",
     "overdue": false
-  },
-  {
-    "id": "zk9OsTOowyYsXlqU3NFa",
-    "title": "[QOmCg3mvOLmnJEJCFzX0] Spring planting locations (outdoor/general): Visit Pike's Nursery to get price estimates for spri",
-    "contact": "None None",
-    "contactId": "QOmCg3mvOLmnJEJCFzX0",
-    "assignedTo": "Geoff",
-    "due": "2026-03-17",
-    "overdue": false
   }
 ];
 
@@ -439,6 +432,33 @@ export const briTasks: GHLTask[] = [
     "overdue": false
   },
   {
+    "id": "dgm6rDRXsLPVU8xAKKiB",
+    "title": "[Dhl6BUgjO1vttwXFcxoU] Banana fig – conference room: Monitor and re-treat soft scale at next visit; confirm insecticidal",
+    "contact": "None None",
+    "contactId": "Dhl6BUgjO1vttwXFcxoU",
+    "assignedTo": "Bri",
+    "due": "2026-03-14",
+    "overdue": false
+  },
+  {
+    "id": "GjqLHI7g7ybFjcqjGiaX",
+    "title": "[Dhl6BUgjO1vttwXFcxoU] Money tree – elevator lobby: Monitor and re-treat thrips at next visit; confirm insecticidal soap",
+    "contact": "None None",
+    "contactId": "Dhl6BUgjO1vttwXFcxoU",
+    "assignedTo": "Bri",
+    "due": "2026-03-14",
+    "overdue": false
+  },
+  {
+    "id": "U35xCY2VF6D3fzJSVu6f",
+    "title": "[Dhl6BUgjO1vttwXFcxoU] Fern – private office: Monitor and re-treat mealy bugs at next visit; confirm insecticidal soap a",
+    "contact": "None None",
+    "contactId": "Dhl6BUgjO1vttwXFcxoU",
+    "assignedTo": "Bri",
+    "due": "2026-03-14",
+    "overdue": false
+  },
+  {
     "id": "fFKl3P75gb0rU9OUETaR",
     "title": "[rS8Oa8Nnpo4kZmsQl033] Hawaiian pothos - Commercialization building: Continue monitoring and providing care to support o",
     "contact": "None None",
@@ -535,33 +555,6 @@ export const briTasks: GHLTask[] = [
     "contactId": "BqGcdA7dcNWIBdQ54VbA",
     "assignedTo": "Bri",
     "due": "2026-03-23",
-    "overdue": false
-  },
-  {
-    "id": "YZ6CYb8jrh0tjgoZFnxO",
-    "title": "[CNu3USP1J0KKYBQFnRPp] Money tree: Monitor growth progress following rotation; continue rotating at future visits to enc",
-    "contact": "None None",
-    "contactId": "CNu3USP1J0KKYBQFnRPp",
-    "assignedTo": "Bri",
-    "due": "2026-03-23",
-    "overdue": false
-  },
-  {
-    "id": "VbMRax4KQgNUpp2D7bpy",
-    "title": "[6J5c86gM95qGVJ9SuU1U] ZZ plants, 5th floor: Monitor ZZ plants on 5th floor at next visit for continued overgrowth; prun",
-    "contact": "None None",
-    "contactId": "6J5c86gM95qGVJ9SuU1U",
-    "assignedTo": "Bri",
-    "due": "2026-03-23",
-    "overdue": false
-  },
-  {
-    "id": "ttuMDX9ADeUSEs013yWa",
-    "title": "[AejoIdkJBeFAaO5bUQhl] All plants - account-wide: Schedule fertilizer application in spring to compensate for dark offic",
-    "contact": "None None",
-    "contactId": "AejoIdkJBeFAaO5bUQhl",
-    "assignedTo": "Bri",
-    "due": "2026-03-25",
     "overdue": false
   }
 ];
@@ -876,13 +869,6 @@ export const hookItems: HookItem[] = [];
 
 export const upcomingStops: UpcomingStop[] = [
   {
-    "id": "a09NOj3hg2BXBo2BRcgr_1773324000000_3600",
-    "title": "Service: Edward Jones",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
     "id": "g3rwWMdAmahY7QCt3rLd_1773403200000_21600",
     "title": "Service: Andersen Windows & Doors",
     "date": "",
@@ -969,6 +955,13 @@ export const upcomingStops: UpcomingStop[] = [
   {
     "id": "7ZQ1Z0uWoH6s1x4u6MCP_1773864000000_3600",
     "title": "Service: Gallery Residence",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "bKUJAiqURL9Y4gtVQ0vV_1773921600000_3600",
+    "title": "Service: Marriott Hotel - Perimeter Center",
     "date": "",
     "dateLabel": "",
     "time": ""
