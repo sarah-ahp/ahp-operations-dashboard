@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-12T20:07:08.949862-04:00
+// AHP Dashboard data — auto-generated 2026-03-12T20:09:44.071146-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,7 +54,7 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-12T20:07:08.949862-04:00",
+  "lastRefreshed": "2026-03-12T20:09:44.071146-04:00",
   "todayLabel": "Thursday, March 12",
   "serviceDay": {
     "done": 0,
@@ -875,7 +875,152 @@ export const procurement: ProcurementItem[] = [
   }
 ];
 
-export const hookItems: HookItem[] = [];
+export const hookItems: HookItem[] = [
+  {
+    "id": "h1",
+    "title": "Andersen Windows",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  },
+  {
+    "id": "h2",
+    "title": "Omar — Friend's House",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  },
+  {
+    "id": "h3",
+    "title": "Omar — Plant Doctor Visit",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  },
+  {
+    "id": "h4",
+    "title": "Rick (Marriott deposit)",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  },
+  {
+    "id": "h5",
+    "title": "Loria Ansley",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  },
+  {
+    "id": "h6",
+    "title": "Luna Upper Westside",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  },
+  {
+    "id": "h7",
+    "title": "Iris O4W",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  },
+  {
+    "id": "h8",
+    "title": "Thadani Residence",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  },
+  {
+    "id": "h9",
+    "title": "Physician Center",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  },
+  {
+    "id": "h10",
+    "title": "Zalik Residence (2nd)",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  },
+  {
+    "id": "h11",
+    "title": "Concord Group",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  },
+  {
+    "id": "h12",
+    "title": "Georgia Tech",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  },
+  {
+    "id": "h13",
+    "title": "Plant Doctor leads",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  },
+  {
+    "id": "h14",
+    "title": "Meredith situation",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  },
+  {
+    "id": "h15",
+    "title": "Nick accounts close-out",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  },
+  {
+    "id": "h16",
+    "title": "Month-end invoice audit",
+    "priority": "medium",
+    "firstThing": false,
+    "upsell": false,
+    "source": "the-hook",
+    "added": "2026-03-12"
+  }
+];
 
 export const upcomingStops: UpcomingStop[] = [
   {
