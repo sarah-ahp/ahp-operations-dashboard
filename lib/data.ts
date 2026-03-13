@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-12T18:01:04.991947-04:00
+// AHP Dashboard data — auto-generated 2026-03-12T20:07:08.949862-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,27 +54,27 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-12T18:01:04.991947-04:00",
+  "lastRefreshed": "2026-03-12T20:07:08.949862-04:00",
   "todayLabel": "Thursday, March 12",
   "serviceDay": {
     "done": 0,
     "total": 3
   },
   "invoiceSummary": {
-    "totalOutstanding": 13875.5,
-    "overdueCount": 4,
-    "overdueTotal": 890.5,
-    "currentCount": 43,
-    "currentTotal": 12985.0
+    "totalOutstanding": 13362.0,
+    "overdueCount": 3,
+    "overdueTotal": 591.5,
+    "currentCount": 42,
+    "currentTotal": 12770.5
   },
   "taskSummary": {
-    "geoffTotal": 32,
+    "geoffTotal": 34,
     "geoffOverdue": 12,
-    "briTotal": 31,
+    "briTotal": 32,
     "briOverdue": 8
   },
   "procurementSummary": {
-    "total": 9,
+    "total": 10,
     "overdueCount": 2
   }
 };
@@ -561,13 +561,6 @@ export const briTasks: GHLTask[] = [
 
 export const invoices: Invoice[] = [
   {
-    "id": "inv:0-ChAGO4-OOPK0kwlbuNQURNGVEI0N",
-    "recipient": "Amy Geddes",
-    "amount": 299.0,
-    "due": "2026-03-02",
-    "overdue": true
-  },
-  {
     "id": "inv:0-ChDJAhhd7diMomLmb9fXnGj4EI0N",
     "recipient": "Tim Harris",
     "amount": 214.5,
@@ -769,6 +762,13 @@ export const invoices: Invoice[] = [
     "amount": 214.5,
     "due": "2026-03-30",
     "overdue": false
+  },
+  {
+    "id": "inv:0-ChCbVb7JchS6v2teD29xbmLzEI0N",
+    "recipient": "Equity Residential AP",
+    "amount": 184.17,
+    "due": "2026-04-30",
+    "overdue": false
   }
 ];
 
@@ -830,6 +830,16 @@ export const procurement: ProcurementItem[] = [
     "size": "TBD per Bri's list",
     "quantity": "0",
     "needBy": "2026-03-20",
+    "overdue": false,
+    "supplier": ""
+  },
+  {
+    "id": "1007",
+    "client": "rYdu5UrSCP2jm3InYKhy",
+    "plant": "Replacement mats and watering pans",
+    "size": "Unknown - to be confirmed with client",
+    "quantity": "1",
+    "needBy": "2026-03-26",
     "overdue": false,
     "supplier": ""
   },
