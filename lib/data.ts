@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-12T20:09:44.071146-04:00
+// AHP Dashboard data — auto-generated 2026-03-12T20:29:05.473351-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,7 +54,7 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-12T20:09:44.071146-04:00",
+  "lastRefreshed": "2026-03-12T20:29:05.473351-04:00",
   "todayLabel": "Thursday, March 12",
   "serviceDay": {
     "done": 0,
@@ -68,10 +68,10 @@ export const meta: DashboardMeta = {
     "currentTotal": 12770.5
   },
   "taskSummary": {
-    "geoffTotal": 34,
-    "geoffOverdue": 12,
-    "briTotal": 32,
-    "briOverdue": 8
+    "geoffTotal": 28,
+    "geoffOverdue": 0,
+    "briTotal": 31,
+    "briOverdue": 0
   },
   "procurementSummary": {
     "total": 10,
@@ -105,206 +105,8 @@ export const serviceStops: ServiceStop[] = [
 
 export const geoffTasks: GHLTask[] = [
   {
-    "id": "n2qY3M2GYGSXASfL8ra9",
-    "title": "Verify Nick accounts - confirm paid, close out, notify Nick",
-    "contact": "None None",
-    "contactId": "oUjlVbarGtNSZbOnNtXp",
-    "assignedTo": "Geoff",
-    "due": "2026-03-02",
-    "overdue": true
-  },
-  {
-    "id": "sIItLKZPId0JhJQsjthw",
-    "title": "Georgia Tech - add-on plants + send 2026 invoice",
-    "contact": "None None",
-    "contactId": "oUjlVbarGtNSZbOnNtXp",
-    "assignedTo": "Geoff",
-    "due": "2026-03-02",
-    "overdue": true
-  },
-  {
-    "id": "aBVl1tn87qwQaNOauUCf",
-    "title": "Set up Concord Group recurring invoice",
-    "contact": "None None",
-    "contactId": "oUjlVbarGtNSZbOnNtXp",
-    "assignedTo": "Geoff",
-    "due": "2026-03-02",
-    "overdue": true
-  },
-  {
-    "id": "i8blTJNclHQ44b500exY",
-    "title": "Scope Concord Group add-on plants",
-    "contact": "None None",
-    "contactId": "oUjlVbarGtNSZbOnNtXp",
-    "assignedTo": "Geoff",
-    "due": "2026-03-03",
-    "overdue": true
-  },
-  {
-    "id": "6votc4BDCi4Pwet4n2rI",
-    "title": ":",
-    "contact": "None None",
-    "contactId": "scYgB7xiQESLpvqmhyQq",
-    "assignedTo": "Geoff",
-    "due": "2026-03-07",
-    "overdue": true
-  },
-  {
-    "id": "VoCfhW33xXc14BjVifOl",
-    "title": "[qwSaOos5rWsCsoiGwqoD] Replacement plants (large conference area and terrace): Create and deliver replacement plant list",
-    "contact": "None None",
-    "contactId": "qwSaOos5rWsCsoiGwqoD",
-    "assignedTo": "Geoff",
-    "due": "2026-03-09",
-    "overdue": true
-  },
-  {
-    "id": "lDqKDTO04Q8zq0W1odie",
-    "title": "[UPSELL HIGH] QOmCg3mvOLmnJEJCFzX0: Seasonal spring planting refresh for Iris O4W — opportunity to propose and sell new",
-    "contact": "None None",
-    "contactId": "QOmCg3mvOLmnJEJCFzX0",
-    "assignedTo": "Geoff",
-    "due": "2026-03-10",
-    "overdue": true
-  },
-  {
-    "id": "8WYoQvZ2jOQgeAkGnBiq",
-    "title": ":",
-    "contact": "None None",
-    "contactId": "casd0VMuTqGUrhXiPuH4",
-    "assignedTo": "Geoff",
-    "due": "2026-03-11",
-    "overdue": true
-  },
-  {
-    "id": "qKAGGrtvIDGekexgadMd",
-    "title": "[UPSELL MEDIUM] 65jP3WE1gqhGzJsc1unA: Offer a formal propagation and grow-out service, or upsell rooted propagations as",
-    "contact": "None None",
-    "contactId": "65jP3WE1gqhGzJsc1unA",
-    "assignedTo": "Geoff",
-    "due": "2026-03-11",
-    "overdue": true
-  },
-  {
-    "id": "gDeaZA9snzljaCws8x4T",
-    "title": "[UPSELL HIGH] 65jP3WE1gqhGzJsc1unA: Propose a summer garden design and installation package for the Thadani estate — cou",
-    "contact": "None None",
-    "contactId": "65jP3WE1gqhGzJsc1unA",
-    "assignedTo": "Geoff",
-    "due": "2026-03-11",
-    "overdue": true
-  },
-  {
-    "id": "KuIa3ioNxxIHuE2BHdJ5",
-    "title": "[UPSELL MEDIUM] tZAK3p6WnjFZBEn2a1Wn: Sell and install a new plant in the second conference room as a direct swap for th",
-    "contact": "None None",
-    "contactId": "tZAK3p6WnjFZBEn2a1Wn",
-    "assignedTo": "Geoff",
-    "due": "2026-03-11",
-    "overdue": true
-  },
-  {
-    "id": "K59ONuLXBPrIK9KTN84i",
-    "title": "[UPSELL HIGH] TSSI7sfCGsrQMEArJoOt: Spring outdoor container refresh or replanting service — scope and pricing to be det",
-    "contact": "None None",
-    "contactId": "TSSI7sfCGsrQMEArJoOt",
-    "assignedTo": "Geoff",
-    "due": "2026-03-11",
-    "overdue": true
-  },
-  {
-    "id": "d5l77TvOwbfL3uAV0nH2",
-    "title": ":",
-    "contact": "None None",
-    "contactId": "gmpnXl7xCkDobAcBAsrK",
-    "assignedTo": "Geoff",
-    "due": "2026-03-12",
-    "overdue": false
-  },
-  {
-    "id": "mcnjxjv6ZNhAA0mBS60A",
-    "title": "[UPSELL HIGH] scYgB7xiQESLpvqmhyQq: Secure a signed scope of work for the mother's garden planting project, including pl",
-    "contact": "None None",
-    "contactId": "scYgB7xiQESLpvqmhyQq",
-    "assignedTo": "Geoff",
-    "due": "2026-03-13",
-    "overdue": false
-  },
-  {
-    "id": "XsViUk48ulIJPsKBIDhD",
-    "title": "[UPSELL HIGH] scYgB7xiQESLpvqmhyQq: Propose formal approval and implementation of the entrance refresh design, potential",
-    "contact": "None None",
-    "contactId": "scYgB7xiQESLpvqmhyQq",
-    "assignedTo": "Geoff",
-    "due": "2026-03-13",
-    "overdue": false
-  },
-  {
-    "id": "GlmxvjTtg4QHBidtvrAZ",
-    "title": "[UPSELL MEDIUM] scYgB7xiQESLpvqmhyQq: Leverage high satisfaction to propose adding plants to additional high-traffic are",
-    "contact": "None None",
-    "contactId": "scYgB7xiQESLpvqmhyQq",
-    "assignedTo": "Geoff",
-    "due": "2026-03-13",
-    "overdue": false
-  },
-  {
-    "id": "PlWM1QWvjwFKgkKFb1ko",
-    "title": "[UPSELL MEDIUM] DPV30fPRVBMezkLzcVbr: Sell a plant refresh or replacement package to Aim Point Digital to update aging f",
-    "contact": "None None",
-    "contactId": "DPV30fPRVBMezkLzcVbr",
-    "assignedTo": "Geoff",
-    "due": "2026-03-13",
-    "overdue": false
-  },
-  {
-    "id": "vYM1N2N5Y08mZ06BHh1U",
-    "title": "[UPSELL HIGH] l5kT0vO1MF3QgFzpkaGT: Fulfill a client-requested seasonal color refresh at Peach State Pizza — procure and",
-    "contact": "None None",
-    "contactId": "l5kT0vO1MF3QgFzpkaGT",
-    "assignedTo": "Geoff",
-    "due": "2026-03-13",
-    "overdue": false
-  },
-  {
-    "id": "1eK8a1DclnS3zOwPtcZw",
-    "title": "[UPSELL HIGH] RzTUIXjrgLXsoyiHwTZt: New plant installation and ongoing service contract for a second residence on the Za",
-    "contact": "None None",
-    "contactId": "RzTUIXjrgLXsoyiHwTZt",
-    "assignedTo": "Geoff",
-    "due": "2026-03-13",
-    "overdue": false
-  },
-  {
-    "id": "UuF5Yjtb3LwuJFdS6KFI",
-    "title": "[UPSELL MEDIUM] qwSaOos5rWsCsoiGwqoD: Positive performance of outdoor containers suggests client receptiveness to expand",
-    "contact": "None None",
-    "contactId": "qwSaOos5rWsCsoiGwqoD",
-    "assignedTo": "Geoff",
-    "due": "2026-03-13",
-    "overdue": false
-  },
-  {
-    "id": "3xUBsbldyFteq3SYVSVz",
-    "title": "[UPSELL HIGH] qwSaOos5rWsCsoiGwqoD: Client engagement around plant replacement opens door to upsell upgraded or expanded",
-    "contact": "None None",
-    "contactId": "qwSaOos5rWsCsoiGwqoD",
-    "assignedTo": "Geoff",
-    "due": "2026-03-13",
-    "overdue": false
-  },
-  {
-    "id": "oeYVb1PZBuxNjPOL8WNA",
-    "title": "[UPSELL MEDIUM] hhKmuCHJGLVHbxZa4Kyn: The sky balcony planter was previously empty and has now been filled with leftover",
-    "contact": "None None",
-    "contactId": "hhKmuCHJGLVHbxZa4Kyn",
-    "assignedTo": "Geoff",
-    "due": "2026-03-16",
-    "overdue": false
-  },
-  {
     "id": "vII1nwslZGC6kW2q6F9B",
-    "title": "[CNu3USP1J0KKYBQFnRPp] Inner office plants (unspecified): Stephen to follow up with more info; coordinate with client to",
+    "title": "[Matsuda] Stephen to follow up - confirm add-on interest (ask Bri)",
     "contact": "None None",
     "contactId": "CNu3USP1J0KKYBQFnRPp",
     "assignedTo": "Geoff",
@@ -312,97 +114,232 @@ export const geoffTasks: GHLTask[] = [
     "overdue": false
   },
   {
-    "id": "1wFgzJlaMyRqBtMP3Oxd",
-    "title": "[rS8Oa8Nnpo4kZmsQl033] Snake plants - CreateX offices, Biltmore building: Contact Essie (POC) to discuss potential repla",
+    "id": "n2qY3M2GYGSXASfL8ra9",
+    "title": "Verify Nick accounts - confirm paid, close out, notify Nick",
     "contact": "None None",
-    "contactId": "rS8Oa8Nnpo4kZmsQl033",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
+    "assignedTo": "Geoff",
+    "due": "2026-03-16",
+    "overdue": false
+  },
+  {
+    "id": "i8blTJNclHQ44b500exY",
+    "title": "Concord Group - get add-on plant list from Bri (due Mon Mar 16)",
+    "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
+    "assignedTo": "Geoff",
+    "due": "2026-03-16",
+    "overdue": false
+  },
+  {
+    "id": "aBVl1tn87qwQaNOauUCf",
+    "title": "Set up Concord Group recurring invoice (first invoice sent Mar 12)",
+    "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-16",
     "overdue": false
   },
   {
     "id": "9oEdYAhZy5C7DmOMJKgU",
-    "title": "[UPSELL MEDIUM] 1hgIZJBoLujtw3CqZArM: Outdoor containers have been measured, suggesting potential to propose outdoor pla",
+    "title": "[UPSELL] Luna - outdoor container spring proposal (Bucket 2)",
     "contact": "None None",
     "contactId": "1hgIZJBoLujtw3CqZArM",
     "assignedTo": "Geoff",
     "due": "2026-03-17",
+    "overdue": false
+  },
+  {
+    "id": "O5raId6wOaguq09R3Lrh",
+    "title": "[TSSI] Gather outdoor container measurements for spring refresh quote",
+    "contact": "None None",
+    "contactId": "TSSI7sfCGsrQMEArJoOt",
+    "assignedTo": "Geoff",
+    "due": "2026-03-17",
+    "overdue": false
+  },
+  {
+    "id": "K59ONuLXBPrIK9KTN84i",
+    "title": "[UPSELL] TSSI - spring outdoor container refresh proposal",
+    "contact": "None None",
+    "contactId": "TSSI7sfCGsrQMEArJoOt",
+    "assignedTo": "Geoff",
+    "due": "2026-03-17",
+    "overdue": false
+  },
+  {
+    "id": "zk9OsTOowyYsXlqU3NFa",
+    "title": "[Iris O4W] Spring planting proposal - build estimate from Bri info",
+    "contact": "None None",
+    "contactId": "QOmCg3mvOLmnJEJCFzX0",
+    "assignedTo": "Geoff",
+    "due": "2026-03-17",
+    "overdue": false
+  },
+  {
+    "id": "1wFgzJlaMyRqBtMP3Oxd",
+    "title": "[Georgia Tech] Contact Essie re: snake plant refresh + 2026 invoice",
+    "contact": "None None",
+    "contactId": "rS8Oa8Nnpo4kZmsQl033",
+    "assignedTo": "Geoff",
+    "due": "2026-03-17",
+    "overdue": false
+  },
+  {
+    "id": "sIItLKZPId0JhJQsjthw",
+    "title": "Georgia Tech - send 2026 invoice + add-on follow-up (get Bri email thread)",
+    "contact": "None None",
+    "contactId": "oUjlVbarGtNSZbOnNtXp",
+    "assignedTo": "Geoff",
+    "due": "2026-03-17",
+    "overdue": false
+  },
+  {
+    "id": "qKAGGrtvIDGekexgadMd",
+    "title": "[UPSELL] Thadani - outdoor spring proposal package",
+    "contact": "None None",
+    "contactId": "65jP3WE1gqhGzJsc1unA",
+    "assignedTo": "Geoff",
+    "due": "2026-03-18",
+    "overdue": false
+  },
+  {
+    "id": "gDeaZA9snzljaCws8x4T",
+    "title": "[UPSELL] Thadani - spring/summer garden proposal (Bucket 2, Apr 15 target)",
+    "contact": "None None",
+    "contactId": "65jP3WE1gqhGzJsc1unA",
+    "assignedTo": "Geoff",
+    "due": "2026-03-18",
+    "overdue": false
+  },
+  {
+    "id": "psEM8kAGpvYQIFBqRvjg",
+    "title": "[Link] Source bird's nest fern - price and quote for second conference room",
+    "contact": "None None",
+    "contactId": "tZAK3p6WnjFZBEn2a1Wn",
+    "assignedTo": "Geoff",
+    "due": "2026-03-18",
+    "overdue": false
+  },
+  {
+    "id": "KuIa3ioNxxIHuE2BHdJ5",
+    "title": "[Link] Source bird's nest fern for second conference room - price and quote",
+    "contact": "None None",
+    "contactId": "tZAK3p6WnjFZBEn2a1Wn",
+    "assignedTo": "Geoff",
+    "due": "2026-03-18",
+    "overdue": false
+  },
+  {
+    "id": "rIaYpZIRA8thLOujJg5O",
+    "title": "[UPSELL] Client upgrade opportunity - follow up",
+    "contact": "None None",
+    "contactId": "rYdu5UrSCP2jm3InYKhy",
+    "assignedTo": "Geoff",
+    "due": "2026-03-20",
+    "overdue": false
+  },
+  {
+    "id": "oeYVb1PZBuxNjPOL8WNA",
+    "title": "[UPSELL] Sky balcony - planter opportunity proposal",
+    "contact": "None None",
+    "contactId": "hhKmuCHJGLVHbxZa4Kyn",
+    "assignedTo": "Geoff",
+    "due": "2026-03-20",
+    "overdue": false
+  },
+  {
+    "id": "PlWM1QWvjwFKgkKFb1ko",
+    "title": "[UPSELL] Aim Point - plant refresh/replacement package",
+    "contact": "None None",
+    "contactId": "DPV30fPRVBMezkLzcVbr",
+    "assignedTo": "Geoff",
+    "due": "2026-03-20",
+    "overdue": false
+  },
+  {
+    "id": "1eK8a1DclnS3zOwPtcZw",
+    "title": "[UPSELL] Zalik 2nd residence - new install + service contract",
+    "contact": "None None",
+    "contactId": "RzTUIXjrgLXsoyiHwTZt",
+    "assignedTo": "Geoff",
+    "due": "2026-03-20",
+    "overdue": false
+  },
+  {
+    "id": "UuF5Yjtb3LwuJFdS6KFI",
+    "title": "[UPSELL] Conference area - outdoor container upsell proposal",
+    "contact": "None None",
+    "contactId": "qwSaOos5rWsCsoiGwqoD",
+    "assignedTo": "Geoff",
+    "due": "2026-03-20",
+    "overdue": false
+  },
+  {
+    "id": "3xUBsbldyFteq3SYVSVz",
+    "title": "[UPSELL] Conference area - plant replacement/refresh proposal",
+    "contact": "None None",
+    "contactId": "qwSaOos5rWsCsoiGwqoD",
+    "assignedTo": "Geoff",
+    "due": "2026-03-20",
+    "overdue": false
+  },
+  {
+    "id": "sN96JEO1X5S0P7Cvwvtb",
+    "title": "[Admin] Update contact sheet with new property manager name and phone",
+    "contact": "None None",
+    "contactId": "1hgIZJBoLujtw3CqZArM",
+    "assignedTo": "Geoff",
+    "due": "2026-03-31",
+    "overdue": false
+  },
+  {
+    "id": "oXx2DmbHtL4bzmf3f493",
+    "title": "[Admin] Update contact sheet with new property manager name and phone",
+    "contact": "None None",
+    "contactId": "FU2BBWA0LJI7QLU8NVer",
+    "assignedTo": "Geoff",
+    "due": "2026-03-31",
+    "overdue": false
+  },
+  {
+    "id": "Wt8IOJnJNi3pMiY9yVWN",
+    "title": "[Admin] Coordinate mats and watering pans with client",
+    "contact": "None None",
+    "contactId": "rYdu5UrSCP2jm3InYKhy",
+    "assignedTo": "Geoff",
+    "due": "2026-04-01",
+    "overdue": false
+  },
+  {
+    "id": "mcnjxjv6ZNhAA0mBS60A",
+    "title": "[UPSELL] Physician Center - secure signed scope for mother's garden (construction ends Apr)",
+    "contact": "None None",
+    "contactId": "scYgB7xiQESLpvqmhyQq",
+    "assignedTo": "Geoff",
+    "due": "2026-04-01",
+    "overdue": false
+  },
+  {
+    "id": "XsViUk48ulIJPsKBIDhD",
+    "title": "[UPSELL] Physician Center - entrance refresh proposal (construction ends Apr)",
+    "contact": "None None",
+    "contactId": "scYgB7xiQESLpvqmhyQq",
+    "assignedTo": "Geoff",
+    "due": "2026-04-01",
     "overdue": false
   }
 ];
 
 export const briTasks: GHLTask[] = [
   {
-    "id": "DoCeLF18KmvIksNXw2Oz",
-    "title": "[rS8Oa8Nnpo4kZmsQl033] Ags - Commercialization building: Continue mealybug treatment with insecticidal soap at next serv",
+    "id": "eX2jGjkROb5bH621gtWq",
+    "title": "[casd0VMuTqGUrhXiPuH4] Dracaenas (location unspecified): Monitor dracaenas at next visit for signs of continued or worse",
     "contact": "None None",
-    "contactId": "rS8Oa8Nnpo4kZmsQl033",
+    "contactId": "casd0VMuTqGUrhXiPuH4",
     "assignedTo": "Bri",
-    "due": "2026-03-05",
-    "overdue": true
-  },
-  {
-    "id": "5b2WG1vtD7WhCrg3FhOj",
-    "title": "[aStxefelt15SI3RkLyFf] Outdoor planters with violas: Continue monitoring and treating with neem oil; replace damaged or",
-    "contact": "None None",
-    "contactId": "aStxefelt15SI3RkLyFf",
-    "assignedTo": "Bri",
-    "due": "2026-03-05",
-    "overdue": true
-  },
-  {
-    "id": "z0ochSrtPL3g2DF5CFAd",
-    "title": "[aStxefelt15SI3RkLyFf] Lemon lime dracaena, 28th floor: Continue monitoring and treating with insecticidal soap; replace",
-    "contact": "None None",
-    "contactId": "aStxefelt15SI3RkLyFf",
-    "assignedTo": "Bri",
-    "due": "2026-03-05",
-    "overdue": true
-  },
-  {
-    "id": "UcoGREGed1fEfiEZBUzP",
-    "title": "[QOmCg3mvOLmnJEJCFzX0] Outdoor planters: Monitor outdoor planters at next visit to confirm neem oil treatment is control",
-    "contact": "None None",
-    "contactId": "QOmCg3mvOLmnJEJCFzX0",
-    "assignedTo": "Bri",
-    "due": "2026-03-06",
-    "overdue": true
-  },
-  {
-    "id": "zCQGAannE3QmlgLUIr4Z",
-    "title": "[65jP3WE1gqhGzJsc1unA] Large planters (specific plants unspecified): Inspect all large planters for drainage adequacy; a",
-    "contact": "None None",
-    "contactId": "65jP3WE1gqhGzJsc1unA",
-    "assignedTo": "Bri",
-    "due": "2026-03-07",
-    "overdue": true
-  },
-  {
-    "id": "7IOGsccodoBIAXdcN7Ma",
-    "title": "[tZAK3p6WnjFZBEn2a1Wn] Ficus - main conference room: Monitor treatment response; re-apply insecticidal soap if needed an",
-    "contact": "None None",
-    "contactId": "tZAK3p6WnjFZBEn2a1Wn",
-    "assignedTo": "Bri",
-    "due": "2026-03-07",
-    "overdue": true
-  },
-  {
-    "id": "1Y2jxZoSVMSMDec38jO8",
-    "title": "[qwSaOos5rWsCsoiGwqoD] Palms (large conference area): Monitor treated palms and prepare for full replacement within the",
-    "contact": "None None",
-    "contactId": "qwSaOos5rWsCsoiGwqoD",
-    "assignedTo": "Bri",
-    "due": "2026-03-09",
-    "overdue": true
-  },
-  {
-    "id": "UERKoFn6wjFkhSHhvgaM",
-    "title": "[DScML9nk0qrXGK4mc3vA] Plants in cubicle area, left side of building: Allow plants to dry out completely before watering",
-    "contact": "None None",
-    "contactId": "DScML9nk0qrXGK4mc3vA",
-    "assignedTo": "Bri",
-    "due": "2026-03-09",
-    "overdue": true
+    "due": "2026-03-16",
+    "overdue": false
   },
   {
     "id": "WC1S8SLSzMoxQkswnfc6",
@@ -410,7 +347,7 @@ export const briTasks: GHLTask[] = [
     "contact": "None None",
     "contactId": "mrZSBZyJc1pHfoNxUJqz",
     "assignedTo": "Bri",
-    "due": "2026-03-12",
+    "due": "2026-03-16",
     "overdue": false
   },
   {
@@ -419,43 +356,52 @@ export const briTasks: GHLTask[] = [
     "contact": "None None",
     "contactId": "QEBQUDX00CESSP2Vb0ry",
     "assignedTo": "Bri",
-    "due": "2026-03-12",
+    "due": "2026-03-16",
     "overdue": false
   },
   {
-    "id": "eX2jGjkROb5bH621gtWq",
-    "title": "[casd0VMuTqGUrhXiPuH4] Dracaenas (location unspecified): Monitor dracaenas at next visit for signs of continued or worse",
+    "id": "1Y2jxZoSVMSMDec38jO8",
+    "title": "[qwSaOos5rWsCsoiGwqoD] Palms (large conference area): Monitor treated palms and prepare for full replacement within the",
     "contact": "None None",
-    "contactId": "casd0VMuTqGUrhXiPuH4",
+    "contactId": "qwSaOos5rWsCsoiGwqoD",
     "assignedTo": "Bri",
-    "due": "2026-03-13",
+    "due": "2026-03-16",
     "overdue": false
   },
   {
-    "id": "dgm6rDRXsLPVU8xAKKiB",
-    "title": "[Dhl6BUgjO1vttwXFcxoU] Banana fig – conference room: Monitor and re-treat soft scale at next visit; confirm insecticidal",
+    "id": "UERKoFn6wjFkhSHhvgaM",
+    "title": "[DScML9nk0qrXGK4mc3vA] Plants in cubicle area, left side of building: Allow plants to dry out completely before watering",
     "contact": "None None",
-    "contactId": "Dhl6BUgjO1vttwXFcxoU",
+    "contactId": "DScML9nk0qrXGK4mc3vA",
     "assignedTo": "Bri",
-    "due": "2026-03-14",
+    "due": "2026-03-16",
     "overdue": false
   },
   {
-    "id": "GjqLHI7g7ybFjcqjGiaX",
-    "title": "[Dhl6BUgjO1vttwXFcxoU] Money tree – elevator lobby: Monitor and re-treat thrips at next visit; confirm insecticidal soap",
+    "id": "zCQGAannE3QmlgLUIr4Z",
+    "title": "[65jP3WE1gqhGzJsc1unA] Large planters (specific plants unspecified): Inspect all large planters for drainage adequacy; a",
     "contact": "None None",
-    "contactId": "Dhl6BUgjO1vttwXFcxoU",
+    "contactId": "65jP3WE1gqhGzJsc1unA",
     "assignedTo": "Bri",
-    "due": "2026-03-14",
+    "due": "2026-03-16",
     "overdue": false
   },
   {
-    "id": "U35xCY2VF6D3fzJSVu6f",
-    "title": "[Dhl6BUgjO1vttwXFcxoU] Fern – private office: Monitor and re-treat mealy bugs at next visit; confirm insecticidal soap a",
+    "id": "7IOGsccodoBIAXdcN7Ma",
+    "title": "[tZAK3p6WnjFZBEn2a1Wn] Ficus - main conference room: Monitor treatment response; re-apply insecticidal soap if needed an",
     "contact": "None None",
-    "contactId": "Dhl6BUgjO1vttwXFcxoU",
+    "contactId": "tZAK3p6WnjFZBEn2a1Wn",
     "assignedTo": "Bri",
-    "due": "2026-03-14",
+    "due": "2026-03-16",
+    "overdue": false
+  },
+  {
+    "id": "UcoGREGed1fEfiEZBUzP",
+    "title": "[QOmCg3mvOLmnJEJCFzX0] Outdoor planters: Monitor outdoor planters at next visit to confirm neem oil treatment is control",
+    "contact": "None None",
+    "contactId": "QOmCg3mvOLmnJEJCFzX0",
+    "assignedTo": "Bri",
+    "due": "2026-03-16",
     "overdue": false
   },
   {
@@ -463,6 +409,33 @@ export const briTasks: GHLTask[] = [
     "title": "[rS8Oa8Nnpo4kZmsQl033] Hawaiian pothos - Commercialization building: Continue monitoring and providing care to support o",
     "contact": "None None",
     "contactId": "rS8Oa8Nnpo4kZmsQl033",
+    "assignedTo": "Bri",
+    "due": "2026-03-16",
+    "overdue": false
+  },
+  {
+    "id": "DoCeLF18KmvIksNXw2Oz",
+    "title": "[rS8Oa8Nnpo4kZmsQl033] Ags - Commercialization building: Continue mealybug treatment with insecticidal soap at next serv",
+    "contact": "None None",
+    "contactId": "rS8Oa8Nnpo4kZmsQl033",
+    "assignedTo": "Bri",
+    "due": "2026-03-16",
+    "overdue": false
+  },
+  {
+    "id": "5b2WG1vtD7WhCrg3FhOj",
+    "title": "[aStxefelt15SI3RkLyFf] Outdoor planters with violas: Continue monitoring and treating with neem oil; replace damaged or",
+    "contact": "None None",
+    "contactId": "aStxefelt15SI3RkLyFf",
+    "assignedTo": "Bri",
+    "due": "2026-03-16",
+    "overdue": false
+  },
+  {
+    "id": "z0ochSrtPL3g2DF5CFAd",
+    "title": "[aStxefelt15SI3RkLyFf] Lemon lime dracaena, 28th floor: Continue monitoring and treating with insecticidal soap; replace",
+    "contact": "None None",
+    "contactId": "aStxefelt15SI3RkLyFf",
     "assignedTo": "Bri",
     "due": "2026-03-16",
     "overdue": false
@@ -477,12 +450,30 @@ export const briTasks: GHLTask[] = [
     "overdue": false
   },
   {
-    "id": "XQbuPWxODaJfqgkBgD1H",
-    "title": "[FU2BBWA0LJI7QLU8NVer] Howard's yucca cane (relocated from Tio Lucho's to Sweet Auburn BBQ): Verify yucca cane is settli",
+    "id": "dgm6rDRXsLPVU8xAKKiB",
+    "title": "[Dhl6BUgjO1vttwXFcxoU] Banana fig – conference room: Monitor and re-treat soft scale at next visit; confirm insecticidal",
     "contact": "None None",
-    "contactId": "FU2BBWA0LJI7QLU8NVer",
+    "contactId": "Dhl6BUgjO1vttwXFcxoU",
     "assignedTo": "Bri",
-    "due": "2026-03-17",
+    "due": "2026-03-19",
+    "overdue": false
+  },
+  {
+    "id": "GjqLHI7g7ybFjcqjGiaX",
+    "title": "[Dhl6BUgjO1vttwXFcxoU] Money tree – elevator lobby: Monitor and re-treat thrips at next visit; confirm insecticidal soap",
+    "contact": "None None",
+    "contactId": "Dhl6BUgjO1vttwXFcxoU",
+    "assignedTo": "Bri",
+    "due": "2026-03-19",
+    "overdue": false
+  },
+  {
+    "id": "U35xCY2VF6D3fzJSVu6f",
+    "title": "[Dhl6BUgjO1vttwXFcxoU] Fern – private office: Monitor and re-treat mealy bugs at next visit; confirm insecticidal soap a",
+    "contact": "None None",
+    "contactId": "Dhl6BUgjO1vttwXFcxoU",
+    "assignedTo": "Bri",
+    "due": "2026-03-19",
     "overdue": false
   },
   {
@@ -491,7 +482,7 @@ export const briTasks: GHLTask[] = [
     "contact": "None None",
     "contactId": "jyGWRgsucfPTH2cGwb2W",
     "assignedTo": "Bri",
-    "due": "2026-03-18",
+    "due": "2026-03-19",
     "overdue": false
   },
   {
@@ -500,7 +491,16 @@ export const briTasks: GHLTask[] = [
     "contact": "None None",
     "contactId": "65jP3WE1gqhGzJsc1unA",
     "assignedTo": "Bri",
-    "due": "2026-03-18",
+    "due": "2026-03-19",
+    "overdue": false
+  },
+  {
+    "id": "XQbuPWxODaJfqgkBgD1H",
+    "title": "[FU2BBWA0LJI7QLU8NVer] Howard's yucca cane (relocated from Tio Lucho's to Sweet Auburn BBQ): Verify yucca cane is settli",
+    "contact": "None None",
+    "contactId": "FU2BBWA0LJI7QLU8NVer",
+    "assignedTo": "Bri",
+    "due": "2026-03-19",
     "overdue": false
   },
   {
@@ -508,33 +508,6 @@ export const briTasks: GHLTask[] = [
     "title": "[scYgB7xiQESLpvqmhyQq] Multiple plants - various locations: Identify affected plants during next visit and recommend rep",
     "contact": "None None",
     "contactId": "scYgB7xiQESLpvqmhyQq",
-    "assignedTo": "Bri",
-    "due": "2026-03-20",
-    "overdue": false
-  },
-  {
-    "id": "Wkt7W0wXNhKcMcqcCQWZ",
-    "title": "[scYgB7xiQESLpvqmhyQq] Schefflera (leggy) - by Santa's office: Assess plant for replacement; flag as non-urgent but sche",
-    "contact": "None None",
-    "contactId": "scYgB7xiQESLpvqmhyQq",
-    "assignedTo": "Bri",
-    "due": "2026-03-20",
-    "overdue": false
-  },
-  {
-    "id": "5bXhPK8Iyda5Kf0MrExh",
-    "title": "[MQhzd2oSqaZK08L7ImW2] Peace Lilies (location not specified): Continue using tap water conditioner at each visit; monito",
-    "contact": "None None",
-    "contactId": "MQhzd2oSqaZK08L7ImW2",
-    "assignedTo": "Bri",
-    "due": "2026-03-20",
-    "overdue": false
-  },
-  {
-    "id": "5YU0Re0TIJ7qR3WsNgnm",
-    "title": "[qwSaOos5rWsCsoiGwqoD] Color bowls (near terrace): Monitor color bowls in new sunny terrace location to confirm improved",
-    "contact": "None None",
-    "contactId": "qwSaOos5rWsCsoiGwqoD",
     "assignedTo": "Bri",
     "due": "2026-03-20",
     "overdue": false
@@ -553,6 +526,33 @@ export const briTasks: GHLTask[] = [
     "title": "[BqGcdA7dcNWIBdQ54VbA] Selloum Philodendron: Continue monitoring for spider mite activity at next visit; reapply insecti",
     "contact": "None None",
     "contactId": "BqGcdA7dcNWIBdQ54VbA",
+    "assignedTo": "Bri",
+    "due": "2026-03-23",
+    "overdue": false
+  },
+  {
+    "id": "5bXhPK8Iyda5Kf0MrExh",
+    "title": "[MQhzd2oSqaZK08L7ImW2] Peace Lilies (location not specified): Continue using tap water conditioner at each visit; monito",
+    "contact": "None None",
+    "contactId": "MQhzd2oSqaZK08L7ImW2",
+    "assignedTo": "Bri",
+    "due": "2026-03-23",
+    "overdue": false
+  },
+  {
+    "id": "5YU0Re0TIJ7qR3WsNgnm",
+    "title": "[qwSaOos5rWsCsoiGwqoD] Color bowls (near terrace): Monitor color bowls in new sunny terrace location to confirm improved",
+    "contact": "None None",
+    "contactId": "qwSaOos5rWsCsoiGwqoD",
+    "assignedTo": "Bri",
+    "due": "2026-03-23",
+    "overdue": false
+  },
+  {
+    "id": "YZ6CYb8jrh0tjgoZFnxO",
+    "title": "[CNu3USP1J0KKYBQFnRPp] Money tree: Monitor growth progress following rotation; continue rotating at future visits to enc",
+    "contact": "None None",
+    "contactId": "CNu3USP1J0KKYBQFnRPp",
     "assignedTo": "Bri",
     "due": "2026-03-23",
     "overdue": false
