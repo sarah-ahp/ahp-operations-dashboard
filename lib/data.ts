@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-12T20:29:05.473351-04:00
+// AHP Dashboard data — auto-generated 2026-03-13T08:01:19.692405-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,11 +54,11 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-12T20:29:05.473351-04:00",
-  "todayLabel": "Thursday, March 12",
+  "lastRefreshed": "2026-03-13T08:01:19.692405-04:00",
+  "todayLabel": "Friday, March 13",
   "serviceDay": {
     "done": 0,
-    "total": 3
+    "total": 1
   },
   "invoiceSummary": {
     "totalOutstanding": 13362.0,
@@ -81,22 +81,8 @@ export const meta: DashboardMeta = {
 
 export const serviceStops: ServiceStop[] = [
   {
-    "id": "a09NOj3hg2BXBo2BRcgr_1773324000000_3600",
-    "title": "Service: Edward Jones",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "7uAmJHzXRADYixIvTTku",
-    "title": "Plant Doctor - Kenneth Wardlaw",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "FWEMoNgSaTxFgMyrVFmi",
-    "title": "Plant Doctor — Dara Thomas-Rose",
+    "id": "g3rwWMdAmahY7QCt3rLd_1773403200000_21600",
+    "title": "Service: Andersen Windows & Doors",
     "time": "",
     "done": false,
     "status": "pending"
@@ -883,7 +869,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   },
   {
     "id": "h2",
@@ -892,7 +878,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   },
   {
     "id": "h3",
@@ -901,7 +887,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   },
   {
     "id": "h4",
@@ -910,7 +896,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   },
   {
     "id": "h5",
@@ -919,7 +905,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   },
   {
     "id": "h6",
@@ -928,7 +914,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   },
   {
     "id": "h7",
@@ -937,7 +923,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   },
   {
     "id": "h8",
@@ -946,7 +932,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   },
   {
     "id": "h9",
@@ -955,7 +941,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   },
   {
     "id": "h10",
@@ -964,7 +950,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   },
   {
     "id": "h11",
@@ -973,7 +959,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   },
   {
     "id": "h12",
@@ -982,7 +968,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   },
   {
     "id": "h13",
@@ -991,7 +977,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   },
   {
     "id": "h14",
@@ -1000,7 +986,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   },
   {
     "id": "h15",
@@ -1009,7 +995,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   },
   {
     "id": "h16",
@@ -1018,18 +1004,11 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-12"
+    "added": "2026-03-13"
   }
 ];
 
 export const upcomingStops: UpcomingStop[] = [
-  {
-    "id": "g3rwWMdAmahY7QCt3rLd_1773403200000_21600",
-    "title": "Service: Andersen Windows & Doors",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
   {
     "id": "wAaJzKEU96PuThXyYkKt_1773662400000_3600",
     "title": "Service: Perkins and Will",
@@ -1117,6 +1096,13 @@ export const upcomingStops: UpcomingStop[] = [
   {
     "id": "bKUJAiqURL9Y4gtVQ0vV_1773921600000_3600",
     "title": "Service: Marriott Hotel - Perimeter Center",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "69hOEAgMbS25uzyfYFBh_1773930600000_3600",
+    "title": "Service: Michelin Connected Fleet",
     "date": "",
     "dateLabel": "",
     "time": ""
