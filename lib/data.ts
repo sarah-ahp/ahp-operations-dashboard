@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-16T13:01:56.320144-04:00
+// AHP Dashboard data — auto-generated 2026-03-16T15:02:56.343261-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,18 +54,18 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-16T13:01:56.320144-04:00",
+  "lastRefreshed": "2026-03-16T15:02:56.343261-04:00",
   "todayLabel": "Monday, March 16",
   "serviceDay": {
     "done": 0,
     "total": 4
   },
   "invoiceSummary": {
-    "totalOutstanding": 13296.5,
+    "totalOutstanding": 15597.5,
     "overdueCount": 4,
     "overdueTotal": 740.5,
     "currentCount": 41,
-    "currentTotal": 12556.0
+    "currentTotal": 14857.0
   },
   "taskSummary": {
     "geoffTotal": 28,
@@ -596,6 +596,13 @@ export const invoices: Invoice[] = [
     "overdue": true
   },
   {
+    "id": "inv:0-ChAr7uxEEBs06dW31c-Y7HFtEI0N",
+    "recipient": "Atrium Health Floyd",
+    "amount": 2400.0,
+    "due": "2026-04-30",
+    "overdue": false
+  },
+  {
     "id": "inv:0-ChBspI9ez_-fCknXIi9elohpEI0N",
     "recipient": "Atrium Health Floyd",
     "amount": 2400.0,
@@ -768,13 +775,6 @@ export const invoices: Invoice[] = [
     "recipient": "Chris Tully",
     "amount": 214.5,
     "due": "2026-03-30",
-    "overdue": false
-  },
-  {
-    "id": "inv:0-ChCbVb7JchS6v2teD29xbmLzEI0N",
-    "recipient": "Equity Residential AP",
-    "amount": 184.17,
-    "due": "2026-04-30",
     "overdue": false
   }
 ];
