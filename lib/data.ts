@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-16T18:00:54.441285-04:00
+// AHP Dashboard data — auto-generated 2026-03-17T18:00:57.452795-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,56 +54,56 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-16T18:00:54.441285-04:00",
-  "todayLabel": "Monday, March 16",
+  "lastRefreshed": "2026-03-17T18:00:57.452795-04:00",
+  "todayLabel": "Tuesday, March 17",
   "serviceDay": {
     "done": 0,
     "total": 4
   },
   "invoiceSummary": {
-    "totalOutstanding": 15220.5,
-    "overdueCount": 2,
-    "overdueTotal": 363.5,
+    "totalOutstanding": 15071.5,
+    "overdueCount": 1,
+    "overdueTotal": 214.5,
     "currentCount": 41,
     "currentTotal": 14857.0
   },
   "taskSummary": {
-    "geoffTotal": 28,
-    "geoffOverdue": 0,
-    "briTotal": 31,
-    "briOverdue": 0
+    "geoffTotal": 33,
+    "geoffOverdue": 4,
+    "briTotal": 35,
+    "briOverdue": 13
   },
   "procurementSummary": {
-    "total": 10,
+    "total": 13,
     "overdueCount": 2
   }
 };
 
 export const serviceStops: ServiceStop[] = [
   {
-    "id": "wAaJzKEU96PuThXyYkKt_1773662400000_3600",
-    "title": "Service: Perkins and Will",
+    "id": "QAS0lE6o5lq8koZiGUuU_1773752400000_3600",
+    "title": "Service: Iris O4W",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "aWEhD1y56UHVoAMTNWv8_1773669600000_3600",
-    "title": "Service: Loria Ansley",
+    "id": "aKVjS9ebG6lmx9ixSjkS_1773759600000_3600",
+    "title": "Service: Bouloux Residence",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "jFRtWj6Utr38ZKxrkzTc_1773676800000_3600",
-    "title": "Service: GA Tech - Office of Commercialization",
+    "id": "2Zx4bJqgF8UjnYAY3qSr_1773770400000_3600",
+    "title": "Service: Sweet Auburn BBQ",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "QcGmTvp2jYhPzB2rpXVy",
-    "title": "Service: Matsuda Eyewear",
+    "id": "N7XMXdA8qqeCcN3NExO0_1773774000000_3600",
+    "title": "Service: Tio Luchos",
     "time": "",
     "done": false,
     "status": "pending"
@@ -118,7 +118,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "CNu3USP1J0KKYBQFnRPp",
     "assignedTo": "Geoff",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "n2qY3M2GYGSXASfL8ra9",
@@ -127,7 +127,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "i8blTJNclHQ44b500exY",
@@ -136,7 +136,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "aBVl1tn87qwQaNOauUCf",
@@ -145,7 +145,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "oUjlVbarGtNSZbOnNtXp",
     "assignedTo": "Geoff",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "9oEdYAhZy5C7DmOMJKgU",
@@ -292,48 +292,48 @@ export const geoffTasks: GHLTask[] = [
     "overdue": false
   },
   {
-    "id": "sN96JEO1X5S0P7Cvwvtb",
-    "title": "[Admin] Update contact sheet with new property manager name and phone",
+    "id": "6gnqEjgDjAbXmR2bmomr",
+    "title": "[UPSELL HIGH] pDVHWm1ZmQacQpO7AGTD: Add 2 window boxes of pothos plus 2 centerpiece plants to the indoor office, along w",
     "contact": "None None",
-    "contactId": "1hgIZJBoLujtw3CqZArM",
+    "contactId": "pDVHWm1ZmQacQpO7AGTD",
     "assignedTo": "Geoff",
-    "due": "2026-03-31",
+    "due": "2026-03-23",
     "overdue": false
   },
   {
-    "id": "oXx2DmbHtL4bzmf3f493",
-    "title": "[Admin] Update contact sheet with new property manager name and phone",
+    "id": "avJWF1SCuwRa6EARfSra",
+    "title": "[UPSELL HIGH] S3mnzUwpkj0kg83z9jOm: Propose a full plant service package for the Scheller Tower Expansion — new space li",
     "contact": "None None",
-    "contactId": "FU2BBWA0LJI7QLU8NVer",
+    "contactId": "S3mnzUwpkj0kg83z9jOm",
     "assignedTo": "Geoff",
-    "due": "2026-03-31",
+    "due": "2026-03-23",
     "overdue": false
   },
   {
-    "id": "Wt8IOJnJNi3pMiY9yVWN",
-    "title": "[Admin] Coordinate mats and watering pans with client",
+    "id": "OaNZ9FI4ptfULgWNr6TP",
+    "title": "[UPSELL HIGH] B2vYzALoWBC3I3ljsa9u: New café space presents an opportunity to add plants specifically designed for the c",
     "contact": "None None",
-    "contactId": "rYdu5UrSCP2jm3InYKhy",
+    "contactId": "B2vYzALoWBC3I3ljsa9u",
     "assignedTo": "Geoff",
-    "due": "2026-04-01",
+    "due": "2026-03-23",
     "overdue": false
   },
   {
-    "id": "mcnjxjv6ZNhAA0mBS60A",
-    "title": "[UPSELL] Physician Center - secure signed scope for mother's garden (construction ends Apr)",
+    "id": "w1nr1M2EKzqnbkYjbj8m",
+    "title": "[S3mnzUwpkj0kg83z9jOm] Scheller Tower Expansion (location: Scheller Tower): Email Michael Dixon to follow up on plant se",
     "contact": "None None",
-    "contactId": "scYgB7xiQESLpvqmhyQq",
+    "contactId": "S3mnzUwpkj0kg83z9jOm",
     "assignedTo": "Geoff",
-    "due": "2026-04-01",
+    "due": "2026-03-30",
     "overdue": false
   },
   {
-    "id": "XsViUk48ulIJPsKBIDhD",
-    "title": "[UPSELL] Physician Center - entrance refresh proposal (construction ends Apr)",
+    "id": "MQGBNsCGG7xkdZPmAFz4",
+    "title": "[S3mnzUwpkj0kg83z9jOm] Snake plants (location unspecified): Follow up with Michael Dixon via email to confirm replacemen",
     "contact": "None None",
-    "contactId": "scYgB7xiQESLpvqmhyQq",
+    "contactId": "S3mnzUwpkj0kg83z9jOm",
     "assignedTo": "Geoff",
-    "due": "2026-04-01",
+    "due": "2026-03-30",
     "overdue": false
   }
 ];
@@ -346,7 +346,7 @@ export const briTasks: GHLTask[] = [
     "contactId": "casd0VMuTqGUrhXiPuH4",
     "assignedTo": "Bri",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "WC1S8SLSzMoxQkswnfc6",
@@ -355,7 +355,7 @@ export const briTasks: GHLTask[] = [
     "contactId": "mrZSBZyJc1pHfoNxUJqz",
     "assignedTo": "Bri",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "bOSXTKPBtCqDxC35I0rJ",
@@ -364,7 +364,7 @@ export const briTasks: GHLTask[] = [
     "contactId": "QEBQUDX00CESSP2Vb0ry",
     "assignedTo": "Bri",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "1Y2jxZoSVMSMDec38jO8",
@@ -373,7 +373,7 @@ export const briTasks: GHLTask[] = [
     "contactId": "qwSaOos5rWsCsoiGwqoD",
     "assignedTo": "Bri",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "UERKoFn6wjFkhSHhvgaM",
@@ -382,7 +382,7 @@ export const briTasks: GHLTask[] = [
     "contactId": "DScML9nk0qrXGK4mc3vA",
     "assignedTo": "Bri",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "zCQGAannE3QmlgLUIr4Z",
@@ -391,7 +391,7 @@ export const briTasks: GHLTask[] = [
     "contactId": "65jP3WE1gqhGzJsc1unA",
     "assignedTo": "Bri",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "7IOGsccodoBIAXdcN7Ma",
@@ -400,7 +400,7 @@ export const briTasks: GHLTask[] = [
     "contactId": "tZAK3p6WnjFZBEn2a1Wn",
     "assignedTo": "Bri",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "UcoGREGed1fEfiEZBUzP",
@@ -409,7 +409,7 @@ export const briTasks: GHLTask[] = [
     "contactId": "QOmCg3mvOLmnJEJCFzX0",
     "assignedTo": "Bri",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "fFKl3P75gb0rU9OUETaR",
@@ -418,7 +418,7 @@ export const briTasks: GHLTask[] = [
     "contactId": "rS8Oa8Nnpo4kZmsQl033",
     "assignedTo": "Bri",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "DoCeLF18KmvIksNXw2Oz",
@@ -427,7 +427,7 @@ export const briTasks: GHLTask[] = [
     "contactId": "rS8Oa8Nnpo4kZmsQl033",
     "assignedTo": "Bri",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "5b2WG1vtD7WhCrg3FhOj",
@@ -436,7 +436,7 @@ export const briTasks: GHLTask[] = [
     "contactId": "aStxefelt15SI3RkLyFf",
     "assignedTo": "Bri",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "z0ochSrtPL3g2DF5CFAd",
@@ -445,7 +445,7 @@ export const briTasks: GHLTask[] = [
     "contactId": "aStxefelt15SI3RkLyFf",
     "assignedTo": "Bri",
     "due": "2026-03-16",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "nxIRhbduDVdEAWGewtwA",
@@ -454,6 +454,33 @@ export const briTasks: GHLTask[] = [
     "contactId": "6J5c86gM95qGVJ9SuU1U",
     "assignedTo": "Bri",
     "due": "2026-03-16",
+    "overdue": true
+  },
+  {
+    "id": "vVSWIYJeuUwj2wkIHE2A",
+    "title": "[S3mnzUwpkj0kg83z9jOm] Aglaonemas (location unspecified): Follow up at next visit to confirm mealybugs are eradicated; r",
+    "contact": "None None",
+    "contactId": "S3mnzUwpkj0kg83z9jOm",
+    "assignedTo": "Bri",
+    "due": "2026-03-19",
+    "overdue": false
+  },
+  {
+    "id": "5YIIY1ZMPrWMyaEjxQj5",
+    "title": "[B2vYzALoWBC3I3ljsa9u] Dracaena Lemon Lime – Sky Lounge: Continue monitoring mealybug population; reapply insecticidal s",
+    "contact": "None None",
+    "contactId": "B2vYzALoWBC3I3ljsa9u",
+    "assignedTo": "Bri",
+    "due": "2026-03-19",
+    "overdue": false
+  },
+  {
+    "id": "1ECDWOEUjni3XLNotMzW",
+    "title": "[JRLjcY1LatYYWyoxAXdW] Pothos box - lobby: Follow up at next visit to confirm mealybugs are fully eradicated; retreat if",
+    "contact": "None None",
+    "contactId": "JRLjcY1LatYYWyoxAXdW",
+    "assignedTo": "Bri",
+    "due": "2026-03-19",
     "overdue": false
   },
   {
@@ -536,33 +563,6 @@ export const briTasks: GHLTask[] = [
     "assignedTo": "Bri",
     "due": "2026-03-23",
     "overdue": false
-  },
-  {
-    "id": "5bXhPK8Iyda5Kf0MrExh",
-    "title": "[MQhzd2oSqaZK08L7ImW2] Peace Lilies (location not specified): Continue using tap water conditioner at each visit; monito",
-    "contact": "None None",
-    "contactId": "MQhzd2oSqaZK08L7ImW2",
-    "assignedTo": "Bri",
-    "due": "2026-03-23",
-    "overdue": false
-  },
-  {
-    "id": "5YU0Re0TIJ7qR3WsNgnm",
-    "title": "[qwSaOos5rWsCsoiGwqoD] Color bowls (near terrace): Monitor color bowls in new sunny terrace location to confirm improved",
-    "contact": "None None",
-    "contactId": "qwSaOos5rWsCsoiGwqoD",
-    "assignedTo": "Bri",
-    "due": "2026-03-23",
-    "overdue": false
-  },
-  {
-    "id": "YZ6CYb8jrh0tjgoZFnxO",
-    "title": "[CNu3USP1J0KKYBQFnRPp] Money tree: Monitor growth progress following rotation; continue rotating at future visits to enc",
-    "contact": "None None",
-    "contactId": "CNu3USP1J0KKYBQFnRPp",
-    "assignedTo": "Bri",
-    "due": "2026-03-23",
-    "overdue": false
   }
 ];
 
@@ -572,13 +572,6 @@ export const invoices: Invoice[] = [
     "recipient": "Tim Harris",
     "amount": 214.5,
     "due": "2026-03-02",
-    "overdue": true
-  },
-  {
-    "id": "inv:0-ChAayGWZsIsm0i5bo4lY-6knEI0N",
-    "recipient": "Kenneth Hammond",
-    "amount": 149.0,
-    "due": "2026-03-14",
     "overdue": true
   },
   {
@@ -776,6 +769,13 @@ export const invoices: Invoice[] = [
     "amount": 184.17,
     "due": "2026-03-30",
     "overdue": false
+  },
+  {
+    "id": "inv:0-ChChLfDCLjYn3YAA8Z6JIL8KEI0N",
+    "recipient": "Stacy Jewell",
+    "amount": 162.5,
+    "due": "2026-04-30",
+    "overdue": false
   }
 ];
 
@@ -851,6 +851,36 @@ export const procurement: ProcurementItem[] = [
     "supplier": ""
   },
   {
+    "id": "1008",
+    "client": "pDVHWm1ZmQacQpO7AGTD",
+    "plant": "Pothos",
+    "size": "Window Box",
+    "quantity": "2",
+    "needBy": "2026-03-30",
+    "overdue": false,
+    "supplier": ""
+  },
+  {
+    "id": "1009",
+    "client": "pDVHWm1ZmQacQpO7AGTD",
+    "plant": "Unknown - centerpiece plant",
+    "size": "TBD",
+    "quantity": "2",
+    "needBy": "2026-03-30",
+    "overdue": false,
+    "supplier": ""
+  },
+  {
+    "id": "1010",
+    "client": "S3mnzUwpkj0kg83z9jOm",
+    "plant": "Snake Plant",
+    "size": "Unknown",
+    "quantity": "1",
+    "needBy": "2026-03-30",
+    "overdue": false,
+    "supplier": ""
+  },
+  {
     "id": "19f43f6a-5de8-4c9a-b7b5-2048012fbdae",
     "client": "Marriott Perimeter Center",
     "plant": "Tropical floor plant (palm alternative, humidity/salt tolerant)",
@@ -885,129 +915,156 @@ export const procurement: ProcurementItem[] = [
 export const hookItems: HookItem[] = [
   {
     "id": "h1",
+    "title": "UPSELL — pDVHWm1ZmQacQpO7AGTD: Add 2 window boxes of pothos plus 2 centerpiece plants to the indoor office, along with ongoing service for the new installations",
+    "priority": "high",
+    "firstThing": false,
+    "upsell": true,
+    "source": "the-hook",
+    "added": "2026-03-17"
+  },
+  {
+    "id": "h2",
+    "title": "UPSELL — S3mnzUwpkj0kg83z9jOm: Propose a full plant service package for the Scheller Tower Expansion — new space likely needs initial plant installation and ongoing service contract",
+    "priority": "high",
+    "firstThing": false,
+    "upsell": true,
+    "source": "the-hook",
+    "added": "2026-03-17"
+  },
+  {
+    "id": "h3",
+    "title": "UPSELL — B2vYzALoWBC3I3ljsa9u: New café space presents an opportunity to add plants specifically designed for the café environment once construction is complete",
+    "priority": "high",
+    "firstThing": false,
+    "upsell": true,
+    "source": "the-hook",
+    "added": "2026-03-17"
+  },
+  {
+    "id": "h4",
     "title": "Omar — Friend's House",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-16"
+    "added": "2026-03-17"
   },
   {
-    "id": "h2",
+    "id": "h5",
     "title": "Omar — Plant Doctor Visit",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-16"
+    "added": "2026-03-17"
   },
   {
-    "id": "h3",
+    "id": "h6",
     "title": "Rick (Marriott deposit)",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-16"
+    "added": "2026-03-17"
   },
   {
-    "id": "h4",
+    "id": "h7",
     "title": "Loria Ansley",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-16"
+    "added": "2026-03-17"
   },
   {
-    "id": "h5",
+    "id": "h8",
     "title": "Luna Upper Westside",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-16"
+    "added": "2026-03-17"
   },
   {
-    "id": "h6",
+    "id": "h9",
     "title": "Iris O4W",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-16"
+    "added": "2026-03-17"
   },
   {
-    "id": "h7",
+    "id": "h10",
     "title": "Thadani Residence",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-16"
+    "added": "2026-03-17"
   },
   {
-    "id": "h8",
+    "id": "h11",
     "title": "Physician Center",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-16"
+    "added": "2026-03-17"
   },
   {
-    "id": "h9",
+    "id": "h12",
     "title": "Zalik Residence (2nd)",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-16"
+    "added": "2026-03-17"
   },
   {
-    "id": "h10",
+    "id": "h13",
     "title": "Georgia Tech",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-16"
+    "added": "2026-03-17"
   },
   {
-    "id": "h11",
+    "id": "h14",
     "title": "Plant Doctor leads",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-16"
+    "added": "2026-03-17"
   },
   {
-    "id": "h12",
+    "id": "h15",
     "title": "Meredith situation",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-16"
+    "added": "2026-03-17"
   },
   {
-    "id": "h13",
+    "id": "h16",
     "title": "Nick accounts close-out",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-16"
+    "added": "2026-03-17"
   },
   {
-    "id": "h14",
+    "id": "h17",
     "title": "Month-end invoice audit",
     "priority": "medium",
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-16"
+    "added": "2026-03-17"
   }
 ];
 
@@ -1041,29 +1098,29 @@ export const upcomingStops: UpcomingStop[] = [
     "time": ""
   },
   {
-    "id": "QAS0lE6o5lq8koZiGUuU_1773752400000_3600",
-    "title": "Service: Iris O4W",
+    "id": "Rmc19MbeFRX9Stwguenn_1774353600000_7200",
+    "title": "Service: Archer Western",
     "date": "",
     "dateLabel": "",
     "time": ""
   },
   {
-    "id": "aKVjS9ebG6lmx9ixSjkS_1773759600000_3600",
-    "title": "Service: Bouloux Residence",
+    "id": "K4XKlsT21SdI3axdi5jn_1774360800000_3600",
+    "title": "Service: Concord Group",
     "date": "",
     "dateLabel": "",
     "time": ""
   },
   {
-    "id": "2Zx4bJqgF8UjnYAY3qSr_1773770400000_3600",
-    "title": "Service: Sweet Auburn BBQ",
+    "id": "HnfCbi8WuWvWdx9VtOTL_1774368000000_3600",
+    "title": "Service: One Street Residential",
     "date": "",
     "dateLabel": "",
     "time": ""
   },
   {
-    "id": "N7XMXdA8qqeCcN3NExO0_1773774000000_3600",
-    "title": "Service: Tio Luchos",
+    "id": "1kS0FgU3TdHM8WVFdSEy_1774375200000_3600",
+    "title": "Service: Luna Upper Westside",
     "date": "",
     "dateLabel": "",
     "time": ""
