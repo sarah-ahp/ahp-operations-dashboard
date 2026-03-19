@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-18T18:00:58.504464-04:00
+// AHP Dashboard data — auto-generated 2026-03-19T08:01:33.811071-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,11 +54,11 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-18T18:00:58.504464-04:00",
-  "todayLabel": "Wednesday, March 18",
+  "lastRefreshed": "2026-03-19T08:01:33.811071-04:00",
+  "todayLabel": "Thursday, March 19",
   "serviceDay": {
     "done": 0,
-    "total": 5
+    "total": 7
   },
   "invoiceSummary": {
     "totalOutstanding": 15071.5,
@@ -69,48 +69,62 @@ export const meta: DashboardMeta = {
   },
   "taskSummary": {
     "geoffTotal": 33,
-    "geoffOverdue": 10,
+    "geoffOverdue": 14,
     "briTotal": 0,
     "briOverdue": 0
   },
   "procurementSummary": {
     "total": 13,
-    "overdueCount": 2
+    "overdueCount": 4
   }
 };
 
 export const serviceStops: ServiceStop[] = [
   {
-    "id": "hakDWcwAk0rHVJlIGoiq_1773838800000_3600",
-    "title": "Service: WITH/Agency",
+    "id": "bKUJAiqURL9Y4gtVQ0vV_1773921600000_3600",
+    "title": "Service: Marriott Hotel - Perimeter Center",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "sBackdXtayYajQhbAvgt_1773842400000_3600",
-    "title": "Service: Shoob Residence",
+    "id": "69hOEAgMbS25uzyfYFBh_1773930600000_3600",
+    "title": "Service: Michelin Connected Fleet",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "0uzv6oEMniAVzSwZNh0M_1773849600000_3600",
-    "title": "Service: Link Logistics",
+    "id": "mUDKLCJ6TtsA7p0RGYeR_1773936000000_3600",
+    "title": "Service: Onco Health",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "V6hrF2OpnMC3zNPcTl1b_1773856800000_3600",
-    "title": "Service: Thadani Residence",
+    "id": "rMKLZXY7UPfTETHtbASq_1773939600000_3600",
+    "title": "Service: Aimpoint Digital",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "7ZQ1Z0uWoH6s1x4u6MCP_1773864000000_3600",
-    "title": "Service: Gallery Residence",
+    "id": "hTlyZwRkzgMxW4FZTT3F_1773946800000_3600",
+    "title": "Service: Zalik Family Home",
+    "time": "",
+    "done": false,
+    "status": "pending"
+  },
+  {
+    "id": "ZNhtE4DgkFar36KwYISB",
+    "title": "Service + 🌿 INSTALL: Marriott Hotel (Indoor Pool)",
+    "time": "",
+    "done": false,
+    "status": "pending"
+  },
+  {
+    "id": "N9ki6Qb0tkQTsukNuBDA",
+    "title": "Service + 🌿 INSTALL: Peach State Pizza",
     "time": "",
     "done": false,
     "status": "pending"
@@ -215,7 +229,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "65jP3WE1gqhGzJsc1unA",
     "assignedTo": "Geoff",
     "due": "2026-03-18",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "gDeaZA9snzljaCws8x4T",
@@ -224,7 +238,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "65jP3WE1gqhGzJsc1unA",
     "assignedTo": "Geoff",
     "due": "2026-03-18",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "psEM8kAGpvYQIFBqRvjg",
@@ -233,7 +247,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "tZAK3p6WnjFZBEn2a1Wn",
     "assignedTo": "Geoff",
     "due": "2026-03-18",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "KuIa3ioNxxIHuE2BHdJ5",
@@ -242,7 +256,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "tZAK3p6WnjFZBEn2a1Wn",
     "assignedTo": "Geoff",
     "due": "2026-03-18",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "rIaYpZIRA8thLOujJg5O",
@@ -588,7 +602,7 @@ export const procurement: ProcurementItem[] = [
     "size": "TBD",
     "quantity": "1",
     "needBy": "2026-03-18",
-    "overdue": false,
+    "overdue": true,
     "supplier": ""
   },
   {
@@ -598,7 +612,7 @@ export const procurement: ProcurementItem[] = [
     "size": "Unknown - to match existing containers",
     "quantity": "1",
     "needBy": "2026-03-18",
-    "overdue": false,
+    "overdue": true,
     "supplier": ""
   },
   {
@@ -701,7 +715,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-18"
+    "added": "2026-03-19"
   },
   {
     "id": "h2",
@@ -710,7 +724,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-18"
+    "added": "2026-03-19"
   },
   {
     "id": "h3",
@@ -719,7 +733,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-18"
+    "added": "2026-03-19"
   },
   {
     "id": "h4",
@@ -728,7 +742,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-18"
+    "added": "2026-03-19"
   },
   {
     "id": "h5",
@@ -737,7 +751,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-18"
+    "added": "2026-03-19"
   },
   {
     "id": "h6",
@@ -746,7 +760,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-18"
+    "added": "2026-03-19"
   }
 ];
 
@@ -836,15 +850,15 @@ export const upcomingStops: UpcomingStop[] = [
     "time": ""
   },
   {
-    "id": "bKUJAiqURL9Y4gtVQ0vV_1773921600000_3600",
-    "title": "Service: Marriott Hotel - Perimeter Center",
+    "id": "XYbRjliK5nmToKk2mX5T",
+    "title": "Service + 🌿 INSTALL: Rome Hospital (330 Building)",
     "date": "",
     "dateLabel": "",
     "time": ""
   },
   {
-    "id": "69hOEAgMbS25uzyfYFBh_1773930600000_3600",
-    "title": "Service: Michelin Connected Fleet",
+    "id": "JiSrTULdNilP4jt5QMS2",
+    "title": "Plant Doctor: Omar",
     "date": "",
     "dateLabel": "",
     "time": ""
