@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-19T18:00:56.877472-04:00
+// AHP Dashboard data — auto-generated 2026-03-20T08:00:57.397216-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,11 +54,11 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-19T18:00:56.877472-04:00",
-  "todayLabel": "Thursday, March 19",
+  "lastRefreshed": "2026-03-20T08:00:57.397216-04:00",
+  "todayLabel": "Friday, March 20",
   "serviceDay": {
     "done": 0,
-    "total": 7
+    "total": 1
   },
   "invoiceSummary": {
     "totalOutstanding": 14959.0,
@@ -81,50 +81,8 @@ export const meta: DashboardMeta = {
 
 export const serviceStops: ServiceStop[] = [
   {
-    "id": "bKUJAiqURL9Y4gtVQ0vV_1773921600000_3600",
-    "title": "Service: Marriott Hotel - Perimeter Center",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "69hOEAgMbS25uzyfYFBh_1773930600000_3600",
-    "title": "Service: Michelin Connected Fleet",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "mUDKLCJ6TtsA7p0RGYeR_1773936000000_3600",
-    "title": "Service: Onco Health",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "rMKLZXY7UPfTETHtbASq_1773939600000_3600",
-    "title": "Service: Aimpoint Digital",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "hTlyZwRkzgMxW4FZTT3F_1773946800000_3600",
-    "title": "Service: Zalik Family Home",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "ZNhtE4DgkFar36KwYISB",
-    "title": "Service + 🌿 INSTALL: Marriott Hotel (Indoor Pool)",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "N9ki6Qb0tkQTsukNuBDA",
-    "title": "Service + 🌿 INSTALL: Peach State Pizza",
+    "id": "XYbRjliK5nmToKk2mX5T",
+    "title": "Service + 🌿 INSTALL: Rome Hospital (330 Building)",
     "time": "",
     "done": false,
     "status": "pending"
@@ -715,7 +673,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-19"
+    "added": "2026-03-20"
   },
   {
     "id": "h2",
@@ -724,7 +682,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-19"
+    "added": "2026-03-20"
   },
   {
     "id": "h3",
@@ -733,7 +691,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-19"
+    "added": "2026-03-20"
   },
   {
     "id": "h4",
@@ -742,7 +700,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-19"
+    "added": "2026-03-20"
   },
   {
     "id": "h5",
@@ -751,7 +709,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-19"
+    "added": "2026-03-20"
   },
   {
     "id": "h6",
@@ -760,7 +718,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-19"
+    "added": "2026-03-20"
   }
 ];
 
@@ -850,8 +808,8 @@ export const upcomingStops: UpcomingStop[] = [
     "time": ""
   },
   {
-    "id": "XYbRjliK5nmToKk2mX5T",
-    "title": "Service + 🌿 INSTALL: Rome Hospital (330 Building)",
+    "id": "g3rwWMdAmahY7QCt3rLd_1774612800000_21600",
+    "title": "Service: Andersen Windows & Doors",
     "date": "",
     "dateLabel": "",
     "time": ""
