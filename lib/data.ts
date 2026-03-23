@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-23T16:01:01.946507-04:00
+// AHP Dashboard data — auto-generated 2026-03-23T18:02:28.915606-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,7 +54,7 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-23T16:01:01.946507-04:00",
+  "lastRefreshed": "2026-03-23T18:02:28.915606-04:00",
   "todayLabel": "Monday, March 23",
   "serviceDay": {
     "done": 0,
@@ -74,8 +74,8 @@ export const meta: DashboardMeta = {
     "briOverdue": 0
   },
   "procurementSummary": {
-    "total": 13,
-    "overdueCount": 6
+    "total": 0,
+    "overdueCount": 0
   }
 };
 
@@ -560,138 +560,7 @@ export const invoices: Invoice[] = [
   }
 ];
 
-export const procurement: ProcurementItem[] = [
-  {
-    "id": "1001",
-    "client": "tZAK3p6WnjFZBEn2a1Wn",
-    "plant": "Ficus (replacement TBD if treatment fails)",
-    "size": "TBD",
-    "quantity": "1",
-    "needBy": "2026-03-07",
-    "overdue": true,
-    "supplier": ""
-  },
-  {
-    "id": "1006",
-    "client": "qwSaOos5rWsCsoiGwqoD",
-    "plant": "TBD — high humidity and salt tolerant species (e.g., Kentia Palm, Dracaena, Foxtail Fern)",
-    "size": "TBD — floor size likely given conference area context",
-    "quantity": "1",
-    "needBy": "2026-03-09",
-    "overdue": true,
-    "supplier": ""
-  },
-  {
-    "id": "1002",
-    "client": "tZAK3p6WnjFZBEn2a1Wn",
-    "plant": "Replacement plant TBD (to replace bird's nest fern)",
-    "size": "TBD",
-    "quantity": "1",
-    "needBy": "2026-03-18",
-    "overdue": true,
-    "supplier": ""
-  },
-  {
-    "id": "1003",
-    "client": "dMFg921y4yw5gYWTwFp5",
-    "plant": "Saucers or pikes (container accessories)",
-    "size": "Unknown - to match existing containers",
-    "quantity": "1",
-    "needBy": "2026-03-18",
-    "overdue": true,
-    "supplier": ""
-  },
-  {
-    "id": "1004",
-    "client": "scYgB7xiQESLpvqmhyQq",
-    "plant": "Schefflera",
-    "size": "Floor",
-    "quantity": "1",
-    "needBy": "2026-03-20",
-    "overdue": true,
-    "supplier": ""
-  },
-  {
-    "id": "1005",
-    "client": "l5kT0vO1MF3QgFzpkaGT",
-    "plant": "Color refresh plants (specific varieties TBD per Bri's list)",
-    "size": "TBD per Bri's list",
-    "quantity": "0",
-    "needBy": "2026-03-20",
-    "overdue": true,
-    "supplier": ""
-  },
-  {
-    "id": "1007",
-    "client": "rYdu5UrSCP2jm3InYKhy",
-    "plant": "Replacement mats and watering pans",
-    "size": "Unknown - to be confirmed with client",
-    "quantity": "1",
-    "needBy": "2026-03-26",
-    "overdue": false,
-    "supplier": ""
-  },
-  {
-    "id": "1008",
-    "client": "pDVHWm1ZmQacQpO7AGTD",
-    "plant": "Pothos",
-    "size": "Window Box",
-    "quantity": "2",
-    "needBy": "2026-03-30",
-    "overdue": false,
-    "supplier": ""
-  },
-  {
-    "id": "1009",
-    "client": "pDVHWm1ZmQacQpO7AGTD",
-    "plant": "Unknown - centerpiece plant",
-    "size": "TBD",
-    "quantity": "2",
-    "needBy": "2026-03-30",
-    "overdue": false,
-    "supplier": ""
-  },
-  {
-    "id": "1010",
-    "client": "S3mnzUwpkj0kg83z9jOm",
-    "plant": "Snake Plant",
-    "size": "Unknown",
-    "quantity": "1",
-    "needBy": "2026-03-30",
-    "overdue": false,
-    "supplier": ""
-  },
-  {
-    "id": "19f43f6a-5de8-4c9a-b7b5-2048012fbdae",
-    "client": "Marriott Perimeter Center",
-    "plant": "Tropical floor plant (palm alternative, humidity/salt tolerant)",
-    "size": "10 inch",
-    "quantity": "4",
-    "needBy": "2026-04-02",
-    "overdue": false,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "27db29ed-bf76-4f19-af8f-7132139dcee3",
-    "client": "Advocate Health Rome Hospital",
-    "plant": "ZZ plant (low light option; alternatives: Cast Iron plant or 'Janet Craig' Dracaena)",
-    "size": "14 inch",
-    "quantity": "1",
-    "needBy": "2026-04-03",
-    "overdue": false,
-    "supplier": "Southland Greenhouse"
-  },
-  {
-    "id": "19840a8d-6197-4fe6-a97d-97caf627f2d4",
-    "client": "Advocate Health Rome Hospital",
-    "plant": "Schefflera (leggy; replacement needed)",
-    "size": "",
-    "quantity": "1",
-    "needBy": "2026-04-03",
-    "overdue": false,
-    "supplier": "Southland Greenhouse"
-  }
-];
+export const procurement: ProcurementItem[] = [];
 
 export const hookItems: HookItem[] = [
   {
