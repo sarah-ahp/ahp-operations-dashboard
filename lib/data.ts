@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-20T18:01:06.090072-04:00
+// AHP Dashboard data — auto-generated 2026-03-23T08:01:01.640398-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,11 +54,11 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-20T18:01:06.090072-04:00",
-  "todayLabel": "Friday, March 20",
+  "lastRefreshed": "2026-03-23T08:01:01.640398-04:00",
+  "todayLabel": "Monday, March 23",
   "serviceDay": {
     "done": 0,
-    "total": 1
+    "total": 5
   },
   "invoiceSummary": {
     "totalOutstanding": 14959.0,
@@ -69,20 +69,48 @@ export const meta: DashboardMeta = {
   },
   "taskSummary": {
     "geoffTotal": 33,
-    "geoffOverdue": 14,
+    "geoffOverdue": 20,
     "briTotal": 0,
     "briOverdue": 0
   },
   "procurementSummary": {
     "total": 13,
-    "overdueCount": 4
+    "overdueCount": 6
   }
 };
 
 export const serviceStops: ServiceStop[] = [
   {
-    "id": "XYbRjliK5nmToKk2mX5T",
-    "title": "Service + 🌿 INSTALL: Rome Hospital (330 Building)",
+    "id": "UG7CmWUOVW6IU60QBSTH_1774267200000_3600",
+    "title": "Service: ACCIONA Construction",
+    "time": "",
+    "done": false,
+    "status": "pending"
+  },
+  {
+    "id": "vLahE80jaUX9EU7cJ2MQ_1774274400000_3600",
+    "title": "Service: Best Foot Forward",
+    "time": "",
+    "done": false,
+    "status": "pending"
+  },
+  {
+    "id": "KEnncAlxegJ7vW12fiSO_1774281600000_3600",
+    "title": "Service: Iris O4W",
+    "time": "",
+    "done": false,
+    "status": "pending"
+  },
+  {
+    "id": "C6ZtBPF2RV4KqfzWtKeT_1774288800000_3600",
+    "title": "Service: Communities In Schools",
+    "time": "",
+    "done": false,
+    "status": "pending"
+  },
+  {
+    "id": "JiSrTULdNilP4jt5QMS2",
+    "title": "Plant Doctor: Omar",
     "time": "",
     "done": false,
     "status": "pending"
@@ -223,7 +251,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "rYdu5UrSCP2jm3InYKhy",
     "assignedTo": "Geoff",
     "due": "2026-03-20",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "oeYVb1PZBuxNjPOL8WNA",
@@ -232,7 +260,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "hhKmuCHJGLVHbxZa4Kyn",
     "assignedTo": "Geoff",
     "due": "2026-03-20",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "PlWM1QWvjwFKgkKFb1ko",
@@ -241,7 +269,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "DPV30fPRVBMezkLzcVbr",
     "assignedTo": "Geoff",
     "due": "2026-03-20",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "1eK8a1DclnS3zOwPtcZw",
@@ -250,7 +278,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "RzTUIXjrgLXsoyiHwTZt",
     "assignedTo": "Geoff",
     "due": "2026-03-20",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "UuF5Yjtb3LwuJFdS6KFI",
@@ -259,7 +287,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "qwSaOos5rWsCsoiGwqoD",
     "assignedTo": "Geoff",
     "due": "2026-03-20",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "3xUBsbldyFteq3SYVSVz",
@@ -268,7 +296,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "qwSaOos5rWsCsoiGwqoD",
     "assignedTo": "Geoff",
     "due": "2026-03-20",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "6gnqEjgDjAbXmR2bmomr",
@@ -580,7 +608,7 @@ export const procurement: ProcurementItem[] = [
     "size": "Floor",
     "quantity": "1",
     "needBy": "2026-03-20",
-    "overdue": false,
+    "overdue": true,
     "supplier": ""
   },
   {
@@ -590,7 +618,7 @@ export const procurement: ProcurementItem[] = [
     "size": "TBD per Bri's list",
     "quantity": "0",
     "needBy": "2026-03-20",
-    "overdue": false,
+    "overdue": true,
     "supplier": ""
   },
   {
@@ -673,7 +701,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-20"
+    "added": "2026-03-23"
   },
   {
     "id": "h2",
@@ -682,7 +710,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-20"
+    "added": "2026-03-23"
   },
   {
     "id": "h3",
@@ -691,7 +719,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-20"
+    "added": "2026-03-23"
   },
   {
     "id": "h4",
@@ -700,7 +728,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-20"
+    "added": "2026-03-23"
   },
   {
     "id": "h5",
@@ -709,7 +737,7 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-20"
+    "added": "2026-03-23"
   },
   {
     "id": "h6",
@@ -718,39 +746,11 @@ export const hookItems: HookItem[] = [
     "firstThing": false,
     "upsell": false,
     "source": "the-hook",
-    "added": "2026-03-20"
+    "added": "2026-03-23"
   }
 ];
 
 export const upcomingStops: UpcomingStop[] = [
-  {
-    "id": "UG7CmWUOVW6IU60QBSTH_1774267200000_3600",
-    "title": "Service: ACCIONA Construction",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "vLahE80jaUX9EU7cJ2MQ_1774274400000_3600",
-    "title": "Service: Best Foot Forward",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "KEnncAlxegJ7vW12fiSO_1774281600000_3600",
-    "title": "Service: Iris O4W",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "C6ZtBPF2RV4KqfzWtKeT_1774288800000_3600",
-    "title": "Service: Communities In Schools",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
   {
     "id": "Rmc19MbeFRX9Stwguenn_1774353600000_7200",
     "title": "Service: Archer Western",
@@ -815,8 +815,36 @@ export const upcomingStops: UpcomingStop[] = [
     "time": ""
   },
   {
-    "id": "JiSrTULdNilP4jt5QMS2",
-    "title": "Plant Doctor: Omar",
+    "id": "wAaJzKEU96PuThXyYkKt_1774872000000_3600",
+    "title": "Service: Perkins and Will",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "aWEhD1y56UHVoAMTNWv8_1774879200000_3600",
+    "title": "Service: Loria Ansley",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "jFRtWj6Utr38ZKxrkzTc_1774886400000_3600",
+    "title": "Service: GA Tech - Office of Commercialization",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "RoQ0sfteBdf95Ic6bff8",
+    "title": "Service + 🌿 INSTALL: Andersen Windows & Doors",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "tCOn1dfsREXSIFV7d8lw",
+    "title": "Service: Matsuda Eyewear",
     "date": "",
     "dateLabel": "",
     "time": ""
