@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-23T18:02:28.915606-04:00
+// AHP Dashboard data — auto-generated 2026-03-24T08:00:54.079604-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,11 +54,11 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-23T18:02:28.915606-04:00",
-  "todayLabel": "Monday, March 23",
+  "lastRefreshed": "2026-03-24T08:00:54.079604-04:00",
+  "todayLabel": "Tuesday, March 24",
   "serviceDay": {
     "done": 0,
-    "total": 5
+    "total": 4
   },
   "invoiceSummary": {
     "totalOutstanding": 14959.0,
@@ -69,48 +69,41 @@ export const meta: DashboardMeta = {
   },
   "taskSummary": {
     "geoffTotal": 33,
-    "geoffOverdue": 20,
+    "geoffOverdue": 23,
     "briTotal": 0,
     "briOverdue": 0
   },
   "procurementSummary": {
-    "total": 0,
-    "overdueCount": 0
+    "total": 13,
+    "overdueCount": 6
   }
 };
 
 export const serviceStops: ServiceStop[] = [
   {
-    "id": "UG7CmWUOVW6IU60QBSTH_1774267200000_3600",
-    "title": "Service: ACCIONA Construction",
+    "id": "Rmc19MbeFRX9Stwguenn_1774353600000_7200",
+    "title": "Service: Archer Western",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "vLahE80jaUX9EU7cJ2MQ_1774274400000_3600",
-    "title": "Service: Best Foot Forward",
+    "id": "K4XKlsT21SdI3axdi5jn_1774360800000_3600",
+    "title": "Service: Concord Group",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "KEnncAlxegJ7vW12fiSO_1774281600000_3600",
-    "title": "Service: Iris O4W",
+    "id": "HnfCbi8WuWvWdx9VtOTL_1774368000000_3600",
+    "title": "Service: One Street Residential",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "C6ZtBPF2RV4KqfzWtKeT_1774288800000_3600",
-    "title": "Service: Communities In Schools",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "JiSrTULdNilP4jt5QMS2",
-    "title": "Plant Doctor: Omar",
+    "id": "1kS0FgU3TdHM8WVFdSEy_1774375200000_3600",
+    "title": "Service: Luna Upper Westside",
     "time": "",
     "done": false,
     "status": "pending"
@@ -305,7 +298,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "pDVHWm1ZmQacQpO7AGTD",
     "assignedTo": "Geoff",
     "due": "2026-03-23",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "avJWF1SCuwRa6EARfSra",
@@ -314,7 +307,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "S3mnzUwpkj0kg83z9jOm",
     "assignedTo": "Geoff",
     "due": "2026-03-23",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "OaNZ9FI4ptfULgWNr6TP",
@@ -323,7 +316,7 @@ export const geoffTasks: GHLTask[] = [
     "contactId": "B2vYzALoWBC3I3ljsa9u",
     "assignedTo": "Geoff",
     "due": "2026-03-23",
-    "overdue": false
+    "overdue": true
   },
   {
     "id": "w1nr1M2EKzqnbkYjbj8m",
@@ -560,94 +553,142 @@ export const invoices: Invoice[] = [
   }
 ];
 
-export const procurement: ProcurementItem[] = [];
-
-export const hookItems: HookItem[] = [
+export const procurement: ProcurementItem[] = [
   {
-    "id": "h1",
-    "title": "Mon Mar 23",
-    "priority": "medium",
-    "firstThing": false,
-    "upsell": false,
-    "source": "the-hook",
-    "added": "2026-03-23"
+    "id": "1001",
+    "client": "tZAK3p6WnjFZBEn2a1Wn",
+    "plant": "Ficus (replacement TBD if treatment fails)",
+    "size": "TBD",
+    "quantity": "1",
+    "needBy": "2026-03-07",
+    "overdue": true,
+    "supplier": ""
   },
   {
-    "id": "h2",
-    "title": "Thu Mar 19",
-    "priority": "medium",
-    "firstThing": false,
-    "upsell": false,
-    "source": "the-hook",
-    "added": "2026-03-23"
+    "id": "1006",
+    "client": "qwSaOos5rWsCsoiGwqoD",
+    "plant": "TBD — high humidity and salt tolerant species (e.g., Kentia Palm, Dracaena, Foxtail Fern)",
+    "size": "TBD — floor size likely given conference area context",
+    "quantity": "1",
+    "needBy": "2026-03-09",
+    "overdue": true,
+    "supplier": ""
   },
   {
-    "id": "h3",
-    "title": "Fri Mar 20",
-    "priority": "medium",
-    "firstThing": false,
-    "upsell": false,
-    "source": "the-hook",
-    "added": "2026-03-23"
+    "id": "1002",
+    "client": "tZAK3p6WnjFZBEn2a1Wn",
+    "plant": "Replacement plant TBD (to replace bird's nest fern)",
+    "size": "TBD",
+    "quantity": "1",
+    "needBy": "2026-03-18",
+    "overdue": true,
+    "supplier": ""
   },
   {
-    "id": "h4",
-    "title": "Fri Mar 27",
-    "priority": "medium",
-    "firstThing": false,
-    "upsell": false,
-    "source": "the-hook",
-    "added": "2026-03-23"
+    "id": "1003",
+    "client": "dMFg921y4yw5gYWTwFp5",
+    "plant": "Saucers or pikes (container accessories)",
+    "size": "Unknown - to match existing containers",
+    "quantity": "1",
+    "needBy": "2026-03-18",
+    "overdue": true,
+    "supplier": ""
   },
   {
-    "id": "h5",
-    "title": "Fri Mar 27",
-    "priority": "medium",
-    "firstThing": false,
-    "upsell": false,
-    "source": "the-hook",
-    "added": "2026-03-23"
+    "id": "1004",
+    "client": "scYgB7xiQESLpvqmhyQq",
+    "plant": "Schefflera",
+    "size": "Floor",
+    "quantity": "1",
+    "needBy": "2026-03-20",
+    "overdue": true,
+    "supplier": ""
   },
   {
-    "id": "h6",
-    "title": "Fri Apr 3",
-    "priority": "medium",
-    "firstThing": false,
-    "upsell": false,
-    "source": "the-hook",
-    "added": "2026-03-23"
+    "id": "1005",
+    "client": "l5kT0vO1MF3QgFzpkaGT",
+    "plant": "Color refresh plants (specific varieties TBD per Bri's list)",
+    "size": "TBD per Bri's list",
+    "quantity": "0",
+    "needBy": "2026-03-20",
+    "overdue": true,
+    "supplier": ""
+  },
+  {
+    "id": "1007",
+    "client": "rYdu5UrSCP2jm3InYKhy",
+    "plant": "Replacement mats and watering pans",
+    "size": "Unknown - to be confirmed with client",
+    "quantity": "1",
+    "needBy": "2026-03-26",
+    "overdue": false,
+    "supplier": ""
+  },
+  {
+    "id": "1008",
+    "client": "pDVHWm1ZmQacQpO7AGTD",
+    "plant": "Pothos",
+    "size": "Window Box",
+    "quantity": "2",
+    "needBy": "2026-03-30",
+    "overdue": false,
+    "supplier": ""
+  },
+  {
+    "id": "1009",
+    "client": "pDVHWm1ZmQacQpO7AGTD",
+    "plant": "Unknown - centerpiece plant",
+    "size": "TBD",
+    "quantity": "2",
+    "needBy": "2026-03-30",
+    "overdue": false,
+    "supplier": ""
+  },
+  {
+    "id": "1010",
+    "client": "S3mnzUwpkj0kg83z9jOm",
+    "plant": "Snake Plant",
+    "size": "Unknown",
+    "quantity": "1",
+    "needBy": "2026-03-30",
+    "overdue": false,
+    "supplier": ""
+  },
+  {
+    "id": "19f43f6a-5de8-4c9a-b7b5-2048012fbdae",
+    "client": "Marriott Perimeter Center",
+    "plant": "Tropical floor plant (palm alternative, humidity/salt tolerant)",
+    "size": "10 inch",
+    "quantity": "4",
+    "needBy": "2026-04-02",
+    "overdue": false,
+    "supplier": "Southland Greenhouse"
+  },
+  {
+    "id": "27db29ed-bf76-4f19-af8f-7132139dcee3",
+    "client": "Advocate Health Rome Hospital",
+    "plant": "ZZ plant (low light option; alternatives: Cast Iron plant or 'Janet Craig' Dracaena)",
+    "size": "14 inch",
+    "quantity": "1",
+    "needBy": "2026-04-03",
+    "overdue": false,
+    "supplier": "Southland Greenhouse"
+  },
+  {
+    "id": "19840a8d-6197-4fe6-a97d-97caf627f2d4",
+    "client": "Advocate Health Rome Hospital",
+    "plant": "Schefflera (leggy; replacement needed)",
+    "size": "",
+    "quantity": "1",
+    "needBy": "2026-04-03",
+    "overdue": false,
+    "supplier": "Southland Greenhouse"
   }
 ];
 
+export const hookItems: HookItem[] = [];
+
 export const upcomingStops: UpcomingStop[] = [
-  {
-    "id": "Rmc19MbeFRX9Stwguenn_1774353600000_7200",
-    "title": "Service: Archer Western",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "K4XKlsT21SdI3axdi5jn_1774360800000_3600",
-    "title": "Service: Concord Group",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "HnfCbi8WuWvWdx9VtOTL_1774368000000_3600",
-    "title": "Service: One Street Residential",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "1kS0FgU3TdHM8WVFdSEy_1774375200000_3600",
-    "title": "Service: Luna Upper Westside",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
   {
     "id": "uW5KI6edLKe6JFNs291K_1774440000000_3600",
     "title": "Service: Link Logistics",
@@ -700,6 +741,34 @@ export const upcomingStops: UpcomingStop[] = [
   {
     "id": "jFRtWj6Utr38ZKxrkzTc_1774886400000_3600",
     "title": "Service: GA Tech - Office of Commercialization",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "QAS0lE6o5lq8koZiGUuU_1774962000000_3600",
+    "title": "Service: Iris O4W",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "aKVjS9ebG6lmx9ixSjkS_1774969200000_3600",
+    "title": "Service: Bouloux Residence",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "2Zx4bJqgF8UjnYAY3qSr_1774980000000_3600",
+    "title": "Service: Sweet Auburn BBQ",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "N7XMXdA8qqeCcN3NExO0_1774983600000_3600",
+    "title": "Service: Tio Luchos",
     "date": "",
     "dateLabel": "",
     "time": ""
