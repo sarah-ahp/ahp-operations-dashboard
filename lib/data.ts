@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-24T18:01:05.677472-04:00
+// AHP Dashboard data — auto-generated 2026-03-25T08:00:54.463337-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,8 +54,8 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-24T18:01:05.677472-04:00",
-  "todayLabel": "Tuesday, March 24",
+  "lastRefreshed": "2026-03-25T08:00:54.463337-04:00",
+  "todayLabel": "Wednesday, March 25",
   "serviceDay": {
     "done": 0,
     "total": 4
@@ -81,29 +81,29 @@ export const meta: DashboardMeta = {
 
 export const serviceStops: ServiceStop[] = [
   {
-    "id": "Rmc19MbeFRX9Stwguenn_1774353600000_7200",
-    "title": "Service: Archer Western",
+    "id": "uW5KI6edLKe6JFNs291K_1774440000000_3600",
+    "title": "Service: Link Logistics",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "K4XKlsT21SdI3axdi5jn_1774360800000_3600",
-    "title": "Service: Concord Group",
+    "id": "zh7xrs7lrIKVtcl0bcr5_1774447200000_3600",
+    "title": "Service: Heritage Distribution",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "HnfCbi8WuWvWdx9VtOTL_1774368000000_3600",
-    "title": "Service: One Street Residential",
+    "id": "K5mR7HdWkjmORzlON4Kn_1774454400000_3600",
+    "title": "Service: Thadani Residence",
     "time": "",
     "done": false,
     "status": "pending"
   },
   {
-    "id": "1kS0FgU3TdHM8WVFdSEy_1774375200000_3600",
-    "title": "Service: Luna Upper Westside",
+    "id": "PZgkyiLG9LiBMtQ5rVtC_1774461600000_3600",
+    "title": "Service: Ventura Residence",
     "time": "",
     "done": false,
     "status": "pending"
@@ -690,34 +690,6 @@ export const hookItems: HookItem[] = [];
 
 export const upcomingStops: UpcomingStop[] = [
   {
-    "id": "uW5KI6edLKe6JFNs291K_1774440000000_3600",
-    "title": "Service: Link Logistics",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "zh7xrs7lrIKVtcl0bcr5_1774447200000_3600",
-    "title": "Service: Heritage Distribution",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "K5mR7HdWkjmORzlON4Kn_1774454400000_3600",
-    "title": "Service: Thadani Residence",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
-    "id": "PZgkyiLG9LiBMtQ5rVtC_1774461600000_3600",
-    "title": "Service: Ventura Residence",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
-  {
     "id": "g3rwWMdAmahY7QCt3rLd_1774612800000_21600",
     "title": "Service: Andersen Windows & Doors",
     "date": "",
@@ -774,15 +746,43 @@ export const upcomingStops: UpcomingStop[] = [
     "time": ""
   },
   {
-    "id": "RoQ0sfteBdf95Ic6bff8",
-    "title": "Service + 🌿 INSTALL: Andersen Windows & Doors",
+    "id": "hakDWcwAk0rHVJlIGoiq_1775048400000_3600",
+    "title": "Service: WITH/Agency",
     "date": "",
     "dateLabel": "",
     "time": ""
   },
   {
-    "id": "tCOn1dfsREXSIFV7d8lw",
-    "title": "Service: Matsuda Eyewear",
+    "id": "sBackdXtayYajQhbAvgt_1775052000000_3600",
+    "title": "Service: Shoob Residence",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "0uzv6oEMniAVzSwZNh0M_1775059200000_3600",
+    "title": "Service: Link Logistics",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "V6hrF2OpnMC3zNPcTl1b_1775066400000_3600",
+    "title": "Service: Thadani Residence",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "7ZQ1Z0uWoH6s1x4u6MCP_1775073600000_3600",
+    "title": "Service: Gallery Residence",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "RoQ0sfteBdf95Ic6bff8",
+    "title": "Service + 🌿 INSTALL: Andersen Windows & Doors",
     "date": "",
     "dateLabel": "",
     "time": ""
