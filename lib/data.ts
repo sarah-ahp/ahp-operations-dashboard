@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-25T18:00:52.981604-04:00
+// AHP Dashboard data — auto-generated 2026-03-26T08:00:48.011516-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,11 +54,11 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-25T18:00:52.981604-04:00",
-  "todayLabel": "Wednesday, March 25",
+  "lastRefreshed": "2026-03-26T08:00:48.011516-04:00",
+  "todayLabel": "Thursday, March 26",
   "serviceDay": {
     "done": 0,
-    "total": 4
+    "total": 0
   },
   "invoiceSummary": {
     "totalOutstanding": 14959.0,
@@ -79,36 +79,7 @@ export const meta: DashboardMeta = {
   }
 };
 
-export const serviceStops: ServiceStop[] = [
-  {
-    "id": "uW5KI6edLKe6JFNs291K_1774440000000_3600",
-    "title": "Service: Link Logistics",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "zh7xrs7lrIKVtcl0bcr5_1774447200000_3600",
-    "title": "Service: Heritage Distribution",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "K5mR7HdWkjmORzlON4Kn_1774454400000_3600",
-    "title": "Service: Thadani Residence",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  },
-  {
-    "id": "PZgkyiLG9LiBMtQ5rVtC_1774461600000_3600",
-    "title": "Service: Ventura Residence",
-    "time": "",
-    "done": false,
-    "status": "pending"
-  }
-];
+export const serviceStops: ServiceStop[] = [];
 
 export const geoffTasks: GHLTask[] = [
   {
@@ -781,8 +752,8 @@ export const upcomingStops: UpcomingStop[] = [
     "time": ""
   },
   {
-    "id": "RoQ0sfteBdf95Ic6bff8",
-    "title": "Service + 🌿 INSTALL: Andersen Windows & Doors",
+    "id": "bKUJAiqURL9Y4gtVQ0vV_1775131200000_3600",
+    "title": "Service: Marriott Hotel - Perimeter Center",
     "date": "",
     "dateLabel": "",
     "time": ""
