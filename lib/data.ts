@@ -1,4 +1,4 @@
-// AHP Dashboard data — auto-generated 2026-03-26T18:00:48.313678-04:00
+// AHP Dashboard data — auto-generated 2026-03-27T08:00:53.160143-04:00
 // DO NOT EDIT — regenerated every hour by scripts/refresh_dashboard.py
 
 export interface ServiceStop {
@@ -54,11 +54,11 @@ export const procurementSheetUrl =
   'https://docs.google.com/spreadsheets/d/1orZBHPXwYvUVngT9P4sOpoYKh2VKOMZbRd1WMOcshHg';
 
 export const meta: DashboardMeta = {
-  "lastRefreshed": "2026-03-26T18:00:48.313678-04:00",
-  "todayLabel": "Thursday, March 26",
+  "lastRefreshed": "2026-03-27T08:00:53.160143-04:00",
+  "todayLabel": "Friday, March 27",
   "serviceDay": {
     "done": 0,
-    "total": 0
+    "total": 2
   },
   "invoiceSummary": {
     "totalOutstanding": 14959.0,
@@ -75,11 +75,26 @@ export const meta: DashboardMeta = {
   },
   "procurementSummary": {
     "total": 13,
-    "overdueCount": 6
+    "overdueCount": 7
   }
 };
 
-export const serviceStops: ServiceStop[] = [];
+export const serviceStops: ServiceStop[] = [
+  {
+    "id": "g3rwWMdAmahY7QCt3rLd_1774612800000_21600",
+    "title": "Service: Andersen Windows & Doors",
+    "time": "",
+    "done": false,
+    "status": "pending"
+  },
+  {
+    "id": "RoQ0sfteBdf95Ic6bff8",
+    "title": "Service + 🌿 INSTALL: Andersen Windows & Doors",
+    "time": "",
+    "done": false,
+    "status": "pending"
+  }
+];
 
 export const geoffTasks: GHLTask[] = [
   {
@@ -592,7 +607,7 @@ export const procurement: ProcurementItem[] = [
     "size": "Unknown - to be confirmed with client",
     "quantity": "1",
     "needBy": "2026-03-26",
-    "overdue": false,
+    "overdue": true,
     "supplier": ""
   },
   {
@@ -660,13 +675,6 @@ export const procurement: ProcurementItem[] = [
 export const hookItems: HookItem[] = [];
 
 export const upcomingStops: UpcomingStop[] = [
-  {
-    "id": "g3rwWMdAmahY7QCt3rLd_1774612800000_21600",
-    "title": "Service: Andersen Windows & Doors",
-    "date": "",
-    "dateLabel": "",
-    "time": ""
-  },
   {
     "id": "wAaJzKEU96PuThXyYkKt_1774872000000_3600",
     "title": "Service: Perkins and Will",
@@ -754,6 +762,13 @@ export const upcomingStops: UpcomingStop[] = [
   {
     "id": "bKUJAiqURL9Y4gtVQ0vV_1775131200000_3600",
     "title": "Service: Marriott Hotel - Perimeter Center",
+    "date": "",
+    "dateLabel": "",
+    "time": ""
+  },
+  {
+    "id": "69hOEAgMbS25uzyfYFBh_1775140200000_3600",
+    "title": "Service: Michelin Connected Fleet",
     "date": "",
     "dateLabel": "",
     "time": ""
